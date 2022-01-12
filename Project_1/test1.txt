@@ -1,0 +1,25 @@
+Test fprintf():
+
+int printf(const char *format)
+    Sends formatted output to stdout
+FILE *fopen(const char *filename, const char *mode)
+    Opens filename pointed to, using given mode
+    Modes:
+        "r" - reading
+        "w" - create empty file for writing, overrites any present
+        "a" - appends to a file, created if doesn't exist
+        "r+" - reading and writing, must exist
+        "w+" - creates empty file for both reading and writing
+        "a+" - opens for reading and appending
+void perror(const char *str)
+    Prints descriptive error message to stderr
+int fgetc(FILE *stream)
+    gets next character from specified stream, advances position indicator for stream
+int fputc(int char, FILE *stream)
+    Writes a character to the specified stream, advances position indicator for stream
+int access(const char *path, int amode)
+    Checks file named for accessibility, using pattern in amode
+int stat(const char *restrict path, struct stat *restrict buf)
+    Obtains info about named file, writes to area pointed to by buf arg
+void exit(int status)
+    Terminates calling process
