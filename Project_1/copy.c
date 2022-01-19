@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
     //check for the correct number of arguments
     if(argc != 3){
         perror("Error: incorrect number of arguments.\nUsage: ./copy <src_file> <dest_file>\n");
-        exit(EXIT_FAILURE);
+        exit(-1);
     }
     
     src_filename = argv[1];
@@ -36,17 +36,17 @@ int main(int argc, char *argv[]) {
     r = stat(src_filename, &src_stat);
     if(r == -1){
         perror("Error: unable to read source file.");
-        exit(EXIT_FAILURE);
+        exit(-1);
     }
     if(!S_ISREG(src_stat.st_mode)){
         perror("Error: source file not a regular file.");
-        exit(EXIT_FAILURE);
+        exit(-1);
     }
     
     //check the destination file doesn't already exist
     if(access(dest_filename, F_OK) == 0){        
         perror("Error: destination file must not already exist.");
-        exit(EXIT_FAILURE);
+        exit(-1);
     }
 
     //open the source file for reading only
@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
     src_file = fopen(src_filename, "r");
     if(src_file == NULL){
         perror("Error: cannot open source file.");
-        exit(EXIT_FAILURE);
+        exit(-1);
     }
     
     //create destination file
@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
     dest_file = fopen(dest_filename, "w");
     if(dest_file == NULL){
         perror("Error: cannot create destination file.");
-        exit(EXIT_FAILURE);
+        exit(-1);
     }
 
     //copy the file one character at a time
