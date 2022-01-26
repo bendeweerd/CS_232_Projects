@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     
     //check for the correct number of arguments
     if(argc != 3){
-        perror("Error: incorrect number of arguments.\nUsage: ./copy <src_file> <dest_file>\n");
+        fprintf(stderr, "Error: incorrect number of arguments.\n  Usage: ./copy <src_file> <dest_file>\n");
         exit(-1);
     }
     
@@ -35,17 +35,17 @@ int main(int argc, char *argv[]) {
     int r;
     r = stat(src_filename, &src_stat);
     if(r == -1){
-        perror("Error: unable to read source file.");
+        perror("Error: Unable to read source file");
         exit(-1);
     }
     if(!S_ISREG(src_stat.st_mode)){
-        perror("Error: source file not a regular file.");
+        fprintf(stderr, "Error: Source file not a regular file.\n");
         exit(-1);
     }
     
     //check the destination file doesn't already exist
     if(access(dest_filename, F_OK) == 0){        
-        perror("Error: destination file must not already exist.");
+        fprintf(stderr, "Error: Destination file must not already exist.\n");
         exit(-1);
     }
 
@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
     FILE *src_file;
     src_file = fopen(src_filename, "r");
     if(src_file == NULL){
-        perror("Error: cannot open source file.");
+        perror("Error: Cannot open source file.");
         exit(-1);
     }
     
@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
     FILE *dest_file;
     dest_file = fopen(dest_filename, "w");
     if(dest_file == NULL){
-        perror("Error: cannot create destination file.");
+        perror("Error: Cannot create destination file.");
         exit(-1);
     }
 
