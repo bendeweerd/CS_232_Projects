@@ -1,0 +1,16 @@
+CS 232 Program 2 - Adding batch programming to CalOS
+Ben DeWeerd
+2.02.2021
+
+Answers.txt:
+
+1. By default, it has 1024 words of RAM (addresses 0-1023).
+2. There are 4 registers: reg0, reg1, reg2, and pc (program counter register).
+3. jlz takes arguments <reg> and <dst> and chages the program counter register to <dst> if <reg> is less than 0.
+    jlz <reg> <dst>
+4. CPU checks for interrupt after checking if it is in debugging mode, in the CPU's _run_program function.
+5. 'S'<start> <end> shows the memory/RAM from <start> to <end>.
+6. '!' toggles debugging.
+7. Yes (# to comment a line) and Yes.
+8. mov <src> <dest> is called to write bytes to memory.  It can write a literal value, value in memory, or the value in a register.
+9. Yes, assembly programs assume they're loaded into memory at certain locations.

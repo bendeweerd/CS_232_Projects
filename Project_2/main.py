@@ -3,6 +3,20 @@ alter RAM, start the CPU, etc.
 
 @author Victor Norman
 @date 12/26/17
+
+CS 232 Program 2 - Adding batch programming to CalOS
+Edited by Ben DeWeerd
+2.02.2021
+
+Updated to add batch programming functionality. 
+This required:
+    Adding a 'R <addr>' option to the monitor menu to start batch mode,
+        using an array of memory locations stored at <addr>.  These memory locations
+        should be the start points of other programs loaded into memory.
+    Adding a _run_batch() method
+        - Sets CPU to BATCH state (bool)
+        - Sets batch array start address to specified address
+        - Starts and joins a thread
 '''
 
 
@@ -89,6 +103,8 @@ class Monitor:
                     print("S <start> <end>: show memory from start to end")
                     print("X <addr>: execute program starting at addr")
                     print(
+                        "R <addr>: execute series of programs whose addresses are stored in an array starting at addr")
+                    print(
                         "L <addr> <tapename>: load a program from tape to bytes starting at addr")
                     print(
                         "W <start> <end> <tapename>: write bytes from start to end to tape")
@@ -120,6 +136,8 @@ class Monitor:
                     self._poke_ram(arg1)
                 elif instr.upper().startswith('X '):
                     self._run_program(arg1)
+                elif instr.upper().startswith('R'):
+                    self._run_batch(arg1)
                 elif instr.upper().startswith('L '):
                     try:
                         tapename = instr.split()[2]
@@ -184,6 +202,15 @@ class Monitor:
         self._cpu = CPU(self._ram, calos.CalOS(), addr, self._debug)
         self._cpu.start()		# call run()
         self._cpu.join()		# wait for it to end
+
+    def _run_batch(self, addr):
+        # create a new thread, passing in ram, the os, the starting
+        # address, and setting batch mode to True
+        self._cpu = CPU(self._ram, calos.CalOS(), addr, self._debug, True)
+        # set batch array start address to specified
+        self._cpu.set_batch_array_addr(addr)
+        self._cpu.start()
+        self._cpu.join()
 
     def _enter_program(self, starting_addr):
         # TODO: must make sure we enter program starting on even boundary.

@@ -1,7 +1,25 @@
-'''CPU class for CalOS.
+'''
+CPU class for CalOS.
 
 @author Victor Norman
 @date 12/26/17
+
+CS 232 Program 2 - Adding batch programming to CalOS
+Edited by Ben DeWeerd
+2.02.2021
+
+I added batch programming functionality to the CPU class. 
+This required the following:
+    Two additional class attributes:
+        self._batch - boolean, whether CPU is in batch mode or not
+        self._batch_array_addr - int, memory address of the batch array
+    One additional class method:
+        set_batch_array_addr(self, addr) - sets memory location to look
+            for location of next program to run
+    Modifications to the run() function
+        - If the CPU is in batch mode and there is a list of programs to run
+            (batch array), the CPU will iterate through that list and run
+            each program.
 '''
 
 import time
@@ -12,7 +30,7 @@ DELAY_BETWEEN_INSTRUCTIONS = 0.2
 
 
 class CPU(threading.Thread):
-    def __init__(self, ram, os, startAddr, debug, num=0):
+    def __init__(self, ram, os, startAddr, debug, batch=False, num=0):
         threading.Thread.__init__(self)
 
         self._num = num   # unique ID of this cpu
@@ -26,6 +44,8 @@ class CPU(threading.Thread):
         self._ram = ram
         self._os = os
         self._debug = debug
+        self._batch = batch
+        self._batch_array_addr = None
 
         # TODO: need to protect these next two variables as they are shared
         # between the CPU thread and the device threads.
@@ -43,6 +63,9 @@ class CPU(threading.Thread):
     def set_pc(self, pc):
         # TODO: check if value of pc is good?
         self._registers['pc'] = pc
+
+    def set_batch_array_addr(self, addr):
+        self._batch_array_addr = addr
 
     def set_interrupt(self, intr_val):
         '''Set the interrupt line to be True if an interrupt is raised, or
@@ -73,7 +96,20 @@ class CPU(threading.Thread):
 
     def run(self):
         '''Overrides run() in thread.  Called by calling start().'''
-        self._run_program()
+        if(self._batch and self._batch_array_addr):
+            # while the batch array contains more addresses (not 0)
+            while(self._ram[self._batch_array_addr]):
+                # clear registers
+                self._registers['reg0'] = 0
+                self._registers['reg1'] = 0
+                self._registers['reg2'] = 0
+                # set program counter to location indicated in batch array
+                self.set_pc(self._ram[self._batch_array_addr])
+                # run program at that location, iterate through batch array
+                self._run_program()
+                self._batch_array_addr += 1
+        else:        
+            self._run_program()
 
     def _run_program(self):
         while True:
