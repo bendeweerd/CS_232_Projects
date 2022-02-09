@@ -1,0 +1,21 @@
+1. The PCB (Process Control Block) class is defined in calos.py, after the definition of the calos class.
+2. A PCB contains:
+    - self._state:          Its current state
+    - self._name:           Its name
+    - self._pid:            The PID of the current process
+    - self.next_pid:        The PID of the next process
+    - self._entry_point:    An entry point
+    - self._mem_low:        Low point in memory
+    - self._mem_high:       High point in memory
+    - self._registers:      Registers (reg0-3 and program counter)
+    - self._quantum:        Quantum/timeslice
+3. A PCB is created by line 180 in file main.py, within the _load_program() method of the monitor class.
+    The method opens the file including the 'tape' assembly program and then creates a PCB for the process defined in that tape.
+4. NEW, READY, RUNNING, WAITING, DONE
+5. It is defined at the beginning of the CalOS class (line 7 of calos.py).  It refers to the PCB of the current process.
+6. The 'with' keyword allows safe access to resources like files or (in this case), the self._mutex object.
+    It automatically closes the resources when done using them, ensuring that any changes made to the countdown are saved.
+    I believe the self._mutex object (a threading.Lock()) helps prevent race conditions by ensuring only one thread
+        can access the countdown at a time.
+    The code may also use it because it implements resource use in a way that is cleaner and more readable.
+7. When the countdown reaches 0, the TimerController creates a new interrupt, adds its address, and sends it to the CPU.
