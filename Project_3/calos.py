@@ -47,18 +47,48 @@ class CalOS:
         '''Called when the timer expires. If there is no process in the
         ready queue, reset the timer and continue.  Else, context_switch.
         '''
+        # save registers into current_proc's PCB
+        CalOS.current_proc.set_registers(self._cpu.get_registers())
+        # if ready queue isn't empty, call context_switch()
+        if len(self._ready_q):
+            self.context_switch()
+        # reset timer
+        self.reset_timer()
         pass
 
     def context_switch(self):
         '''Do a context switch between the current_proc and the process
         on the front of the ready_q.
         '''
+        #get new process's PCB off front of ready queue
+        new_PCB = self._ready_q.pop(0)
+        #save CPU's registers into currently-running process's PCB
+        CalOS.current_proc.set_registers(self._cpu.get_registers())
+        #load CPU's registers with registers stored in new process' PCB
+        self._cpu.set_registers(new_PCB.get_registers())
+        #put old process on end of ready queue
+        self._ready_q.insert(len(self._ready_q), CalOS.current_proc)
+        #set new process to RUNNING state
+        new_PCB.set_state(PCB.RUNNING)
+        #set current_proc to new process
+        CalOS.current_proc = new_PCB
         pass
 
     def run(self):
         '''Startup the timer controller and execute processes in the ready
         queue on the given cpu -- i.e., run the operating system!
         '''
+        while(len(self._ready_q)):
+            #remove PCB from front of ready queue, set current_proc to result
+            CalOS.current_proc = self._ready_q.pop(0)
+            #call reset_timer() to set timer controller's countdown
+            self.reset_timer()
+            #load CPU's registers with registers stored in current_proc
+            self._cpu.set_registers(CalOS.current_proc.get_registers())
+            #call CPU's run_process() method
+            self._cpu.run_process()
+            #set current_proc's state to DONE
+            CalOS.current_proc.set_state(PCB.DONE)
         pass
 
     def reset_timer(self):
