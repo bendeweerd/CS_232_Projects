@@ -1,6 +1,32 @@
 /*
- * Your info here.
+ * CS 232 Project 5 - Vaccination Clinic
+ * Ben DeWeerd
+ * 3.06.2022
  */
+
+// gcc vacc_clinic.c -o vacc_clinic -lpthread
+
+/* 
+Semaphore usage:
+    Positive values => unlocked
+    Negative values => locked
+
+    int sem_init(sem_t *sem, int pshared, unsigned int value)
+        Initialize unnamed semaphore referred to by sem
+        Semaphore remains usable until it's destoryed
+        pshared != 0 => semaphore shared between processes
+
+    sem_t *sem_open(const char *name)
+        Establishes connection between named semaphore and process
+    int sem_wait(sem_t *sem)
+        Locks semaphore, won't return from call until it locks the semaphore or is interrupted
+    int sem_trywait(sem_t *sem)
+        Locks semaphore referenced by sem only if it isn't currently locked
+    int sem_post(sem_t *sem)
+        Unlocks semaphore
+    int sem_close(sem_t *sem)
+        Indicates calling process is finished using semaphore
+*/
 
 #include <pthread.h>
 #include <semaphore.h>
@@ -9,15 +35,31 @@
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
+#include <stdbool.h>
 
-#define NUM_VIALS 30
+// #define NUM_VIALS 30
+#define NUM_VIALS 1
 #define SHOTS_PER_VIAL 6
 #define NUM_CLIENTS (NUM_VIALS * SHOTS_PER_VIAL)
 #define NUM_NURSES 10
 #define NUM_STATIONS NUM_NURSES
 #define NUM_REGISTRATIONS_SIMULTANEOUSLY 4
 
+typedef struct{
+    int nurseId;
+    bool clientReady;
+    bool completed;
+} StationSlot;
+
 /* global variables */
+int num_vials_left = NUM_VIALS;
+sem_t num_vials_sem;
+sem_t assignment_sem;
+
+StationSlot assignmentQueue[NUM_STATIONS];
+int assignIn = 0;
+int assignOut = 0;
+int count = 0;
 
 int get_rand_in_range(int lower, int upper) {
     return (rand() % (upper - lower + 1)) + lower;
@@ -39,11 +81,55 @@ void walk(int lower, int upper) {
     // above.
 }
 
-// arg is the nurses station number.
+// arg is the nurses station number
 void *nurse(void *arg) {
     long int id = (long int)arg;
-
+    bool has_vial = false;
+    long int stationNum;
     fprintf(stderr, "%s: nurse %ld started\n", curr_time_s(), id);
+
+    do{
+        //walk between 1 and 3 seconds to get vial of vaccine
+        //if no more vials, leave clinic
+        has_vial = false;
+        sem_wait(&num_vials_sem);
+        if(num_vials_left != 0){
+            num_vials_left--;
+            has_vial = true;
+            fprintf(stderr, "%s: nurse %ld got a new vial, num_vials_left = %d\n", curr_time_s(), id, num_vials_left);
+        }
+        sem_post(&num_vials_sem);
+
+        if(has_vial){
+            while(count == NUM_STATIONS){
+                ;
+            }
+            sem_wait(&assignment_sem);
+            fprintf(stderr, "%s: nurse %ld tells the waiting queue they are available\n", curr_time_s(), id);
+            stationNum = id;
+            assignmentQueue[assignIn].nurseId = id;
+            assignIn = (assignIn + 1) % NUM_STATIONS;
+            count++;
+            sem_post(&assignment_sem);
+
+            fprintf(stderr, "%s: nurse %ld waiting for a a client to arrive\n", curr_time_s(), id);
+            while(!assignmentQueue[stationNum].clientReady){
+                ;
+            }
+            fprintf(stderr, "%s: nurse %ld sees client is ready. Giving shot now.\n", curr_time_s(), id);
+            assignmentQueue[stationNum].completed = true;
+            fprintf(stderr, "%s: nurse %ld gave client the shot\n", curr_time_s(), id);
+
+        }
+         
+    } while(has_vial);
+
+    //walk back, between 1 and 3 seconds
+    //repeat 6 times:
+    //  indicate to queue of clients waiting for station that am ready for next client
+    //  wait for client to indicate they're ready to be vaccinated
+    //  give client vaccination (5 seconds)
+    //loop
 
     fprintf(stderr, "%s: nurse %ld is done\n", curr_time_s(), id);
 
@@ -52,9 +138,43 @@ void *nurse(void *arg) {
 
 void *client(void *arg) {
     long int id = (long int)arg;
+    long int stationNum;
 
     fprintf(stderr, "%s: client %ld has arrived and is walking to register\n",
             curr_time_s(), id);
+
+    //walk between 3 and 10 seconds to registration desk
+    //wait for opening at registration desk
+    //take between 3 and 10 seconds to register
+    //walk between 3 and 10 seconds to get to station-assignment queue
+    //wait for station assignment
+
+    while(count == 0){
+        ;
+    }
+
+    sem_wait(&assignment_sem);
+    stationNum = assignmentQueue[assignOut].nurseId;
+    assignOut = (assignOut + 1) % NUM_STATIONS;
+    count--; 
+    //TODO: consume item somehow?
+    sem_post(&assignment_sem);
+
+    assignmentQueue[stationNum].completed = false;
+    fprintf(stderr, "%s: client %ld got assigned to station %ld: walking there now\n", curr_time_s(), id, stationNum);
+    fprintf(stderr, "%s: client %ld is at station %ld\n", curr_time_s(), id, stationNum);
+    
+    //indicate to nurse that client is ready for vaccination
+    fprintf(stderr, "%s: client %ld is ready for the shot from nurse %ld\n", curr_time_s(), id, stationNum);
+    assignmentQueue[stationNum].clientReady = true;
+
+    //wait for nurse to complete vaccination
+    while(!assignmentQueue[stationNum].completed){
+        ;
+    }
+    fprintf(stderr, "%s: client %ld got the shot! It hurt, but it is a sacrifice they're willing to make!\n", curr_time_s(), id);
+
+    //walk between 1 and 2 seconds to get to assigned nurse's station
 
     fprintf(stderr, "%s: client %ld leaves the clinic!\n", curr_time_s(), id);
 
@@ -63,6 +183,24 @@ void *client(void *arg) {
 
 int main() {
     srand(time(0));
+
+    //create semaphores necessary for simulation
+    sem_init(&num_vials_sem, 1, 1);
+    fprintf(stderr, "first sem created\n");
+    sem_init(&assignment_sem, 1, 1);
+    fprintf(stderr, "second sem created\n");
+
+    //create nurse threads
+    pthread_t nurse0;
+    pthread_create(&nurse0, NULL, nurse, NULL);
+    assignmentQueue[0].nurseId = 0;
+
+    pthread_t client0;
+    pthread_create(&client0, NULL, client, NULL);
+
+    pthread_join(nurse0, NULL);    
+    pthread_join(client0, NULL);
+    //create client threads, with 0-1 second delay between each creation
 
     pthread_exit(0);
 }
