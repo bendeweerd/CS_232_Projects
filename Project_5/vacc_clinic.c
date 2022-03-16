@@ -47,16 +47,20 @@ Semaphore usage:
 
 typedef struct{
     int nurseId;
-    bool clientReady;
-    bool completed;
-} StationSlot;
+} Station;
 
 /* global variables */
 int num_vials_left = NUM_VIALS;
 sem_t num_vials_sem;
 sem_t assignment_sem;
 
-StationSlot assignmentQueue[NUM_STATIONS];
+sem_t client_ready_sems[1];
+sem_t vacc_complete_sems[1];
+
+pthread_t nurses[1];
+pthread_t clients[1];
+
+Station assignmentQueue[NUM_STATIONS];
 int assignIn = 0;
 int assignOut = 0;
 int count = 0;
@@ -113,11 +117,11 @@ void *nurse(void *arg) {
             sem_post(&assignment_sem);
 
             fprintf(stderr, "%s: nurse %ld waiting for a a client to arrive\n", curr_time_s(), id);
-            while(!assignmentQueue[stationNum].clientReady){
-                ;
-            }
+
+            sem_wait(&client_ready_sems[id]);
             fprintf(stderr, "%s: nurse %ld sees client is ready. Giving shot now.\n", curr_time_s(), id);
-            assignmentQueue[stationNum].completed = true;
+            // giving shot...
+            sem_post(&vacc_complete_sems[id]);
             fprintf(stderr, "%s: nurse %ld gave client the shot\n", curr_time_s(), id);
 
         }
@@ -160,18 +164,15 @@ void *client(void *arg) {
     //TODO: consume item somehow?
     sem_post(&assignment_sem);
 
-    assignmentQueue[stationNum].completed = false;
+    // assignmentQueue[stationNum].completed = false;
     fprintf(stderr, "%s: client %ld got assigned to station %ld: walking there now\n", curr_time_s(), id, stationNum);
     fprintf(stderr, "%s: client %ld is at station %ld\n", curr_time_s(), id, stationNum);
     
     //indicate to nurse that client is ready for vaccination
     fprintf(stderr, "%s: client %ld is ready for the shot from nurse %ld\n", curr_time_s(), id, stationNum);
-    assignmentQueue[stationNum].clientReady = true;
-
-    //wait for nurse to complete vaccination
-    while(!assignmentQueue[stationNum].completed){
-        ;
-    }
+    sem_post(&client_ready_sems[stationNum]);
+    // waiting for vaccination to complete....
+    sem_wait(&vacc_complete_sems[stationNum]);
     fprintf(stderr, "%s: client %ld got the shot! It hurt, but it is a sacrifice they're willing to make!\n", curr_time_s(), id);
 
     //walk between 1 and 2 seconds to get to assigned nurse's station
@@ -184,22 +185,34 @@ void *client(void *arg) {
 int main() {
     srand(time(0));
 
+    //TODO:
+    //  create a bunch of semaphores (2 for each station)
+    //  initialize them in a loop using sem_init
+
     //create semaphores necessary for simulation
-    sem_init(&num_vials_sem, 1, 1);
-    fprintf(stderr, "first sem created\n");
-    sem_init(&assignment_sem, 1, 1);
-    fprintf(stderr, "second sem created\n");
+    sem_init(&num_vials_sem, 0, 1);
+    sem_init(&assignment_sem, 0, 1);
 
-    //create nurse threads
-    pthread_t nurse0;
-    pthread_create(&nurse0, NULL, nurse, NULL);
-    assignmentQueue[0].nurseId = 0;
+    // create nurse threads
+    //TODO: make this produce all of the nurses
+    //TODO: assign nurses to stations here
+    
+    for(long int i = 0; i < 1; i++){
+        pthread_create(&nurses[i], NULL, nurse, (void *)i);
+    }
 
-    pthread_t client0;
-    pthread_create(&client0, NULL, client, NULL);
+    // two semaphores for each nurse/station - binary semaphores for a rendezvoud
+    for(long int i = 0; i < 1; i++){
+        sem_init(&client_ready_sems[i], 0, 0);
+        sem_init(&vacc_complete_sems[i], 0, 0);
+    }
 
-    pthread_join(nurse0, NULL);    
-    pthread_join(client0, NULL);
+    for(long int i = 0; i < 1; i++){
+        pthread_create(&clients[i], NULL, client, (void *)i);
+    }
+
+    // pthread_join(nurse0, NULL);    
+    // pthread_join(client0, NULL);
     //create client threads, with 0-1 second delay between each creation
 
     pthread_exit(0);
