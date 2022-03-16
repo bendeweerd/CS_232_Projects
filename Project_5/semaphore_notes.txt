@@ -1,0 +1,21 @@
+Semaphore Notes:
+
+Semaphore usage:
+    Positive values => unlocked
+    Negative values => locked
+
+    int sem_init(sem_t *sem, int pshared, unsigned int value)
+        Initialize unnamed semaphore referred to by sem
+        Semaphore remains usable until it's destoryed
+        pshared != 0 => semaphore shared between processes
+
+    sem_t *sem_open(const char *name)
+        Establishes connection between named semaphore and process
+    int sem_wait(sem_t *sem)
+        Locks semaphore, won't return from call until it locks the semaphore or is interrupted
+    int sem_trywait(sem_t *sem)
+        Locks semaphore referenced by sem only if it isn't currently locked
+    int sem_post(sem_t *sem)
+        Unlocks semaphore
+    int sem_close(sem_t *sem)
+        Indicates calling process is finished using semaphore

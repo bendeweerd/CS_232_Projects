@@ -1,0 +1,64 @@
+Wed Mar 16 17:20:43 2022: nurse 0 started
+Wed Mar 16 17:20:43 2022: client 0 has arrived and is walking to register
+Wed Mar 16 17:20:43 2022: client 1 has arrived and is walking to register
+Wed Mar 16 17:20:43 2022: client 2 has arrived and is walking to register
+Wed Mar 16 17:20:43 2022: nurse 0 got a new vial, num_vials_left = 0
+Wed Mar 16 17:20:43 2022: client 3 has arrived and is walking to register
+Wed Mar 16 17:20:43 2022: client 4 has arrived and is walking to register
+Wed Mar 16 17:20:43 2022: client 5 has arrived and is walking to register
+Wed Mar 16 17:20:43 2022: nurse 0 tells the waiting queue they are available
+Wed Mar 16 17:20:43 2022: nurse 0 waiting for a a client to arrive
+Wed Mar 16 17:20:43 2022: client 0 got assigned to station 0: walking there now
+Wed Mar 16 17:20:43 2022: client 0 is at station 0
+Wed Mar 16 17:20:43 2022: client 0 is ready for the shot from nurse 0
+Wed Mar 16 17:20:43 2022: nurse 0 sees client is ready. Giving shot now.
+Wed Mar 16 17:20:43 2022: nurse 0 gave client the shot. 5 shots left in vial.
+Wed Mar 16 17:20:43 2022: nurse 0 tells the waiting queue they are available
+Wed Mar 16 17:20:43 2022: nurse 0 waiting for a a client to arrive
+Wed Mar 16 17:20:43 2022: client 1 got assigned to station 0: walking there now
+Wed Mar 16 17:20:43 2022: client 0 got the shot! It hurt, but it is a sacrifice they're willing to make!
+Wed Mar 16 17:20:43 2022: client 1 is at station 0
+Wed Mar 16 17:20:43 2022: client 0 leaves the clinic!
+Wed Mar 16 17:20:43 2022: client 1 is ready for the shot from nurse 0
+Wed Mar 16 17:20:43 2022: nurse 0 sees client is ready. Giving shot now.
+Wed Mar 16 17:20:43 2022: nurse 0 gave client the shot. 4 shots left in vial.
+Wed Mar 16 17:20:43 2022: nurse 0 tells the waiting queue they are available
+Wed Mar 16 17:20:43 2022: client 1 got the shot! It hurt, but it is a sacrifice they're willing to make!
+Wed Mar 16 17:20:43 2022: nurse 0 waiting for a a client to arrive
+Wed Mar 16 17:20:43 2022: client 1 leaves the clinic!
+Wed Mar 16 17:20:43 2022: client 2 got assigned to station 0: walking there now
+Wed Mar 16 17:20:43 2022: client 2 is at station 0
+Wed Mar 16 17:20:43 2022: client 2 is ready for the shot from nurse 0
+Wed Mar 16 17:20:43 2022: nurse 0 sees client is ready. Giving shot now.
+Wed Mar 16 17:20:43 2022: nurse 0 gave client the shot. 3 shots left in vial.
+Wed Mar 16 17:20:43 2022: nurse 0 tells the waiting queue they are available
+Wed Mar 16 17:20:43 2022: client 2 got the shot! It hurt, but it is a sacrifice they're willing to make!
+Wed Mar 16 17:20:43 2022: nurse 0 waiting for a a client to arrive
+Wed Mar 16 17:20:43 2022: client 2 leaves the clinic!
+Wed Mar 16 17:20:43 2022: client 3 got assigned to station 0: walking there now
+Wed Mar 16 17:20:43 2022: client 3 is at station 0
+Wed Mar 16 17:20:43 2022: client 3 is ready for the shot from nurse 0
+Wed Mar 16 17:20:43 2022: nurse 0 sees client is ready. Giving shot now.
+Wed Mar 16 17:20:43 2022: nurse 0 gave client the shot. 2 shots left in vial.
+Wed Mar 16 17:20:43 2022: nurse 0 tells the waiting queue they are available
+Wed Mar 16 17:20:43 2022: client 3 got the shot! It hurt, but it is a sacrifice they're willing to make!
+Wed Mar 16 17:20:43 2022: nurse 0 waiting for a a client to arrive
+Wed Mar 16 17:20:43 2022: client 4 got assigned to station 0: walking there now
+Wed Mar 16 17:20:43 2022: client 4 is at station 0
+Wed Mar 16 17:20:43 2022: client 3 leaves the clinic!
+Wed Mar 16 17:20:43 2022: client 4 is ready for the shot from nurse 0
+Wed Mar 16 17:20:43 2022: nurse 0 sees client is ready. Giving shot now.
+Wed Mar 16 17:20:43 2022: nurse 0 gave client the shot. 1 shots left in vial.
+Wed Mar 16 17:20:43 2022: nurse 0 tells the waiting queue they are available
+Wed Mar 16 17:20:43 2022: client 4 got the shot! It hurt, but it is a sacrifice they're willing to make!
+Wed Mar 16 17:20:43 2022: nurse 0 waiting for a a client to arrive
+Wed Mar 16 17:20:43 2022: client 4 leaves the clinic!
+Wed Mar 16 17:20:43 2022: client 5 got assigned to station 0: walking there now
+Wed Mar 16 17:20:43 2022: client 5 is at station 0
+Wed Mar 16 17:20:43 2022: client 5 is ready for the shot from nurse 0
+Wed Mar 16 17:20:43 2022: nurse 0 sees client is ready. Giving shot now.
+Wed Mar 16 17:20:43 2022: nurse 0 gave client the shot. 0 shots left in vial.
+Wed Mar 16 17:20:43 2022: nurse 0 sees there are no more vials of vaccine
+Wed Mar 16 17:20:43 2022: client 5 got the shot! It hurt, but it is a sacrifice they're willing to make!
+Wed Mar 16 17:20:43 2022: client 5 leaves the clinic!
+Wed Mar 16 17:20:43 2022: nurse 0 is done

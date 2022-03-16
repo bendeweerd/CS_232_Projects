@@ -6,28 +6,6 @@
 
 // gcc vacc_clinic.c -o vacc_clinic -lpthread
 
-/* 
-Semaphore usage:
-    Positive values => unlocked
-    Negative values => locked
-
-    int sem_init(sem_t *sem, int pshared, unsigned int value)
-        Initialize unnamed semaphore referred to by sem
-        Semaphore remains usable until it's destoryed
-        pshared != 0 => semaphore shared between processes
-
-    sem_t *sem_open(const char *name)
-        Establishes connection between named semaphore and process
-    int sem_wait(sem_t *sem)
-        Locks semaphore, won't return from call until it locks the semaphore or is interrupted
-    int sem_trywait(sem_t *sem)
-        Locks semaphore referenced by sem only if it isn't currently locked
-    int sem_post(sem_t *sem)
-        Unlocks semaphore
-    int sem_close(sem_t *sem)
-        Indicates calling process is finished using semaphore
-*/
-
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdio.h>
@@ -52,15 +30,16 @@ typedef struct{
 /* global variables */
 int num_vials_left = NUM_VIALS;
 sem_t num_vials_sem;
-sem_t assignment_sem;
+sem_t client_assignment_sem;
+sem_t nurse_assignment_sem;
 
 sem_t client_ready_sems[1];
 sem_t vacc_complete_sems[1];
 
-pthread_t nurses[1];
-pthread_t clients[1];
+pthread_t nurses[NUM_NURSES];
+pthread_t clients[NUM_CLIENTS];
 
-Station assignmentQueue[NUM_STATIONS];
+Station assignmentQueue[1];
 int assignIn = 0;
 int assignOut = 0;
 int count = 0;
@@ -89,7 +68,6 @@ void walk(int lower, int upper) {
 void *nurse(void *arg) {
     long int id = (long int)arg;
     bool has_vial = false;
-    long int stationNum;
     fprintf(stderr, "%s: nurse %ld started\n", curr_time_s(), id);
 
     do{
@@ -97,33 +75,34 @@ void *nurse(void *arg) {
         //if no more vials, leave clinic
         has_vial = false;
         sem_wait(&num_vials_sem);
-        if(num_vials_left != 0){
+
+        if(num_vials_left > 0){
             num_vials_left--;
             has_vial = true;
             fprintf(stderr, "%s: nurse %ld got a new vial, num_vials_left = %d\n", curr_time_s(), id, num_vials_left);
+        } else {
+            fprintf(stderr, "%s: nurse %ld sees there are no more vials of vaccine\n", curr_time_s(), id);
         }
+        
         sem_post(&num_vials_sem);
 
         if(has_vial){
-            while(count == NUM_STATIONS){
-                ;
+            for(int shots = 5; shots >= 0; shots--){
+                sem_wait(&nurse_assignment_sem);
+                fprintf(stderr, "%s: nurse %ld tells the waiting queue they are available\n", curr_time_s(), id);
+                assignmentQueue[assignIn].nurseId = id;
+                assignIn = (assignIn + 1) % NUM_STATIONS;
+                count++;
+                sem_post(&nurse_assignment_sem);
+
+                fprintf(stderr, "%s: nurse %ld waiting for a client to arrive\n", curr_time_s(), id);
+
+                sem_wait(&client_ready_sems[id]);
+                fprintf(stderr, "%s: nurse %ld sees client is ready. Giving shot now.\n", curr_time_s(), id);
+                // giving shot...
+                fprintf(stderr, "%s: nurse %ld gave client the shot. %i shots left in vial.\n", curr_time_s(), id, shots);
+                sem_post(&vacc_complete_sems[id]);
             }
-            sem_wait(&assignment_sem);
-            fprintf(stderr, "%s: nurse %ld tells the waiting queue they are available\n", curr_time_s(), id);
-            stationNum = id;
-            assignmentQueue[assignIn].nurseId = id;
-            assignIn = (assignIn + 1) % NUM_STATIONS;
-            count++;
-            sem_post(&assignment_sem);
-
-            fprintf(stderr, "%s: nurse %ld waiting for a a client to arrive\n", curr_time_s(), id);
-
-            sem_wait(&client_ready_sems[id]);
-            fprintf(stderr, "%s: nurse %ld sees client is ready. Giving shot now.\n", curr_time_s(), id);
-            // giving shot...
-            sem_post(&vacc_complete_sems[id]);
-            fprintf(stderr, "%s: nurse %ld gave client the shot\n", curr_time_s(), id);
-
         }
          
     } while(has_vial);
@@ -136,7 +115,6 @@ void *nurse(void *arg) {
     //loop
 
     fprintf(stderr, "%s: nurse %ld is done\n", curr_time_s(), id);
-
     pthread_exit(NULL);
 }
 
@@ -153,16 +131,15 @@ void *client(void *arg) {
     //walk between 3 and 10 seconds to get to station-assignment queue
     //wait for station assignment
 
+    sem_wait(&client_assignment_sem);
     while(count == 0){
         ;
     }
-
-    sem_wait(&assignment_sem);
     stationNum = assignmentQueue[assignOut].nurseId;
     assignOut = (assignOut + 1) % NUM_STATIONS;
     count--; 
     //TODO: consume item somehow?
-    sem_post(&assignment_sem);
+    sem_post(&client_assignment_sem);
 
     // assignmentQueue[stationNum].completed = false;
     fprintf(stderr, "%s: client %ld got assigned to station %ld: walking there now\n", curr_time_s(), id, stationNum);
@@ -178,7 +155,6 @@ void *client(void *arg) {
     //walk between 1 and 2 seconds to get to assigned nurse's station
 
     fprintf(stderr, "%s: client %ld leaves the clinic!\n", curr_time_s(), id);
-
     pthread_exit(NULL);
 }
 
@@ -191,7 +167,8 @@ int main() {
 
     //create semaphores necessary for simulation
     sem_init(&num_vials_sem, 0, 1);
-    sem_init(&assignment_sem, 0, 1);
+    sem_init(&client_assignment_sem, 0, 1);
+    sem_init(&nurse_assignment_sem, 0, 1);
 
     // create nurse threads
     //TODO: make this produce all of the nurses
@@ -199,15 +176,12 @@ int main() {
     
     for(long int i = 0; i < 1; i++){
         pthread_create(&nurses[i], NULL, nurse, (void *)i);
-    }
-
-    // two semaphores for each nurse/station - binary semaphores for a rendezvoud
-    for(long int i = 0; i < 1; i++){
+        //two semaphores for each nurse/station - binary semaphore for a rendezvous
         sem_init(&client_ready_sems[i], 0, 0);
         sem_init(&vacc_complete_sems[i], 0, 0);
     }
 
-    for(long int i = 0; i < 1; i++){
+    for(long int i = 0; i < 6; i++){
         pthread_create(&clients[i], NULL, client, (void *)i);
     }
 
