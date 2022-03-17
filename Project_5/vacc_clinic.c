@@ -1,7 +1,7 @@
 /*
  * CS 232 Project 5 - Vaccination Clinic
  * Ben DeWeerd
- * 3.06.2022
+ * 3.17.2022
  */
 
 // gcc vacc_clinic.c -o vacc_clinic -lpthread
@@ -58,13 +58,12 @@ char *curr_time_s() {
     return time_str;
 }
 
-// lower and upper are in seconds.
+// lower and upper are in seconds. usleep() arg is microseconds
 void walk(int lower, int upper) {
-    // TODO: fill in code here.  Use usleep() and get_rand_in_range() from
-    // above.
+    usleep(get_rand_in_range(lower, upper) * 1000000);
 }
 
-// arg is the nurses station number
+// arg is the nurse's station number
 void *nurse(void *arg) {
     long int id = (long int)arg;
     bool has_vial = false;
@@ -73,6 +72,9 @@ void *nurse(void *arg) {
     do{
         //walk between 1 and 3 seconds to get vial of vaccine
         //if no more vials, leave clinic
+        fprintf(stderr, "%s: nurse %ld is walking to get a vial of vaccine\n", curr_time_s(), id);
+        walk(1, 3);
+
         has_vial = false;
         sem_wait(&num_vials_sem);
 
@@ -87,6 +89,9 @@ void *nurse(void *arg) {
         sem_post(&num_vials_sem);
 
         if(has_vial){
+            //walk back to station, 1-3 seconds
+            walk(1,3);
+            //vaccinate 6 clients per vial
             for(int shots = 5; shots >= 0; shots--){
                 sem_wait(&nurse_assignment_sem);
                 fprintf(stderr, "%s: nurse %ld tells the waiting queue they are available\n", curr_time_s(), id);
@@ -99,7 +104,7 @@ void *nurse(void *arg) {
 
                 sem_wait(&client_ready_sems[id]);
                 fprintf(stderr, "%s: nurse %ld sees client is ready. Giving shot now.\n", curr_time_s(), id);
-                // giving shot...
+                sleep(5);
                 fprintf(stderr, "%s: nurse %ld gave client the shot. %i shots left in vial.\n", curr_time_s(), id, shots);
                 sem_post(&vacc_complete_sems[id]);
             }
@@ -121,25 +126,26 @@ void *nurse(void *arg) {
 void *client(void *arg) {
     long int id = (long int)arg;
     long int stationNum;
-    int reg_desk_count;
-
 
     fprintf(stderr, "%s: client %ld has arrived and is walking to register\n",
             curr_time_s(), id);
 
     //walk between 3 and 10 seconds to registration desk
-    //wait for opening at registration desk
+    walk(3, 10);
     //take between 3 and 10 seconds to register
     //walk between 3 and 10 seconds to get to station-assignment queue
     //wait for station assignment
 
-    //wait for operning at registration desk (4 slots)
+    //wait for opening at registration desk (4 slots)
     sem_wait(&registration_desk_sem);
-    sem_getvalue(&registration_desk_sem, &reg_desk_count);
-    fprintf(stderr, "%s: client %ld: registration_desk_sem: %i\n", curr_time_s(), id, reg_desk_count);
     //register...
     fprintf(stderr, "%s: client %ld is registering\n", curr_time_s(), id);
+    walk(3, 10);
     sem_post(&registration_desk_sem);
+
+    fprintf(stderr, "%s: client %ld is walking to the station-assignment queue\n", curr_time_s(), id);
+
+    walk(3, 10);
 
     sem_wait(&client_assignment_sem);
     while(count == 0){
@@ -148,11 +154,11 @@ void *client(void *arg) {
     stationNum = assignmentQueue[assignOut].nurseId;
     assignOut = (assignOut + 1) % NUM_STATIONS;
     count--; 
-    //TODO: consume item somehow?
     sem_post(&client_assignment_sem);
 
-    // assignmentQueue[stationNum].completed = false;
     fprintf(stderr, "%s: client %ld got assigned to station %ld: walking there now\n", curr_time_s(), id, stationNum);
+    //walk between 1 and 2 seconds to get to assigned nurse's station
+    walk(1,2);
     fprintf(stderr, "%s: client %ld is at station %ld\n", curr_time_s(), id, stationNum);
     
     //indicate to nurse that client is ready for vaccination
@@ -162,7 +168,6 @@ void *client(void *arg) {
     sem_wait(&vacc_complete_sems[stationNum]);
     fprintf(stderr, "%s: client %ld got the shot! It hurt, but it is a sacrifice they're willing to make!\n", curr_time_s(), id);
 
-    //walk between 1 and 2 seconds to get to assigned nurse's station
 
     fprintf(stderr, "%s: client %ld leaves the clinic!\n", curr_time_s(), id);
     pthread_exit(NULL);
@@ -194,6 +199,7 @@ int main() {
 
     for(long int i = 0; i < NUM_CLIENTS; i++){
         pthread_create(&clients[i], NULL, client, (void *)i);
+        walk(0, 1);
     }
 
     // pthread_join(nurse0, NULL);    
