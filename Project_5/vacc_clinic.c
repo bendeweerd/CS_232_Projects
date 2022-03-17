@@ -15,8 +15,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-// #define NUM_VIALS 30
-#define NUM_VIALS 1
+#define NUM_VIALS 30
 #define SHOTS_PER_VIAL 6
 #define NUM_CLIENTS (NUM_VIALS * SHOTS_PER_VIAL)
 #define NUM_NURSES 10
@@ -32,14 +31,15 @@ int num_vials_left = NUM_VIALS;
 sem_t num_vials_sem;
 sem_t client_assignment_sem;
 sem_t nurse_assignment_sem;
+sem_t registration_desk_sem;
 
-sem_t client_ready_sems[1];
-sem_t vacc_complete_sems[1];
+sem_t client_ready_sems[NUM_NURSES];
+sem_t vacc_complete_sems[NUM_NURSES];
 
 pthread_t nurses[NUM_NURSES];
 pthread_t clients[NUM_CLIENTS];
 
-Station assignmentQueue[1];
+Station assignmentQueue[NUM_NURSES];
 int assignIn = 0;
 int assignOut = 0;
 int count = 0;
@@ -121,6 +121,8 @@ void *nurse(void *arg) {
 void *client(void *arg) {
     long int id = (long int)arg;
     long int stationNum;
+    int reg_desk_count;
+
 
     fprintf(stderr, "%s: client %ld has arrived and is walking to register\n",
             curr_time_s(), id);
@@ -130,6 +132,14 @@ void *client(void *arg) {
     //take between 3 and 10 seconds to register
     //walk between 3 and 10 seconds to get to station-assignment queue
     //wait for station assignment
+
+    //wait for operning at registration desk (4 slots)
+    sem_wait(&registration_desk_sem);
+    sem_getvalue(&registration_desk_sem, &reg_desk_count);
+    fprintf(stderr, "%s: client %ld: registration_desk_sem: %i\n", curr_time_s(), id, reg_desk_count);
+    //register...
+    fprintf(stderr, "%s: client %ld is registering\n", curr_time_s(), id);
+    sem_post(&registration_desk_sem);
 
     sem_wait(&client_assignment_sem);
     while(count == 0){
@@ -169,19 +179,20 @@ int main() {
     sem_init(&num_vials_sem, 0, 1);
     sem_init(&client_assignment_sem, 0, 1);
     sem_init(&nurse_assignment_sem, 0, 1);
+    sem_init(&registration_desk_sem, 0, 4);
 
     // create nurse threads
     //TODO: make this produce all of the nurses
     //TODO: assign nurses to stations here
     
-    for(long int i = 0; i < 1; i++){
+    for(long int i = 0; i < NUM_NURSES; i++){
         pthread_create(&nurses[i], NULL, nurse, (void *)i);
         //two semaphores for each nurse/station - binary semaphore for a rendezvous
         sem_init(&client_ready_sems[i], 0, 0);
         sem_init(&vacc_complete_sems[i], 0, 0);
     }
 
-    for(long int i = 0; i < 6; i++){
+    for(long int i = 0; i < NUM_CLIENTS; i++){
         pthread_create(&clients[i], NULL, client, (void *)i);
     }
 
