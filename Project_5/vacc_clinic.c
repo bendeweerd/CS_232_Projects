@@ -1,7 +1,7 @@
 /*
  * CS 232 Project 5 - Vaccination Clinic
  * Ben DeWeerd
- * 3.17.2022
+ * 3.18.2022
  */
 
 #include <pthread.h>
@@ -97,6 +97,9 @@ void *nurse(void *arg) {
                 // indicate nurse is available
                 sem_wait(&nurse_assignment_sem);
                 fprintf(stderr, "%s: nurse %ld tells the waiting queue they are available\n", curr_time_s(), id);
+                while(count == NUM_STATIONS){
+                    ;   // do nothing
+                }
                 assignmentQueue[assignIn].nurseId = id;
                 assignIn = (assignIn + 1) % NUM_STATIONS;
                 count++;
@@ -145,7 +148,7 @@ void *client(void *arg) {
     // wait for station assignment
     sem_wait(&client_assignment_sem);
     while(count == 0){
-        ;
+        ;   // do nothing
     }
     stationNum = assignmentQueue[assignOut].nurseId;
     assignOut = (assignOut + 1) % NUM_STATIONS;

@@ -1,0 +1,2471 @@
+Fri Mar 18 13:49:37 2022: nurse 1 started
+Fri Mar 18 13:49:37 2022: nurse 0 started
+Fri Mar 18 13:49:37 2022: nurse 5 started
+Fri Mar 18 13:49:37 2022: nurse 4 started
+Fri Mar 18 13:49:37 2022: nurse 4 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 3 started
+Fri Mar 18 13:49:37 2022: nurse 6 started
+Fri Mar 18 13:49:37 2022: nurse 1 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 6 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 7 started
+Fri Mar 18 13:49:37 2022: nurse 7 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 8 started
+Fri Mar 18 13:49:37 2022: nurse 5 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 2 started
+Fri Mar 18 13:49:37 2022: client 0 has arrived and is walking to register
+Fri Mar 18 13:49:37 2022: nurse 9 started
+Fri Mar 18 13:49:37 2022: nurse 3 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 0 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 8 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: nurse 9 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: client 2 has arrived and is walking to register
+Fri Mar 18 13:49:37 2022: nurse 2 is walking to get a vial of vaccine
+Fri Mar 18 13:49:37 2022: client 1 has arrived and is walking to register
+Fri Mar 18 13:49:38 2022: nurse 4 got a new vial, there are 29 vials left
+Fri Mar 18 13:49:38 2022: nurse 1 got a new vial, there are 28 vials left
+Fri Mar 18 13:49:38 2022: nurse 6 got a new vial, there are 27 vials left
+Fri Mar 18 13:49:38 2022: nurse 7 got a new vial, there are 26 vials left
+Fri Mar 18 13:49:38 2022: client 3 has arrived and is walking to register
+Fri Mar 18 13:49:39 2022: nurse 5 got a new vial, there are 25 vials left
+Fri Mar 18 13:49:39 2022: nurse 3 got a new vial, there are 24 vials left
+Fri Mar 18 13:49:39 2022: nurse 2 got a new vial, there are 23 vials left
+Fri Mar 18 13:49:39 2022: nurse 6 back at station
+Fri Mar 18 13:49:39 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:49:39 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:49:39 2022: client 4 has arrived and is walking to register
+Fri Mar 18 13:49:40 2022: nurse 9 got a new vial, there are 22 vials left
+Fri Mar 18 13:49:40 2022: nurse 0 got a new vial, there are 21 vials left
+Fri Mar 18 13:49:40 2022: nurse 8 got a new vial, there are 20 vials left
+Fri Mar 18 13:49:40 2022: client 5 has arrived and is walking to register
+Fri Mar 18 13:49:41 2022: nurse 4 back at station
+Fri Mar 18 13:49:41 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:49:41 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:49:41 2022: nurse 1 back at station
+Fri Mar 18 13:49:41 2022: nurse 3 back at station
+Fri Mar 18 13:49:41 2022: nurse 7 back at station
+Fri Mar 18 13:49:41 2022: nurse 2 back at station
+Fri Mar 18 13:49:41 202: client 1 is waiting to register
+Fri Mar 18 13:49:41 2022: client 1 is registering
+Fri Mar 18 13:49:41 2022: nurse 8 back at station
+Fri Mar 18 13:49:41 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:49:41 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:49:41 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:49:41 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:49:41 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:49:41 2022: client 6 has arrived and is walking to register
+Fri Mar 18 13:49:41 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:49:41 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:49:41 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:49:41 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:49:41 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:49:42 2022: nurse 5 back at station
+Fri Mar 18 13:49:42 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:49:42 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:49:42 2022: nurse 9 back at station
+Fri Mar 18 13:49:42 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:49:42 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:49:42 2022: nurse 0 back at station
+Fri Mar 18 13:49:42 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:49:42 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:49:42 2022: client 2 is waiting to register
+Fri Mar 18 13:49:42 2022: client 2 is registering
+Fri Mar 18 13:49:42 2022: client 3 is waiting to register
+Fri Mar 18 13:49:42 2022: client 3 is registering
+Fri Mar 18 13:49:42 2022: client 7 has arrived and is walking to register
+Fri Mar 18 13:49:42 2022: client 8 has arrived and is walking to register
+Fri Mar 18 13:49:42 2022: client 9 has arrived and is walking to register
+Fri Mar 18 13:49:42 2022: client 10 has arrived and is walking to register
+Fri Mar 18 13:49:42 2022: client 11 has arrived and is walking to register
+Fri Mar 18 13:49:42 2022: client 12 has arrived and is walking to register
+Fri Mar 18 13:49:43 2022: client 13 has arrived and is walking to register
+Fri Mar 18 13:49:43 2022: client 14 has arrived and is walking to register
+Fri Mar 18 13:49:43 2022: client 15 has arrived and is walking to register
+Fri Mar 18 13:49:44 2022: client 16 has arrived and is walking to register
+Fri Mar 18 13:49:44 2022: client 17 has arrived and is walking to register
+Fri Mar 18 13:49:45 2022: client 12 is waiting to register
+Fri Mar 18 13:49:45 2022: client 12 is registering
+Fri Mar 18 13:49:45 2022: client 18 has arrived and is walking to register
+Fri Mar 18 13:49:45 2022: client 19 has arrived and is walking to register
+Fri Mar 18 13:49:46 2022: client 4 is waiting to register
+Fri Mar 18 13:49:46 2022: client 4 is registering
+Fri Mar 18 13:49:46 2022: client 2 is walking to the station-assignment queue
+Fri Mar 18 13:49:46 2022: client 11 is waiting to register
+Fri Mar 18 13:49:46 2022: client 20 has arrived and is walking to register
+Fri Mar 18 13:49:47 2022: client 0 is waiting to register
+Fri Mar 18 13:49:47 2022: client 9 is waiting to register
+Fri Mar 18 13:49:47 2022: client 21 has arrived and is walking to register
+Fri Mar 18 13:49:47 2022: client 22 has arrived and is walking to register
+Fri Mar 18 13:49:48 2022: client 10 is waiting to register
+Fri Mar 18 13:49:48 2022: client 14 is waiting to register
+Fri Mar 18 13:49:48 2022: client 23 has arrived and is walking to register
+Fri Mar 18 13:49:49 2022: client 12 is walking to the station-assignment queue
+Fri Mar 18 13:49:49 2022: client 15 is waiting to register
+Fri Mar 18 13:49:49 2022: client 11 is registering
+Fri Mar 18 13:49:49 2022: client 18 is waiting to register
+Fri Mar 18 13:49:49 2022: client 24 has arrived and is walking to register
+Fri Mar 18 13:49:49 2022: client 25 has arrived and is walking to register
+Fri Mar 18 13:49:50 2022: client 5 is waiting to register
+Fri Mar 18 13:49:50 2022: client 1 is walking to the station-assignment queue
+Fri Mar 18 13:49:50 2022: client 0 is registering
+Fri Mar 18 13:49:50 2022: client 6 is waiting to register
+Fri Mar 18 13:49:50 2022: client 20 is waiting to register
+Fri Mar 18 13:49:50 2022: client 21 is waiting to register
+Fri Mar 18 13:49:50 2022: client 26 has arrived and is walking to register
+Fri Mar 18 13:49:51 2022: client 4 is walking to the station-assignment queue
+Fri Mar 18 13:49:51 2022: client 9 is registering
+Fri Mar 18 13:49:51 2022: client 27 has arrived and is walking to register
+Fri Mar 18 13:49:51 2022: client 28 has arrived and is walking to register
+Fri Mar 18 13:49:52 2022: client 3 is walking to the station-assignment queue
+Fri Mar 18 13:49:52 2022: client 10 is registering
+Fri Mar 18 13:49:52 2022: client 7 is waiting to register
+Fri Mar 18 13:49:52 2022: client 8 is waiting to register
+Fri Mar 18 13:49:52 2022: client 13 is waiting to register
+Fri Mar 18 13:49:52 2022: client 11 is walking to the station-assignment queue
+Fri Mar 18 13:49:52 2022: client 14 is registering
+Fri Mar 18 13:49:52 2022: client 19 is waiting to register
+Fri Mar 18 13:49:52 2022: client 29 has arrived and is walking to register
+Fri Mar 18 13:49:53 2022: client 22 is waiting to register
+Fri Mar 18 13:49:53 2022: client 26 is waiting to register
+Fri Mar 18 13:49:53 2022: client 30 has arrived and is walking to register
+Fri Mar 18 13:49:54 2022: client 4 got assigned to station 6: walking there now
+Fri Mar 18 13:49:54 2022: client 16 is waiting to register
+Fri Mar 18 13:49:54 2022: client 17 is waiting to register
+Fri Mar 18 13:49:54 2022: client 23 is waiting to register
+Fri Mar 18 13:49:54 2022: client 27 is waiting to register
+Fri Mar 18 13:49:54 2022: client 31 has arrived and is walking to register
+Fri Mar 18 13:49:55 2022: client 9 is walking to the station-assignment queue
+Fri Mar 18 13:49:55 2022: client 15 is registering
+Fri Mar 18 13:49:55 2022: client 4 arrived at station 6
+Fri Mar 18 13:49:55 2022: client 4 is ready for the shot from nurse 6
+Fri Mar 18 13:49:55 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:49:55 2022: client 32 has arrived and is walking to register
+Fri Mar 18 13:49:56 2022: client 2 got assigned to station 4: walking there now
+Fri Mar 18 13:49:56 2022: client 12 got assigned to station 1: walking there now
+Fri Mar 18 13:49:56 2022: client 29 is waiting to register
+Fri Mar 18 13:49:56 2022: client 28 is waiting to register
+Fri Mar 18 13:49:56 2022: client 30 is waiting to register
+Fri Mar 18 13:49:56 2022: client 33 has arrived and is walking to register
+Fri Mar 18 13:49:56 2022: client 34 has arrived and is walking to register
+Fri Mar 18 13:49:56 2022: client 35 has arrived and is walking to register
+Fri Mar 18 13:49:56 2022: client 36 has arrived and is walking to register
+Fri Mar 18 13:49:57 2022: client 37 has arrived and is walking to register
+Fri Mar 18 13:49:57 2022: client 38 has arrived and is walking to register
+Fri Mar 18 13:49:57 2022: client 39 has arrived and is walking to register
+Fri Mar 18 13:49:57 2022: client 40 has arrived and is walking to register
+Fri Mar 18 13:49:58 2022: client 2 arrived at station 4
+Fri Mar 18 13:49:58 2022: client 2 is ready for the shot from nurse 4
+Fri Mar 18 13:49:58 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:49:58 2022: client 12 arrived at station 1
+Fri Mar 18 13:49:58 2022: client 12 is ready for the shot from nurse 1
+Fri Mar 18 13:49:58 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:49:58 2022: client 41 has arrived and is walking to register
+Fri Mar 18 13:49:58 2022: client 42 has arrived and is walking to register
+Fri Mar 18 13:49:58 2022: client 43 has arrived and is walking to register
+Fri Mar 18 13:49:59 2022: client 1 got assigned to station 3: walking there now
+Fri Mar 18 13:49:59 2022: client 24 is waiting to register
+Fri Mar 18 13:49:59 2022: client 25 is waiting to register
+Fri Mar 18 13:49:59 2022: client 44 has arrived and is walking to register
+Fri Mar 18 13:50:00 2022: client 3 got assigned to station 7: walking there now
+Fri Mar 18 13:50:00 2022: client 0 is walking to the station-assignment queue
+Fri Mar 18 13:50:00 2022: client 18 is registering
+Fri Mar 18 13:50:00 2022: nurse 6 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:00 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:50:00 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:50:00 2022: client 4 got the shot. Take that, Rona!
+Fri Mar 18 13:50:00 2022: client 4 leaves the clinic
+Fri Mar 18 13:50:00 2022: client 35 is waiting to register
+Fri Mar 18 13:50:00 2022: client 45 has arrived and is walking to register
+Fri Mar 18 13:50:00 2022: client 46 has arrived and is walking to register
+Fri Mar 18 13:50:01 2022: client 10 is walking to the station-assignment queue
+Fri Mar 18 13:50:01 2022: client 5 is registering
+Fri Mar 18 13:50:01 2022: client 3 arrived at station 7
+Fri Mar 18 13:50:01 2022: client 3 is ready for the shot from nurse 7
+Fri Mar 18 13:50:01 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:50:01 2022: client 1 arrived at station 3
+Fri Mar 18 13:50:01 2022: client 1 is ready for the shot from nurse 3
+Fri Mar 18 13:50:01 2022: client 9 got assigned to station 2: walking there now
+Fri Mar 18 13:50:01 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:50:01 2022: client 14 is walking to the station-assignment queue
+Fri Mar 18 13:50:01 2022: client 6 is registering
+Fri Mar 18 13:50:01 2022: client 40 is waiting to register
+Fri Mar 18 13:50:01 2022: client 47 has arrived and is walking to register
+Fri Mar 18 13:50:02 2022: client 9 arrived at station 2
+Fri Mar 18 13:50:02 2022: client 11 got assigned to station 8: walking there now
+Fri Mar 18 13:50:02 2022: client 9 is ready for the shot from nurse 2
+Fri Mar 18 13:50:02 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:50:02 2022: client 34 is waiting to register
+Fri Mar 18 13:50:02 2022: client 39 is waiting to register
+Fri Mar 18 13:50:02 2022: client 48 has arrived and is walking to register
+Fri Mar 18 13:50:03 2022: nurse 4 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:03 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:50:03 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:50:03 2022: client 2 got the shot. Take that, Rona!
+Fri Mar 18 13:50:03 2022: client 2 leaves the clinic
+Fri Mar 18 13:50:03 2022: client 15 is walking to the station-assignment queue
+Fri Mar 18 13:50:03 2022: client 20 is registering
+Fri Mar 18 13:50:03 2022: nurse 1 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:03 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:50:03 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:50:03 2022: client 12 got the shot. Take that, Rona!
+Fri Mar 18 13:50:03 2022: client 12 leaves the clinic
+Fri Mar 18 13:50:03 2022: client 31 is waiting to register
+Fri Mar 18 13:50:03 2022: client 36 is waiting to register
+Fri Mar 18 13:50:03 2022: client 49 has arrived and is walking to register
+Fri Mar 18 13:50:04 2022: client 14 got assigned to station 5: walking there now
+Fri Mar 18 13:50:04 2022: client 11 arrived at station 8
+Fri Mar 18 13:50:04 2022: client 11 is ready for the shot from nurse 8
+Fri Mar 18 13:50:04 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:50:04 2022: client 32 is waiting to register
+Fri Mar 18 13:50:04 2022: client 44 is waiting to register
+Fri Mar 18 13:50:04 2022: client 46 is waiting to register
+Fri Mar 18 13:50:04 2022: client 50 has arrived and is walking to register
+Fri Mar 18 13:50:05 2022: client 33 is waiting to register
+Fri Mar 18 13:50:05 2022: client 38 is waiting to register
+Fri Mar 18 13:50:05 2022: client 41 is waiting to register
+Fri Mar 18 13:50:05 2022: client 43 is waiting to register
+Fri Mar 18 13:50:05 2022: client 51 has arrived and is walking to register
+Fri Mar 18 13:50:06 2022: nurse 7 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:06 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:50:06 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:50:06 2022: client 3 got the shot. Take that, Rona!
+Fri Mar 18 13:50:06 2022: client 3 leaves the clinic
+Fri Mar 18 13:50:06 2022: nurse 3 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:06 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:50:06 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:50:06 2022: client 1 got the shot. Take that, Rona!
+Fri Mar 18 13:50:06 2022: client 1 leaves the clinic
+Fri Mar 18 13:50:06 2022: client 14 arrived at station 5
+Fri Mar 18 13:50:06 2022: client 14 is ready for the shot from nurse 5
+Fri Mar 18 13:50:06 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:50:06 2022: client 52 has arrived and is walking to register
+Fri Mar 18 13:50:06 2022: client 53 has arrived and is walking to register
+Fri Mar 18 13:50:07 2022: client 0 got assigned to station 9: walking there now
+Fri Mar 18 13:50:07 2022: nurse 2 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:07 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:50:07 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:50:07 2022: client 9 got the shot. Take that, Rona!
+Fri Mar 18 13:50:07 2022: client 9 leaves the clinic
+Fri Mar 18 13:50:07 2022: client 37 is waiting to register
+Fri Mar 18 13:50:07 2022: client 42 is waiting to register
+Fri Mar 18 13:50:07 2022: client 50 is waiting to register
+Fri Mar 18 13:50:07 2022: client 54 has arrived and is walking to register
+Fri Mar 18 13:50:07 2022: client 55 has arrived and is walking to register
+Fri Mar 18 13:50:07 2022: client 56 has arrived and is walking to register
+Fri Mar 18 13:50:07 2022: client 57 has arrived and is walking to register
+Fri Mar 18 13:50:08 2022: client 10 got assigned to station 0: walking there now
+Fri Mar 18 13:50:08 2022: client 5 is walking to the station-assignment queue
+Fri Mar 18 13:50:08 2022: client 21 is registering
+Fri Mar 18 13:50:08 2022: client 0 arrived at station 9
+Fri Mar 18 13:50:08 2022: client 0 is ready for the shot from nurse 9
+Fri Mar 18 13:50:08 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:50:08 2022: client 20 is walking to the station-assignment queue
+Fri Mar 18 13:50:08 2022: client 7 is registering
+Fri Mar 18 13:50:08 2022: client 45 is waiting to register
+Fri Mar 18 13:50:08 2022: client 58 has arrived and is walking to register
+Fri Mar 18 13:50:09 2022: client 18 is walking to the station-assignment queue
+Fri Mar 18 13:50:09 2022: client 8 is registering
+Fri Mar 18 13:50:09 2022: client 6 is walking to the station-assignment queue
+Fri Mar 18 13:50:09 2022: client 13 is registering
+Fri Mar 18 13:50:09 2022: nurse 8 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:09 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:50:09 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:50:09 2022: client 11 got the shot. Take that, Rona!
+Fri Mar 18 13:50:09 2022: client 11 leaves the clinic
+Fri Mar 18 13:50:09 2022: client 47 is waiting to register
+Fri Mar 18 13:50:09 2022: client 48 is waiting to register
+Fri Mar 18 13:50:09 2022: client 59 has arrived and is walking to register
+Fri Mar 18 13:50:09 2022: client 60 has arrived and is walking to register
+Fri Mar 18 13:50:10 2022: client 10 arrived at station 0
+Fri Mar 18 13:50:10 2022: client 10 is ready for the shot from nurse 0
+Fri Mar 18 13:50:10 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:50:10 2022: client 52 is waiting to register
+Fri Mar 18 13:50:10 2022: client 61 has arrived and is walking to register
+Fri Mar 18 13:50:11 2022: client 15 got assigned to station 6: walking there now
+Fri Mar 18 13:50:11 2022: nurse 5 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:11 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:50:11 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:50:11 2022: client 14 got the shot. Take that, Rona!
+Fri Mar 18 13:50:11 2022: client 14 leaves the clinic
+Fri Mar 18 13:50:11 2022: client 62 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 63 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 64 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 65 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 66 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 67 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 68 has arrived and is walking to register
+Fri Mar 18 13:50:12 2022: client 69 has arrived and is walking to register
+Fri Mar 18 13:50:13 2022: client 5 got assigned to station 4: walking there now
+Fri Mar 18 13:50:13 2022: nurse 9 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:13 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:50:13 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:50:13 2022: client 0 got the shot. Take that, Rona!
+Fri Mar 18 13:50:13 2022: client 0 leaves the clinic
+Fri Mar 18 13:50:13 2022: client 15 arrived at station 6
+Fri Mar 18 13:50:13 2022: client 15 is ready for the shot from nurse 6
+Fri Mar 18 13:50:13 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:50:13 2022: client 13 is walking to the station-assignment queue
+Fri Mar 18 13:50:13 2022: client 19 is registering
+Fri Mar 18 13:50:13 2022: client 49 is waiting to register
+Fri Mar 18 13:50:13 2022: client 57 is waiting to register
+Fri Mar 18 13:50:13 2022: client 70 has arrived and is walking to register
+Fri Mar 18 13:50:14 2022: client 5 arrived at station 4
+Fri Mar 18 13:50:14 2022: client 5 is ready for the shot from nurse 4
+Fri Mar 18 13:50:14 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:50:14 2022: client 51 is waiting to register
+Fri Mar 18 13:50:14 2022: client 53 is waiting to register
+Fri Mar 18 13:50:14 2022: client 54 is waiting to register
+Fri Mar 18 13:50:14 2022: client 71 has arrived and is walking to register
+Fri Mar 18 13:50:15 2022: client 21 is walking to the station-assignment queue
+Fri Mar 18 13:50:15 2022: client 22 is registering
+Fri Mar 18 13:50:15 2022: nurse 0 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:50:15 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:50:15 2022: client 10 got the shot. Take that, Rona!
+Fri Mar 18 13:50:15 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:50:15 2022: client 10 leaves the clinic
+Fri Mar 18 13:50:15 2022: client 6 got assigned to station 1: walking there now
+Fri Mar 18 13:50:15 2022: client 56 is waiting to register
+Fri Mar 18 13:50:15 2022: client 64 is waiting to register
+Fri Mar 18 13:50:15 2022: client 66 is waiting to register
+Fri Mar 18 13:50:15 2022: client 72 has arrived and is walking to register
+Fri Mar 18 13:50:15 2022: client 73 has arrived and is walking to register
+Fri Mar 18 13:50:15 2022: client 74 has arrived and is walking to register
+Fri Mar 18 13:50:16 2022: client 19 is walking to the station-assignment queue
+Fri Mar 18 13:50:16 2022: client 26 is registering
+Fri Mar 18 13:50:16 2022: client 59 is waiting to register
+Fri Mar 18 13:50:16 2022: client 61 is waiting to register
+Fri Mar 18 13:50:16 2022: client 75 has arrived and is walking to register
+Fri Mar 18 13:50:16 2022: client 76 has arrived and is walking to register
+Fri Mar 18 13:50:16 2022: client 77 has arrived and is walking to register
+Fri Mar 18 13:50:16 2022: client 78 has arrived and is walking to register
+Fri Mar 18 13:50:17 2022: client 8 is walking to the station-assignment queue
+Fri Mar 18 13:50:17 2022: client 16 is registering
+Fri Mar 18 13:50:17 2022: client 6 arrived at station 1
+Fri Mar 18 13:50:17 2022: client 6 is ready for the shot from nurse 1
+Fri Mar 18 13:50:17 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:50:17 2022: client 55 is waiting to register
+Fri Mar 18 13:50:17 2022: client 58 is waiting to register
+Fri Mar 18 13:50:17 2022: client 68 is waiting to register
+Fri Mar 18 13:50:17 2022: client 70 is waiting to register
+Fri Mar 18 13:50:17 2022: client 71 is waiting to register
+Fri Mar 18 13:50:17 2022: client 79 has arrived and is walking to register
+Fri Mar 18 13:50:17 2022: client 80 has arrived and is walking to register
+Fri Mar 18 13:50:17 2022: client 81 has arrived and is walking to register
+Fri Mar 18 13:50:17 2022: client 82 has arrived and is walking to register
+Fri Mar 18 13:50:18 2022: client 20 got assigned to station 7: walking there now
+Fri Mar 18 13:50:18 2022: client 17 is registering
+Fri Mar 18 13:50:18 2022: client 13 got assigned to station 3: walking there now
+Fri Mar 18 13:50:18 2022: client 7 is walking to the station-assignment queue
+Fri Mar 18 13:50:18 2022: nurse 6 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:18 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:50:18 2022: client 15 got the shot. Take that, Rona!
+Fri Mar 18 13:50:18 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:50:18 2022: client 15 leaves the clinic
+Fri Mar 18 13:50:18 2022: client 65 is waiting to register
+Fri Mar 18 13:50:18 2022: client 67 is waiting to register
+Fri Mar 18 13:50:18 2022: client 83 has arrived and is walking to register
+Fri Mar 18 13:50:19 2022: client 18 got assigned to station 2: walking there now
+Fri Mar 18 13:50:19 2022: nurse 4 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:19 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:50:19 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:50:19 2022: client 5 got the shot. Take that, Rona!
+Fri Mar 18 13:50:19 2022: client 5 leaves the clinic
+Fri Mar 18 13:50:19 2022: client 60 is waiting to register
+Fri Mar 18 13:50:19 2022: client 63 is waiting to register
+Fri Mar 18 13:50:19 2022: client 75 is waiting to register
+Fri Mar 18 13:50:19 2022: client 84 has arrived and is walking to register
+Fri Mar 18 13:50:19 2022: client 85 has arrived and is walking to register
+Fri Mar 18 13:50:20 2022: client 21 got assigned to station 8: walking there now
+Fri Mar 18 13:50:20 2022: client 20 arrived at station 7
+Fri Mar 18 13:50:20 2022: client 20 is ready for the shot from nurse 7
+Fri Mar 18 13:50:20 2022: client 13 arrived at station 3
+Fri Mar 18 13:50:20 2022: client 13 is ready for the shot from nurse 3
+Fri Mar 18 13:50:20 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:50:20 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:50:20 2022: client 62 is waiting to register
+Fri Mar 18 13:50:20 2022: client 80 is waiting to register
+Fri Mar 18 13:50:20 2022: client 86 has arrived and is walking to register
+Fri Mar 18 13:50:21 2022: client 18 arrived at station 2
+Fri Mar 18 13:50:21 2022: client 18 is ready for the shot from nurse 2
+Fri Mar 18 13:50:21 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:50:21 2022: client 21 arrived at station 8
+Fri Mar 18 13:50:21 2022: client 21 is ready for the shot from nurse 8
+Fri Mar 18 13:50:21 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:50:21 2022: client 26 is walking to the station-assignment queue
+Fri Mar 18 13:50:21 2022: client 23 is registering
+Fri Mar 18 13:50:21 2022: client 73 is waiting to register
+Fri Mar 18 13:50:21 2022: client 78 is waiting to register
+Fri Mar 18 13:50:21 2022: client 79 is waiting to register
+Fri Mar 18 13:50:21 2022: client 82 is waiting to register
+Fri Mar 18 13:50:21 2022: client 87 has arrived and is walking to register
+Fri Mar 18 13:50:21 2022: client 88 has arrived and is walking to register
+Fri Mar 18 13:50:21 2022: client 89 has arrived and is walking to register
+Fri Mar 18 13:50:21 2022: client 90 has arrived and is walking to register
+Fri Mar 18 13:50:22 2022: client 16 is walking to the station-assignment queue
+Fri Mar 18 13:50:22 2022: client 27 is registering
+Fri Mar 18 13:50:22 2022: nurse 1 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:22 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:50:22 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:50:22 2022: client 6 got the shot. Take that, Rona!
+Fri Mar 18 13:50:22 2022: client 6 leaves the clinic
+Fri Mar 18 13:50:22 2022: client 69 is waiting to register
+Fri Mar 18 13:50:22 2022: client 81 is waiting to register
+Fri Mar 18 13:50:22 2022: client 83 is waiting to register
+Fri Mar 18 13:50:22 2022: client 91 has arrived and is walking to register
+Fri Mar 18 13:50:23 2022: client 92 has arrived and is walking to register
+Fri Mar 18 13:50:23 2022: client 93 has arrived and is walking to register
+Fri Mar 18 13:50:24 2022: client 8 got assigned to station 5: walking there now
+Fri Mar 18 13:50:24 2022: client 72 is waiting to register
+Fri Mar 18 13:50:24 2022: client 84 is waiting to register
+Fri Mar 18 13:50:24 2022: client 94 has arrived and is walking to register
+Fri Mar 18 13:50:25 2022: client 22 is walking to the station-assignment queue
+Fri Mar 18 13:50:25 2022: client 29 is registering
+Fri Mar 18 13:50:25 2022: nurse 7 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:25 2022: nurse 3 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:25 2022: client 20 got the shot. Take that, Rona!
+Fri Mar 18 13:50:25 2022: client 20 leaves the clinic
+Fri Mar 18 13:50:25 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:50:25 2022: client 13 got the shot. Take that, Rona!
+Fri Mar 18 13:50:25 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:50:25 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:50:25 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:50:25 2022: client 13 leaves the clinic
+Fri Mar 18 13:50:25 2022: client 74 is waiting to register
+Fri Mar 18 13:50:25 2022: client 76 is waiting to register
+Fri Mar 18 13:50:25 2022: client 77 is waiting to register
+Fri Mar 18 13:50:25 2022: client 95 has arrived and is walking to register
+Fri Mar 18 13:50:25 2022: client 96 has arrived and is walking to register
+Fri Mar 18 13:50:25 2022: client 97 has arrived and is walking to register
+Fri Mar 18 13:50:25 2022: client 98 has arrived and is walking to register
+Fri Mar 18 13:50:25 2022: client 99 has arrived and is walking to register
+Fri Mar 18 13:50:26 2022: client 8 arrived at station 5
+Fri Mar 18 13:50:26 2022: client 16 got assigned to station 9: walking there now
+Fri Mar 18 13:50:26 2022: nurse 2 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:26 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:50:26 2022: client 8 is ready for the shot from nurse 5
+Fri Mar 18 13:50:26 2022: client 18 got the shot. Take that, Rona!
+Fri Mar 18 13:50:26 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:50:26 2022: client 18 leaves the clinic
+Fri Mar 18 13:50:26 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:50:26 2022: nurse 8 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:26 2022: client 19 got assigned to station 0: walking there now
+Fri Mar 18 13:50:26 2022: client 21 got the shot. Take that, Rona!
+Fri Mar 18 13:50:26 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:50:26 2022: client 21 leaves the clinic
+Fri Mar 18 13:50:26 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:50:26 2022: client 100 has arrived and is walking to register
+Fri Mar 18 13:50:26 2022: client 101 has arrived and is walking to register
+Fri Mar 18 13:50:26 2022: client 102 has arrived and is walking to register
+Fri Mar 18 13:50:26 2022: client 103 has arrived and is walking to register
+Fri Mar 18 13:50:27 2022: client 17 is walking to the station-assignment queue
+Fri Mar 18 13:50:27 2022: client 28 is registering
+Fri Mar 18 13:50:27 2022: client 23 is walking to the station-assignment queue
+Fri Mar 18 13:50:27 2022: client 30 is registering
+Fri Mar 18 13:50:27 2022: client 91 is waiting to register
+Fri Mar 18 13:50:27 2022: client 104 has arrived and is walking to register
+Fri Mar 18 13:50:27 2022: client 105 has arrived and is walking to register
+Fri Mar 18 13:50:27 2022: client 106 has arrived and is walking to register
+Fri Mar 18 13:50:28 2022: client 16 arrived at station 9
+Fri Mar 18 13:50:28 2022: client 16 is ready for the shot from nurse 9
+Fri Mar 18 13:50:28 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:50:28 2022: client 29 is walking to the station-assignment queue
+Fri Mar 18 13:50:28 2022: client 24 is registering
+Fri Mar 18 13:50:28 2022: client 7 got assigned to station 6: walking there now
+Fri Mar 18 13:50:28 2022: client 19 arrived at station 0
+Fri Mar 18 13:50:28 2022: client 19 is ready for the shot from nurse 0
+Fri Mar 18 13:50:28 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:50:28 2022: client 86 is waiting to register
+Fri Mar 18 13:50:28 2022: client 89 is waiting to register
+Fri Mar 18 13:50:28 2022: client 107 has arrived and is walking to register
+Fri Mar 18 13:50:29 2022: client 7 arrived at station 6
+Fri Mar 18 13:50:29 2022: client 7 is ready for the shot from nurse 6
+Fri Mar 18 13:50:29 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:50:29 2022: client 85 is waiting to register
+Fri Mar 18 13:50:29 2022: client 88 is waiting to register
+Fri Mar 18 13:50:29 2022: client 92 is waiting to register
+Fri Mar 18 13:50:29 2022: client 98 is waiting to register
+Fri Mar 18 13:50:29 2022: client 108 has arrived and is walking to register
+Fri Mar 18 13:50:29 2022: client 109 has arrived and is walking to register
+Fri Mar 18 13:50:29 2022: client 110 has arrived and is walking to register
+Fri Mar 18 13:50:30 2022: client 26 got assigned to station 4: walking there now
+Fri Mar 18 13:50:30 2022: client 102 is waiting to register
+Fri Mar 18 13:50:30 2022: client 105 is waiting to register
+Fri Mar 18 13:50:30 2022: client 111 has arrived and is walking to register
+Fri Mar 18 13:50:30 2022: client 112 has arrived and is walking to register
+Fri Mar 18 13:50:31 2022: client 27 is walking to the station-assignment queue
+Fri Mar 18 13:50:31 2022: client 25 is registering
+Fri Mar 18 13:50:31 2022: nurse 5 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:31 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:50:31 2022: client 8 got the shot. Take that, Rona!
+Fri Mar 18 13:50:31 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:50:31 2022: client 8 leaves the clinic
+Fri Mar 18 13:50:31 2022: client 17 got assigned to station 1: walking there now
+Fri Mar 18 13:50:31 2022: client 28 is walking to the station-assignment queue
+Fri Mar 18 13:50:31 2022: client 35 is registering
+Fri Mar 18 13:50:31 2022: client 87 is waiting to register
+Fri Mar 18 13:50:31 2022: client 90 is waiting to register
+Fri Mar 18 13:50:31 2022: client 95 is waiting to register
+Fri Mar 18 13:50:31 2022: client 99 is waiting to register
+Fri Mar 18 13:50:31 2022: client 100 is waiting to register
+Fri Mar 18 13:50:31 2022: client 103 is waiting to register
+Fri Mar 18 13:50:31 2022: client 104 is waiting to register
+Fri Mar 18 13:50:31 2022: client 113 has arrived and is walking to register
+Fri Mar 18 13:50:32 2022: client 22 got assigned to station 7: walking there now
+Fri Mar 18 13:50:32 2022: client 17 arrived at station 1
+Fri Mar 18 13:50:32 2022: client 17 is ready for the shot from nurse 1
+Fri Mar 18 13:50:32 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:50:32 2022: client 26 arrived at station 4
+Fri Mar 18 13:50:32 2022: client 23 got assigned to station 3: walking there now
+Fri Mar 18 13:50:32 2022: client 26 is ready for the shot from nurse 4
+Fri Mar 18 13:50:32 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:50:32 2022: client 107 is waiting to register
+Fri Mar 18 13:50:32 2022: client 114 has arrived and is walking to register
+Fri Mar 18 13:50:33 2022: nurse 9 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:33 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:50:33 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:50:33 2022: client 22 arrived at station 7
+Fri Mar 18 13:50:33 2022: client 16 got the shot. Take that, Rona!
+Fri Mar 18 13:50:33 2022: client 22 is ready for the shot from nurse 7
+Fri Mar 18 13:50:33 2022: client 16 leaves the clinic
+Fri Mar 18 13:50:33 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:50:33 2022: nurse 0 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:50:33 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:50:33 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:50:33 2022: client 19 got the shot. Take that, Rona!
+Fri Mar 18 13:50:33 2022: client 19 leaves the clinic
+Fri Mar 18 13:50:33 2022: client 93 is waiting to register
+Fri Mar 18 13:50:33 2022: client 94 is waiting to register
+Fri Mar 18 13:50:33 2022: client 96 is waiting to register
+Fri Mar 18 13:50:33 2022: client 97 is waiting to register
+Fri Mar 18 13:50:33 2022: client 108 is waiting to register
+Fri Mar 18 13:50:33 2022: client 115 has arrived and is walking to register
+Fri Mar 18 13:50:33 2022: client 116 has arrived and is walking to register
+Fri Mar 18 13:50:34 2022: client 23 arrived at station 3
+Fri Mar 18 13:50:34 2022: nurse 6 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:34 2022: client 23 is ready for the shot from nurse 3
+Fri Mar 18 13:50:34 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:50:34 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:50:34 2022: client 7 got the shot. Take that, Rona!
+Fri Mar 18 13:50:34 2022: client 7 leaves the clinic
+Fri Mar 18 13:50:34 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:50:34 2022: client 101 is waiting to register
+Fri Mar 18 13:50:34 2022: client 117 has arrived and is walking to register
+Fri Mar 18 13:50:35 2022: client 25 is walking to the station-assignment queue
+Fri Mar 18 13:50:35 2022: client 40 is registering
+Fri Mar 18 13:50:35 2022: client 24 is walking to the station-assignment queue
+Fri Mar 18 13:50:35 2022: client 34 is registering
+Fri Mar 18 13:50:35 2022: client 29 got assigned to station 2: walking there now
+Fri Mar 18 13:50:35 2022: client 106 is waiting to register
+Fri Mar 18 13:50:35 2022: client 114 is waiting to register
+Fri Mar 18 13:50:35 2022: client 118 has arrived and is walking to register
+Fri Mar 18 13:50:35 2022: client 119 has arrived and is walking to register
+Fri Mar 18 13:50:36 2022: client 30 is walking to the station-assignment queue
+Fri Mar 18 13:50:36 2022: client 39 is registering
+Fri Mar 18 13:50:36 2022: client 29 arrived at station 2
+Fri Mar 18 13:50:36 2022: client 29 is ready for the shot from nurse 2
+Fri Mar 18 13:50:36 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:50:36 2022: client 120 has arrived and is walking to register
+Fri Mar 18 13:50:37 2022: nurse 1 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:37 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:50:37 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:50:37 2022: nurse 4 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:37 2022: client 17 got the shot. Take that, Rona!
+Fri Mar 18 13:50:37 2022: client 17 leaves the clinic
+Fri Mar 18 13:50:37 2022: client 26 got the shot. Take that, Rona!
+Fri Mar 18 13:50:37 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:50:37 2022: client 26 leaves the clinic
+Fri Mar 18 13:50:37 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:50:37 2022: client 110 is waiting to register
+Fri Mar 18 13:50:37 2022: client 115 is waiting to register
+Fri Mar 18 13:50:37 2022: client 121 has arrived and is walking to register
+Fri Mar 18 13:50:37 2022: client 122 has arrived and is walking to register
+Fri Mar 18 13:50:37 2022: client 123 has arrived and is walking to register
+Fri Mar 18 13:50:38 2022: client 25 got assigned to station 8: walking there now
+Fri Mar 18 13:50:38 2022: client 28 got assigned to station 5: walking there now
+Fri Mar 18 13:50:38 2022: client 35 is walking to the station-assignment queue
+Fri Mar 18 13:50:38 2022: nurse 7 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:38 2022: client 36 is registering
+Fri Mar 18 13:50:38 2022: client 31 is registering
+Fri Mar 18 13:50:38 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:50:38 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:50:38 2022: client 40 is walking to the station-assignment queue
+Fri Mar 18 13:50:38 2022: client 22 got the shot. Take that, Rona!
+Fri Mar 18 13:50:38 2022: client 22 leaves the clinic
+Fri Mar 18 13:50:38 2022: client 111 is waiting to register
+Fri Mar 18 13:50:38 2022: client 124 has arrived and is walking to register
+Fri Mar 18 13:50:38 2022: client 125 has arrived and is walking to register
+Fri Mar 18 13:50:39 2022: client 27 got assigned to station 9: walking there now
+Fri Mar 18 13:50:39 2022: client 25 arrived at station 8
+Fri Mar 18 13:50:39 2022: client 25 is ready for the shot from nurse 8
+Fri Mar 18 13:50:39 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:50:39 2022: nurse 3 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:39 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:50:39 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:50:39 2022: client 23 got the shot. Take that, Rona!
+Fri Mar 18 13:50:39 2022: client 23 leaves the clinic
+Fri Mar 18 13:50:39 2022: client 109 is waiting to register
+Fri Mar 18 13:50:39 2022: client 113 is waiting to register
+Fri Mar 18 13:50:39 2022: client 126 has arrived and is walking to register
+Fri Mar 18 13:50:39 2022: client 127 has arrived and is walking to register
+Fri Mar 18 13:50:39 2022: client 128 has arrived and is walking to register
+Fri Mar 18 13:50:40 2022: client 27 arrived at station 9
+Fri Mar 18 13:50:40 2022: client 27 is ready for the shot from nurse 9
+Fri Mar 18 13:50:40 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:50:40 2022: client 28 arrived at station 5
+Fri Mar 18 13:50:40 2022: client 28 is ready for the shot from nurse 5
+Fri Mar 18 13:50:40 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:50:40 2022: client 112 is waiting to register
+Fri Mar 18 13:50:40 2022: client 129 has arrived and is walking to register
+Fri Mar 18 13:50:40 2022: client 130 has arrived and is walking to register
+Fri Mar 18 13:50:40 2022: client 131 has arrived and is walking to register
+Fri Mar 18 13:50:41 2022: client 30 got assigned to station 0: walking there now
+Fri Mar 18 13:50:41 2022: client 36 is walking to the station-assignment queue
+Fri Mar 18 13:50:41 2022: client 32 is registering
+Fri Mar 18 13:50:41 2022: nurse 2 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:41 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:50:41 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:50:41 2022: client 29 got the shot. Take that, Rona!
+Fri Mar 18 13:50:41 2022: client 29 leaves the clinic
+Fri Mar 18 13:50:41 2022: client 118 is waiting to register
+Fri Mar 18 13:50:41 2022: client 121 is waiting to register
+Fri Mar 18 13:50:41 2022: client 132 has arrived and is walking to register
+Fri Mar 18 13:50:41 2022: client 133 has arrived and is walking to register
+Fri Mar 18 13:50:42 2022: client 30 arrived at station 0
+Fri Mar 18 13:50:42 2022: client 30 is ready for the shot from nurse 0
+Fri Mar 18 13:50:42 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:50:42 2022: client 116 is waiting to register
+Fri Mar 18 13:50:42 2022: client 117 is waiting to register
+Fri Mar 18 13:50:42 2022: client 134 has arrived and is walking to register
+Fri Mar 18 13:50:42 2022: client 135 has arrived and is walking to register
+Fri Mar 18 13:50:43 2022: client 119 is waiting to register
+Fri Mar 18 13:50:43 2022: client 136 has arrived and is walking to register
+Fri Mar 18 13:50:44 2022: client 35 got assigned to station 6: walking there now
+Fri Mar 18 13:50:44 2022: nurse 8 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:44 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:50:44 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:50:44 2022: client 25 got the shot. Take that, Rona!
+Fri Mar 18 13:50:44 2022: client 25 leaves the clinic
+Fri Mar 18 13:50:44 2022: client 34 is walking to the station-assignment queue
+Fri Mar 18 13:50:44 2022: client 44 is registering
+Fri Mar 18 13:50:44 2022: client 129 is waiting to register
+Fri Mar 18 13:50:44 2022: client 131 is waiting to register
+Fri Mar 18 13:50:44 2022: client 137 has arrived and is walking to register
+Fri Mar 18 13:50:44 2022: client 138 has arrived and is walking to register
+Fri Mar 18 13:50:44 2022: client 139 has arrived and is walking to register
+Fri Mar 18 13:50:44 2022: client 140 has arrived and is walking to register
+Fri Mar 18 13:50:44 2022: client 141 has arrived and is walking to register
+Fri Mar 18 13:50:45 2022: nurse 9 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:45 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:50:45 2022: client 27 got the shot. Take that, Rona!
+Fri Mar 18 13:50:45 2022: client 27 leaves the clinic
+Fri Mar 18 13:50:45 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:50:45 2022: client 31 is walking to the station-assignment queue
+Fri Mar 18 13:50:45 2022: client 46 is registering
+Fri Mar 18 13:50:45 2022: nurse 5 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:45 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:50:45 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:50:45 2022: client 40 got assigned to station 1: walking there now
+Fri Mar 18 13:50:45 2022: client 28 got the shot. Take that, Rona!
+Fri Mar 18 13:50:45 2022: client 28 leaves the clinic
+Fri Mar 18 13:50:45 2022: client 24 got assigned to station 4: walking there now
+Fri Mar 18 13:50:45 2022: client 123 is waiting to register
+Fri Mar 18 13:50:45 2022: client 142 has arrived and is walking to register
+Fri Mar 18 13:50:46 2022: client 39 is walking to the station-assignment queue
+Fri Mar 18 13:50:46 2022: client 33 is registering
+Fri Mar 18 13:50:46 2022: client 35 arrived at station 6
+Fri Mar 18 13:50:46 2022: client 35 is ready for the shot from nurse 6
+Fri Mar 18 13:50:46 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:50:46 2022: client 40 arrived at station 1
+Fri Mar 18 13:50:46 2022: client 40 is ready for the shot from nurse 1
+Fri Mar 18 13:50:46 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:50:46 2022: client 120 is waiting to register
+Fri Mar 18 13:50:46 2022: client 122 is waiting to register
+Fri Mar 18 13:50:46 2022: client 124 is waiting to register
+Fri Mar 18 13:50:46 2022: client 127 is waiting to register
+Fri Mar 18 13:50:46 2022: client 143 has arrived and is walking to register
+Fri Mar 18 13:50:47 2022: nurse 0 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:50:47 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:50:47 2022: client 30 got the shot. Take that, Rona!
+Fri Mar 18 13:50:47 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:50:47 2022: client 30 leaves the clinic
+Fri Mar 18 13:50:47 2022: client 24 arrived at station 4
+Fri Mar 18 13:50:47 2022: client 24 is ready for the shot from nurse 4
+Fri Mar 18 13:50:47 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:50:47 2022: client 125 is waiting to register
+Fri Mar 18 13:50:47 2022: client 130 is waiting to register
+Fri Mar 18 13:50:47 2022: client 137 is waiting to register
+Fri Mar 18 13:50:47 2022: client 144 has arrived and is walking to register
+Fri Mar 18 13:50:48 2022: client 36 got assigned to station 7: walking there now
+Fri Mar 18 13:50:48 2022: client 126 is waiting to register
+Fri Mar 18 13:50:48 2022: client 128 is waiting to register
+Fri Mar 18 13:50:48 2022: client 133 is waiting to register
+Fri Mar 18 13:50:48 2022: client 138 is waiting to register
+Fri Mar 18 13:50:48 2022: client 140 is waiting to register
+Fri Mar 18 13:50:48 2022: client 142 is waiting to register
+Fri Mar 18 13:50:48 2022: client 145 has arrived and is walking to register
+Fri Mar 18 13:50:48 2022: client 146 has arrived and is walking to register
+Fri Mar 18 13:50:48 2022: client 147 has arrived and is walking to register
+Fri Mar 18 13:50:49 2022: client 36 arrived at station 7
+Fri Mar 18 13:50:49 2022: client 36 is ready for the shot from nurse 7
+Fri Mar 18 13:50:49 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:50:49 2022: client 139 is waiting to register
+Fri Mar 18 13:50:49 2022: client 143 is waiting to register
+Fri Mar 18 13:50:49 2022: client 148 has arrived and is walking to register
+Fri Mar 18 13:50:50 2022: client 46 is walking to the station-assignment queue
+Fri Mar 18 13:50:50 2022: client 38 is registering
+Fri Mar 18 13:50:50 2022: client 132 is waiting to register
+Fri Mar 18 13:50:50 2022: client 135 is waiting to register
+Fri Mar 18 13:50:50 2022: client 136 is waiting to register
+Fri Mar 18 13:50:50 2022: client 149 has arrived and is walking to register
+Fri Mar 18 13:50:50 2022: client 150 has arrived and is walking to register
+Fri Mar 18 13:50:51 2022: client 31 got assigned to station 3: walking there now
+Fri Mar 18 13:50:51 2022: client 41 is registering
+Fri Mar 18 13:50:51 2022: client 32 is walking to the station-assignment queue
+Fri Mar 18 13:50:51 2022: nurse 6 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:51 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:50:51 2022: client 35 got the shot. Take that, Rona!
+Fri Mar 18 13:50:51 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:50:51 2022: nurse 1 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:51 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:50:51 2022: client 40 got the shot. Take that, Rona!
+Fri Mar 18 13:50:51 2022: client 40 leaves the clinic
+Fri Mar 18 13:50:51 2022: client 35 leaves the clinic
+Fri Mar 18 13:50:51 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:50:51 2022: client 141 is waiting to register
+Fri Mar 18 13:50:51 2022: client 151 has arrived and is walking to register
+Fri Mar 18 13:50:51 2022: client 152 has arrived and is walking to register
+Fri Mar 18 13:50:52 2022: client 43 is registering
+Fri Mar 18 13:50:52 2022: client 39 got assigned to station 2: walking there now
+Fri Mar 18 13:50:52 2022: client 33 is walking to the station-assignment queue
+Fri Mar 18 13:50:52 2022: nurse 4 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:52 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:50:52 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:50:52 2022: client 24 got the shot. Take that, Rona!
+Fri Mar 18 13:50:52 2022: client 44 is walking to the station-assignment queue
+Fri Mar 18 13:50:52 2022: client 37 is registering
+Fri Mar 18 13:50:52 2022: client 24 leaves the clinic
+Fri Mar 18 13:50:52 2022: client 134 is waiting to register
+Fri Mar 18 13:50:52 2022: client 147 is waiting to register
+Fri Mar 18 13:50:52 2022: client 153 has arrived and is walking to register
+Fri Mar 18 13:50:53 2022: client 31 arrived at station 3
+Fri Mar 18 13:50:53 2022: client 31 is ready for the shot from nurse 3
+Fri Mar 18 13:50:53 2022: client 46 got assigned to station 8: walking there now
+Fri Mar 18 13:50:53 2022: client 39 arrived at station 2
+Fri Mar 18 13:50:53 2022: client 39 is ready for the shot from nurse 2
+Fri Mar 18 13:50:53 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:50:53 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:50:53 2022: client 144 is waiting to register
+Fri Mar 18 13:50:53 2022: client 154 has arrived and is walking to register
+Fri Mar 18 13:50:54 2022: client 32 got assigned to station 9: walking there now
+Fri Mar 18 13:50:54 2022: nurse 7 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:54 2022: client 46 arrived at station 8
+Fri Mar 18 13:50:54 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:50:54 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:50:54 2022: client 46 is ready for the shot from nurse 8
+Fri Mar 18 13:50:54 2022: client 36 got the shot. Take that, Rona!
+Fri Mar 18 13:50:54 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:50:54 2022: client 36 leaves the clinic
+Fri Mar 18 13:50:54 2022: client 34 got assigned to station 5: walking there now
+Fri Mar 18 13:50:54 2022: client 145 is waiting to register
+Fri Mar 18 13:50:54 2022: client 149 is waiting to register
+Fri Mar 18 13:50:54 2022: client 155 has arrived and is walking to register
+Fri Mar 18 13:50:55 2022: client 34 arrived at station 5
+Fri Mar 18 13:50:55 2022: client 44 got assigned to station 0: walking there now
+Fri Mar 18 13:50:55 2022: client 34 is ready for the shot from nurse 5
+Fri Mar 18 13:50:55 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:50:55 2022: client 156 has arrived and is walking to register
+Fri Mar 18 13:50:56 2022: client 41 is walking to the station-assignment queue
+Fri Mar 18 13:50:56 2022: client 42 is registering
+Fri Mar 18 13:50:56 2022: client 32 arrived at station 9
+Fri Mar 18 13:50:56 2022: client 32 is ready for the shot from nurse 9
+Fri Mar 18 13:50:56 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:50:56 2022: client 37 is walking to the station-assignment queue
+Fri Mar 18 13:50:56 2022: client 50 is registering
+Fri Mar 18 13:50:56 2022: client 148 is waiting to register
+Fri Mar 18 13:50:56 2022: client 151 is waiting to register
+Fri Mar 18 13:50:56 2022: client 153 is waiting to register
+Fri Mar 18 13:50:56 2022: client 157 has arrived and is walking to register
+Fri Mar 18 13:50:56 2022: client 158 has arrived and is walking to register
+Fri Mar 18 13:50:57 2022: client 44 arrived at station 0
+Fri Mar 18 13:50:57 2022: client 44 is ready for the shot from nurse 0
+Fri Mar 18 13:50:57 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:50:57 2022: client 160 has arrived and is walking to register
+Fri Mar 18 13:50:57 2022: client 159 has arrived and is walking to register
+Fri Mar 18 13:50:58 2022: client 38 is walking to the station-assignment queue
+Fri Mar 18 13:50:58 2022: nurse 2 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:58 2022: nurse 3 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:58 2022: client 39 got the shot. Take that, Rona!
+Fri Mar 18 13:50:58 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:50:58 2022: client 31 got the shot. Take that, Rona!
+Fri Mar 18 13:50:58 2022: client 45 is registering
+Fri Mar 18 13:50:58 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:50:58 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:50:58 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:50:58 2022: client 31 leaves the clinic
+Fri Mar 18 13:50:58 2022: client 39 leaves the clinic
+Fri Mar 18 13:50:58 2022: client 146 is waiting to register
+Fri Mar 18 13:50:58 2022: client 152 is waiting to register
+Fri Mar 18 13:50:58 2022: client 161 has arrived and is walking to register
+Fri Mar 18 13:50:59 2022: client 33 got assigned to station 6: walking there now
+Fri Mar 18 13:50:59 2022: nurse 8 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:50:59 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:50:59 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:50:59 2022: client 46 got the shot. Take that, Rona!
+Fri Mar 18 13:50:59 2022: client 46 leaves the clinic
+Fri Mar 18 13:50:59 2022: client 154 is waiting to register
+Fri Mar 18 13:50:59 2022: client 155 is waiting to register
+Fri Mar 18 13:50:59 2022: client 156 is waiting to register
+Fri Mar 18 13:50:59 2022: client 157 is waiting to register
+Fri Mar 18 13:50:59 2022: client 162 has arrived and is walking to register
+Fri Mar 18 13:51:00 2022: client 43 is walking to the station-assignment queue
+Fri Mar 18 13:51:00 2022: client 47 is registering
+Fri Mar 18 13:51:00 2022: client 33 arrived at station 6
+Fri Mar 18 13:51:00 2022: client 33 is ready for the shot from nurse 6
+Fri Mar 18 13:51:00 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:51:00 2022: nurse 5 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:51:00 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:51:00 2022: client 34 got the shot. Take that, Rona!
+Fri Mar 18 13:51:00 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:51:00 2022: client 34 leaves the clinic
+Fri Mar 18 13:51:00 2022: client 150 is waiting to register
+Fri Mar 18 13:51:00 2022: client 158 is waiting to register
+Fri Mar 18 13:51:00 2022: client 159 is waiting to register
+Fri Mar 18 13:51:00 2022: client 163 has arrived and is walking to register
+Fri Mar 18 13:51:01 2022: nurse 9 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:51:01 2022: nurse 9 tells the waiting queue they are available
+ ri Mar 18 13:51:01 2022: client 32 got the shot. Take that, Rona!
+Fri Mar 18 13:51:01 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:51:01 2022: client 32 leaves the clinic
+Fri Mar 18 13:51:01 2022: client 50 is walking to the station-assignment queue
+Fri Mar 18 13:51:01 2022: client 48 is registering
+Fri Mar 18 13:51:01 2022: client 160 is waiting to register
+Fri Mar 18 13:51:01 2022: client 164 has arrived and is walking to register
+Fri Mar 18 13:51:01 2022: client 165 has arrived and is walking to register
+Fri Mar 18 13:51:01 2022: client 166 has arrived and is walking to register
+Fri Mar 18 13:51:01 2022: client 167 has arrived and is walking to register
+Fri Mar 18 13:51:02 2022: nurse 0 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:51:02 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:51:02 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:51:02 2022: client 44 got the shot. Take that, Rona!
+Fri Mar 18 13:51:02 2022: client 44 leaves the clinic
+Fri Mar 18 13:51:02 2022: client 161 is waiting to register
+Fri Mar 18 13:51:02 2022: client 168 has arrived and is walking to register
+Fri Mar 18 13:51:02 2022: client 169 has arrived and is walking to register
+Fri Mar 18 13:51:03 2022: client 170 has arrived and is walking to register
+Fri Mar 18 13:51:03 2022: client 171 has arrived and is walking to register
+Fri Mar 18 13:51:04 2022: client 41 got assigned to station 1: walking there now
+Fri Mar 18 13:51:04 2022: client 42 is walking to the station-assignment queue
+Fri Mar 18 13:51:04 2022: client 52 is registering
+Fri Mar 18 13:51:04 2022: client 38 got assigned to station 4: walking there now
+Fri Mar 18 13:51:04 2022: client 48 is walking to the station-assignment queue
+Fri Mar 18 13:51:04 2022: client 49 is registering
+Fri Mar 18 13:51:04 2022: client 162 is waiting to register
+Fri Mar 18 13:51:04 2022: client 172 has arrived and is walking to register
+Fri Mar 18 13:51:04 2022: client 173 has arrived and is walking to register
+Fri Mar 18 13:51:05 2022: client 41 arrived at station 1
+Fri Mar 18 13:51:05 2022: client 41 is ready for the shot from nurse 1
+Fri Mar 18 13:51:05 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:51:05 2022: client 38 arrived at station 4
+Fri Mar 18 13:51:05 2022: nurse 6 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:05 2022: client 38 is ready for the shot from nurse 4
+Fri Mar 18 13:51:05 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:51:05 2022: client 33 got the shot. Take that, Rona!
+Fri Mar 18 13:51:05 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:51:05 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:51:05 2022: client 33 leaves the clinic
+Fri Mar 18 13:51:05 2022: client 37 got assigned to station 7: walking there now
+Fri Mar 18 13:51:05 2022: client 174 has arrived and is walking to register
+Fri Mar 18 13:51:06 2022: client 45 is walking to the station-assignment queue
+Fri Mar 18 13:51:06 2022: client 57 is registering
+Fri Mar 18 13:51:06 2022: client 37 arrived at station 7
+Fri Mar 18 13:51:06 2022: client 37 is ready for the shot from nurse 7
+Fri Mar 18 13:51:06 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:51:06 2022: client 50 got assigned to station 2: walking there now
+Fri Mar 18 13:51:06 2022: client 175 has arrived and is walking to register
+Fri Mar 18 13:51:07 2022: client 50 arrived at station 2
+Fri Mar 18 13:51:07 2022: client 50 is ready for the shot from nurse 2
+Fri Mar 18 13:51:07 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:51:07 2022: client 163 is waiting to register
+Fri Mar 18 13:51:07 2022: client 169 is waiting to register
+Fri Mar 18 13:51:07 2022: client 172 is waiting to register
+Fri Mar 18 13:51:07 2022: client 176 has arrived and is walking to register
+Fri Mar 18 13:51:07 2022: client 177 has arrived and is walking to register
+Fri Mar 18 13:51:07 2022: client 178 has arrived and is walking to register
+Fri Mar 18 13:51:07 2022: client 171 is waiting to register
+Fri Mar 18 13:51:08 2022: client 43 got assigned to station 3: walking there now
+Fri Mar 18 13:51:08 2022: client 166 is waiting to register
+Fri Mar 18 13:51:08 2022: client 179 has arrived and is walking to register
+Fri Mar 18 13:51:09 2022: client 47 is walking to the station-assignment queue
+Fri Mar 18 13:51:09 2022: client 51 is registering
+Fri Mar 18 13:51:09 2022: client 43 arrived at station 3
+Fri Mar 18 13:51:09 2022: client 43 is ready for the shot from nurse 3
+Fri Mar 18 13:51:09 2022: client 45 got assigned to station 8: walking there now
+Fri Mar 18 13:51:09 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:51:09 2022: client 48 got assigned to station 5: walking there now
+Fri Mar 18 13:51:09 2022: client 164 is waiting to register
+Fri Mar 18 13:51:09 2022: client 175 is waiting to register
+Fri Mar 18 13:51:10 2022: nurse 1 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:10 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:51:10 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:51:10 2022: nurse 4 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:10 2022: client 41 got the shot. Take that, Rona!
+Fri Mar 18 13:51:10 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:51:10 2022: client 41 leaves the clinic
+Fri Mar 18 13:51:10 2022: client 45 arrived at station 8
+Fri Mar 18 13:51:10 2022: client 38 got the shot. Take that, Rona!
+Fri Mar 18 13:51:10 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:51:10 2022: client 45 is ready for the shot from nurse 8
+Fri Mar 18 13:51:10 2022: client 38 leaves the clinic
+Fri Mar 18 13:51:10 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:51:10 2022: client 168 is waiting to register
+Fri Mar 18 13:51:10 2022: client 174 is waiting to register
+Fri Mar 18 13:51:10 2022: client 176 is waiting to register
+Fri Mar 18 13:51:11 2022: client 52 is walking to the station-assignment queue
+Fri Mar 18 13:51:11 2022: client 53 is registering
+Fri Mar 18 13:51:11 2022: nurse 7 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:11 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:51:11 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:51:11 2022: client 37 got the shot. Take that, Rona!
+Fri Mar 18 13:51:11 2022: client 37 leaves the clinic
+Fri Mar 18 13:51:11 2022: client 48 arrived at station 5
+Fri Mar 18 13:51:11 2022: client 48 is ready for the shot from nurse 5
+Fri Mar 18 13:51:11 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:51:11 2022: client 165 is waiting to register
+Fri Mar 18 13:51:11 2022: client 167 is waiting to register
+Fri Mar 18 13:51:11 2022: client 170 is waiting to register
+Fri Mar 18 13:51:12 2022: client 42 got assigned to station 9: walking there now
+Fri Mar 18 13:51:12 2022: nurse 2 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:12 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:51:12 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:51:12 2022: client 50 got the shot. Take that, Rona!
+Fri Mar 18 13:51:12 2022: client 50 leaves the clinic
+Fri Mar 18 13:51:12 2022: client 173 is waiting to register
+Fri Mar 18 13:51:12 2022: client 179 is waiting to register
+Fri Mar 18 13:51:13 2022: client 49 is walking to the station-assignment queue
+Fri Mar 18 13:51:13 2022: client 54 is registering
+Fri Mar 18 13:51:14 2022: client 57 is walking to the station-assignment queue
+Fri Mar 18 13:51:14 2022: nurse 3 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:14 2022: client 56 is registering
+Fri Mar 18 13:51:14 2022: client 43 got the shot. Take that, Rona!
+Fri Mar 18 13:51:14 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:51:14 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:51:14 2022: client 42 arrived at station 9
+Fri Mar 18 13:51:14 2022: client 43 leaves the clinic
+Fri Mar 18 13:51:14 2022: client 42 is ready for the shot from nurse 9
+Fri Mar 18 13:51:14 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:51:15 2022: nurse 8 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:15 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:51:15 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:51:15 2022: client 45 got the shot. Take that, Rona!
+Fri Mar 18 13:51:15 2022: client 45 leaves the clinic
+Fri Mar 18 13:51:15 2022: client 177 is waiting to register
+Fri Mar 18 13:51:16 2022: client 47 got assigned to station 0: walking there now
+Fri Mar 18 13:51:16 2022: client 51 is walking to the station-assignment queue
+Fri Mar 18 13:51:16 2022: client 64 is registering
+Fri Mar 18 13:51:16 2022: nurse 5 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:16 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:51:16 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:51:16 2022: client 48 got the shot. Take that, Rona!
+Fri Mar 18 13:51:16 2022: client 48 leaves the clinic
+Fri Mar 18 13:51:16 2022: client 178 is waiting to register
+Fri Mar 18 13:51:17 2022: client 47 arrived at station 0
+Fri Mar 18 13:51:17 2022: client 47 is ready for the shot from nurse 0
+Fri Mar 18 13:51:17 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:51:17 2022: client 53 is walking to the station-assignment queue
+Fri Mar 18 13:51:17 2022: client 66 is registering
+Fri Mar 18 13:51:18 2022: client 52 got assigned to station 6: walking there now
+Fri Mar 18 13:51:18 2022: client 49 got assigned to station 1: walking there now
+Fri Mar 18 13:51:19 2022: client 64 is walking to the station-assignment queue
+Fri Mar 18 13:51:19 2022: client 51 got assigned to station 4: walking there now
+Fri Mar 18 13:51:19 2022: client 59 is registering
+Fri Mar 18 13:51:19 2022: client 52 arrived at station 6
+Fri Mar 18 13:51:19 2022: client 56 is walking to the station-assignment queue
+Fri Mar 18 13:51:19 2022: client 61 is registering
+Fri Mar 18 13:51:19 2022: client 52 is ready for the shot from nurse 6
+Fri Mar 18 13:51:19 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:51:19 2022: nurse 9 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:19 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:51:19 2022: client 42 got the shot. Take that, Rona!
+Fri Mar 18 13:51:19 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:51:19 2022: client 42 leaves the clinic
+Fri Mar 18 13:51:19 2022: client 49 arrived at station 1
+Fri Mar 18 13:51:19 2022: client 49 is ready for the shot from nurse 1
+Fri Mar 18 13:51:19 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:51:20 2022: client 51 arrived at station 4
+Fri Mar 18 13:51:20 2022: client 51 is ready for the shot from nurse 4
+Fri Mar 18 13:51:20 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:51:21 2022: client 54 is walking to the station-assignment queue
+Fri Mar 18 13:51:21 2022: client 55 is registering
+Fri Mar 18 13:51:22 2022: nurse 0 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:51:22 2022: client 53 got assigned to station 7: walking there now
+Fri Mar 18 13:51:22 2022: client 47 got the shot. Take that, Rona!
+Fri Mar 18 13:51:22 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:51:22 2022: client 47 leaves the clinic
+Fri Mar 18 13:51:22 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:51:22 2022: client 58 is registering
+Fri Mar 18 13:51:22 2022: client 59 is walking to the station-assignment queue
+Fri Mar 18 13:51:24 2022: client 57 got assigned to station 2: walking there now
+Fri Mar 18 13:51:24 2022: client 61 is walking to the station-assignment queue
+Fri Mar 18 13:51:24 2022: client 68 is registering
+Fri Mar 18 13:51:24 2022: client 53 arrived at station 7
+Fri Mar 18 13:51:24 2022: nurse 6 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:24 2022: nurse 6 is walking to get a vial of vaccine
+Fri Mar 18 13:51:24 2022: client 52 got the shot. Take that, Rona!
+Fri Mar 18 13:51:24 2022: client 52 leaves the clinic
+Fri Mar 18 13:51:24 2022: client 53 is ready for the shot from nurse 7
+Fri Mar 18 13:51:24 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:51:24 2022: client 54 got assigned to station 3: walking there now
+Fri Mar 18 13:51:24 2022: nurse 1 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:24 2022: nurse 1 is walking to get a vial of vaccine
+Fri Mar 18 13:51:24 2022: client 49 got the shot. Take that, Rona!
+Fri Mar 18 13:51:24 2022: client 49 leaves the clinic
+Fri Mar 18 13:51:25 2022: client 64 got assigned to station 5: walking there now
+Fri Mar 18 13:51:25 2022: client 70 is registering
+Fri Mar 18 13:51:25 2022: client 66 is walking to the station-assignment queue
+Fri Mar 18 13:51:25 2022: client 56 got assigned to station 8: walking there now
+Fri Mar 18 13:51:25 2022: nurse 4 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:25 2022: nurse 4 is walking to get a vial of vaccine
+Fri Mar 18 13:51:25 2022: client 51 got the shot. Take that, Rona!
+Fri Mar 18 13:51:25 2022: client 51 leaves the clinic
+Fri Mar 18 13:51:25 2022: client 54 arrived at station 3
+Fri Mar 18 13:51:25 2022: client 54 is ready for the shot from nurse 3
+Fri Mar 18 13:51:25 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:51:26 2022: client 57 arrived at station 2
+Fri Mar 18 13:51:26 2022: client 64 arrived at station 5
+Fri Mar 18 13:51:26 2022: nurse 6 got a new vial, there are 19 vials left
+Fri Mar 18 13:51:26 2022: client 56 arrived at station 8
+Fri Mar 18 13:51:26 2022: client 57 is ready for the shot from nurse 2
+Fri Mar 18 13:51:26 2022: client 64 is ready for the shot from nurse 5
+Fri Mar 18 13:51:26 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:51:26 2022: client 56 is ready for the shot from nurse 8
+Fri Mar 18 13:51:26 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:51:26 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:51:27 2022: nurse 6 back at station
+Fri Mar 18 13:51:27 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:51:27 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:51:27 2022: nurse 1 got a new vial, there are 18 vials left
+Fri Mar 18 13:51:28 2022: nurse 4 got a new vial, there are 17 vials left
+Fri Mar 18 13:51:29 2022: nurse 7 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:29 2022: nurse 7 is walking to get a vial of vaccine
+Fri Mar 18 13:51:29 2022: client 53 got the shot. Take that, Rona!
+Fri Mar 18 13:51:29 2022: client 53 leaves the clinic
+Fri Mar 18 13:51:29 2022: nurse 1 back at station
+Fri Mar 18 13:51:29 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:51:29 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:51:30 2022: client 59 got assigned to station 9: walking there now
+Fri Mar 18 13:51:30 2022: nurse 4 back at station
+Fri Mar 18 13:51:30 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:51:30 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:51:30 2022: nurse 3 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:30 2022: nurse 3 is walking to get a vial of vaccine
+Fri Mar 18 13:51:30 2022: client 54 got the shot. Take that, Rona!
+Fri Mar 18 13:51:30 2022: client 54 leaves the clinic
+Fri Mar 18 13:51:31 2022: client 61 got assigned to station 0: walking there now
+Fri Mar 18 13:51:31 2022: nurse 2 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:31 2022: nurse 7 got a new vial, there are 16 vials left
+Fri Mar 18 13:51:31 2022: nurse 2 is walking to get a vial of vaccine
+Fri Mar 18 13:51:31 2022: nurse 5 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:31 2022: nurse 8 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:31 2022: nurse 5 is walking to get a vial of vaccine
+Fri Mar 18 13:51:31 2022: client 57 got the shot. Take that, Rona!
+Fri Mar 18 13:51:31 2022: client 64 got the shot. Take that, Rona!
+Fri Mar 18 13:51:31 2022: client 64 leaves the clinic
+Fri Mar 18 13:51:31 2022: client 57 leaves the clinic
+Fri Mar 18 13:51:31 2022: nurse 8 is walking to get a vial of vaccine
+Fri Mar 18 13:51:31 2022: client 56 got the shot. Take that, Rona!
+Fri Mar 18 13:51:31 2022: client 56 leaves the clinic
+Fri Mar 18 13:51:31 2022: client 55 is walking to the station-assignment queue
+Fri Mar 18 13:51:31 2022: client 71 is registering
+Fri Mar 18 13:51:32 2022: client 58 is walking to the station-assignment queue
+Fri Mar 18 13:51:32 2022: client 65 is registering
+Fri Mar 18 13:51:32 2022: client 59 arrived at station 9
+Fri Mar 18 13:51:32 2022: client 59 is ready for the shot from nurse 9
+Fri Mar 18 13:51:32 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:51:32 2022: nurse 7 back at station
+Fri Mar 18 13:51:32 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:51:32 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:51:32 2022: nurse 5 got a new vial, there are 15 vials left
+Fri Mar 18 13:51:33 2022: client 70 is walking to the station-assignment queue
+Fri Mar 18 13:51:33 2022: client 60 is registering
+Fri Mar 18 13:51:33 2022: client 68 is walking to the station-assignment queue
+Fri Mar 18 13:51:33 2022: client 67 is registering
+Fri Mar 18 13:51:33 2022: client 61 arrived at station 0
+Fri Mar 18 13:51:33 2022: client 61 is ready for the shot from nurse 0
+Fri Mar 18 13:51:33 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:51:33 2022: nurse 5 back at station
+Fri Mar 18 13:51:33 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:51:33 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:51:33 2022: nurse 3 got a new vial, there are 14 vials left
+Fri Mar 18 13:51:34 2022: nurse 2 got a new vial, there are 13 vials left
+Fri Mar 18 13:51:34 2022: nurse 8 got a new vial, there are 12 vials left
+Fri Mar 18 13:51:35 2022: client 66 got assigned to station 6: walking there now
+Fri Mar 18 13:51:35 2022: nurse 3 back at station
+Fri Mar 18 13:51:35 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:51:35 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:51:35 2022: nurse 8 back at station
+Fri Mar 18 13:51:35 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:51:35 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:51:36 2022: client 70 got assigned to station 1: walking there now
+Fri Mar 18 13:51:36 2022: client 58 got assigned to station 4: walking there now
+Fri Mar 18 13:51:36 2022: client 65 is walking to the station-assignment queue
+Fri Mar 18 13:51:36 2022: client 60 is walking to the station-assignment queue
+Fri Mar 18 13:51:36 2022: client 63 is registering
+Fri Mar 18 13:51:36 2022: client 75 is registering
+Fri Mar 18 13:51:36 2022: nurse 2 back at station
+Fri Mar 18 13:51:36 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:51:36 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:51:37 2022: client 66 arrived at station 6
+Fri Mar 18 13:51:37 2022: client 58 arrived at station 4
+Fri Mar 18 13:51:37 2022: client 70 arrived at station 1
+Fri Mar 18 13:51:37 2022: client 70 is ready for the shot from nurse 1
+Fri Mar 18 13:51:37 2022: client 66 is ready for the shot from nurse 6
+Fri Mar 18 13:51:37 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:51:37 2022: client 58 is ready for the shot from nurse 4
+Fri Mar 18 13:51:37 2022: nurse 9 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:37 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:51:37 2022: client 59 got the shot. Take that, Rona!
+Fri Mar 18 13:51:37 2022: client 59 leaves the clinic
+Fri Mar 18 13:51:37 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:51:37 2022: nurse 9 is walking to get a vial of vaccine
+Fri Mar 18 13:51:38 2022: nurse 0 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:51:38 2022: nurse 0 is walking to get a vial of vaccine
+Fri Mar 18 13:51:38 2022: client 61 got the shot. Take that, Rona!
+Fri Mar 18 13:51:38 2022: client 61 leaves the clinic
+Fri Mar 18 13:51:39 2022: client 65 got assigned to station 7: walking there now
+Fri Mar 18 13:51:39 2022: client 63 is walking to the station-assignment queue
+Fri Mar 18 13:51:39 2022: client 62 is registering
+Fri Mar 18 13:51:40 2022: nurse 9 got a new vial, there are 11 vials left
+Fri Mar 18 13:51:40 2022: client 55 got assigned to station 5: walking there now
+Fri Mar 18 13:51:40 2022: client 71 is walking to the station-assignment queue
+Fri Mar 18 13:51:40 2022: client 80 is registering
+Fri Mar 18 13:51:41 2022: client 68 got assigned to station 3: walking there now
+Fri Mar 18 13:51:41 2022: client 67 is walking to the station-assignment queue
+Fri Mar 18 13:51:41 2022: client 73 is registering
+Fri Mar 18 13:51:41 2022: nurse 0 got a new vial, there are 10 vials left
+Fri Mar 18 13:51:41 2022: client 65 arrived at station 7
+Fri Mar 18 13:51:41 2022: client 65 is ready for the shot from nurse 7
+Fri Mar 18 13:51:41 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:51:41 2022: nurse 9 back at station
+Fri Mar 18 13:51:41 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:51:41 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:51:42 2022: nurse 4 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:42 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:51:42 2022: nurse 6 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:42 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:51:42 2022: client 58 got the shot. Take that, Rona!
+Fri Mar 18 13:51:42 2022: nurse 1 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:42 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:51:42 2022: client 70 got the shot. Take that, Rona!
+Fri Mar 18 13:51:42 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:51:42 2022: client 70 leaves the clinic
+Fri Mar 18 13:51:42 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:51:42 2022: client 58 leaves the clinic
+Fri Mar 18 13:51:42 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:51:42 2022: client 66 got the shot. Take that, Rona!
+Fri Mar 18 13:51:42 2022: client 66 leaves the clinic
+Fri Mar 18 13:51:42 2022: client 55 arrived at station 5
+Fri Mar 18 13:51:42 2022: client 55 is ready for the shot from nurse 5
+Fri Mar 18 13:51:42 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:51:43 2022: client 68 arrived at station 3
+Fri Mar 18 13:51:43 2022: client 68 is ready for the shot from nurse 3
+Fri Mar 18 13:51:43 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:51:43 2022: nurse 0 back at station
+Fri Mar 18 13:51:43 2022: client 63 got assigned to station 8: walking there now
+Fri Mar 18 13:51:43 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:51:43 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:51:44 2022: client 71 got assigned to station 2: walking there now
+Fri Mar 18 13:51:45 2022: client 75 is walking to the station-assignment queue
+Fri Mar 18 13:51:45 2022: client 78 is registering
+Fri Mar 18 13:51:45 2022: client 63 arrived at station 8
+Fri Mar 18 13:51:45 2022: client 63 is ready for the shot from nurse 8
+Fri Mar 18 13:51:45 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:51:46 2022: client 60 got assigned to station 9: walking there now
+Fri Mar 18 13:51:46 2022: client 73 is walking to the station-assignment queue
+Fri Mar 18 13:51:46 2022: client 79 is registering
+Fri Mar 18 13:51:46 2022: nurse 7 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:46 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:51:46 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:51:46 2022: client 65 got the shot. Take that, Rona!
+Fri Mar 18 13:51:46 2022: client 65 leaves the clinic
+Fri Mar 18 13:51:46 2022: client 71 arrived at station 2
+Fri Mar 18 13:51:46 2022: client 71 is ready for the shot from nurse 2
+Fri Mar 18 13:51:46 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:51:47 2022: client 62 is walking to the station-assignment queue
+Fri Mar 18 13:51:47 2022: client 82 is registering
+Fri Mar 18 13:51:47 2022: nurse 5 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:47 2022: client 69 is registering
+Fri Mar 18 13:51:47 2022: client 80 is walking to the station-assignment queue
+Fri Mar 18 13:51:47 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:51:47 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:51:47 2022: client 55 got the shot. Take that, Rona!
+Fri Mar 18 13:51:47 2022: client 55 leaves the clinic
+Fri Mar 18 13:51:48 2022: nurse 3 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:48 2022: client 60 arrived at station 9
+Fri Mar 18 13:51:48 2022: client 68 got the shot. Take that, Rona!
+Fri Mar 18 13:51:48 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:51:48 2022: client 60 is ready for the shot from nurse 9
+Fri Mar 18 13:51:48 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:51:48 2022: client 68 leaves the clinic
+Fri Mar 18 13:51:48 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:51:49 2022: client 79 is walking to the station-assignment queue
+Fri Mar 18 13:51:49 2022: client 81 is registering
+Fri Mar 18 13:51:50 2022: client 62 got assigned to station 4: walking there now
+Fri Mar 18 13:51:50 2022: nurse 8 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:50 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:51:50 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:51:50 2022: client 63 got the shot. Take that, Rona!
+Fri Mar 18 13:51:50 2022: client 63 leaves the clinic
+Fri Mar 18 13:51:51 2022: client 67 got assigned to station 6: walking there now
+Fri Mar 18 13:51:51 2022: client 78 is walking to the station-assignment queue
+Fri Mar 18 13:51:51 2022: client 83 is registering
+Fri Mar 18 13:51:51 2022: nurse 2 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:51 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:51:51 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:51:51 2022: client 71 got the shot. Take that, Rona!
+Fri Mar 18 13:51:51 2022: client 71 leaves the clinic
+Fri Mar 18 13:51:52 2022: client 67 arrived at station 6
+Fri Mar 18 13:51:52 2022: client 67 is ready for the shot from nurse 6
+Fri Mar 18 13:51:52 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:51:52 2022: client 62 arrived at station 4
+Fri Mar 18 13:51:52 2022: client 62 is ready for the shot from nurse 4
+Fri Mar 18 13:51:52 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:51:52 2022: client 69 is walking to the station-assignment queue
+Fri Mar 18 13:51:52 2022: client 72 is registering
+Fri Mar 18 13:51:53 2022: client 82 is walking to the station-assignment queue
+Fri Mar 18 13:51:53 2022: nurse 9 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:51:53 2022: client 84 is registering
+Fri Mar 18 13:51:53 2022: client 60 got the shot. Take that, Rona!
+Fri Mar 18 13:51:53 2022: client 60 leaves the clinic
+Fri Mar 18 13:51:53 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:51:53 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:51:54 2022: client 75 got assigned to station 1: walking there now
+Fri Mar 18 13:51:54 2022: client 80 got assigned to station 0: walking there now
+Fri Mar 18 13:51:55 2022: client 75 arrived at station 1
+Fri Mar 18 13:51:55 2022: client 75 is ready for the shot from nurse 1
+Fri Mar 18 13:51:55 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:51:56 2022: client 73 got assigned to station 7: walking there now
+Fri Mar 18 13:51:56 2022: client 84 is walking to the station-assignment queue
+Fri Mar 18 13:51:56 2022: client 74 is registering
+Fri Mar 18 13:51:56 2022: client 80 arrived at station 0
+Fri Mar 18 13:51:56 2022: client 80 is ready for the shot from nurse 0
+Fri Mar 18 13:51:56 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:51:57 2022: nurse 6 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:51:57 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:51:57 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:51:57 2022: client 67 got the shot. Take that, Rona!
+Fri Mar 18 13:51:57 2022: client 67 leaves the clinic
+Fri Mar 18 13:51:57 2022: client 81 is walking to the station-assignment queue
+Fri Mar 18 13:51:57 2022: client 76 is registering
+Fri Mar 18 13:51:57 2022: client 82 got assigned to station 5: walking there now
+Fri Mar 18 13:51:57 2022: nurse 4 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:51:57 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:51:57 2022: client 62 got the shot. Take that, Rona!
+Fri Mar 18 13:51:57 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:51:57 2022: client 62 leaves the clinic
+Fri Mar 18 13:51:58 2022: client 78 got assigned to station 3: walking there now
+Fri Mar 18 13:51:58 2022: client 73 arrived at station 7
+Fri Mar 18 13:51:58 2022: client 73 is ready for the shot from nurse 7
+Fri Mar 18 13:51:58 2022: client 79 got assigned to station 8: walking there now
+Fri Mar 18 13:51:58 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:51:58 2022: client 72 is walking to the station-assignment queue
+Fri Mar 18 13:51:58 2022: client 77 is registering
+Fri Mar 18 13:51:59 2022: client 83 is walking to the station-assignment queue
+Fri Mar 18 13:51:59 2022: client 91 is registering
+Fri Mar 18 13:51:59 2022: client 79 arrived at station 8
+Fri Mar 18 13:51:59 2022: client 82 arrived at station 5
+Fri Mar 18 13:51:59 2022: client 79 is ready for the shot from nurse 8
+Fri Mar 18 13:51:59 2022: client 82 is ready for the shot from nurse 5
+Fri Mar 18 13:51:59 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:51:59 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:51:59 2022: client 69 got assigned to station 2: walking there now
+Fri Mar 18 13:51:59 2022: client 74 is walking to the station-assignment queue
+Fri Mar 18 13:51:59 2022: client 86 is registering
+Fri Mar 18 13:52:00 2022: client 78 arrived at station 3
+Fri Mar 18 13:52:00 2022: client 78 is ready for the shot from nurse 3
+Fri Mar 18 13:52:00 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:52:00 2022: nurse 1 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:00 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:52:00 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:52:00 2022: client 75 got the shot. Take that, Rona!
+Fri Mar 18 13:52:00 2022: client 75 leaves the clinic
+Fri Mar 18 13:52:01 2022: client 69 arrived at station 2
+Fri Mar 18 13:52:01 2022: client 69 is ready for the shot from nurse 2
+Fri Mar 18 13:52:01 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:52:01 2022: nurse 0 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:52:01 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:52:01 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:52:01 2022: client 80 got the shot. Take that, Rona!
+Fri Mar 18 13:52:01 2022: client 80 leaves the clinic
+Fri Mar 18 13:52:03 2022: nurse 7 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:03 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:52:03 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:52:03 2022: client 73 got the shot. Take that, Rona!
+Fri Mar 18 13:52:03 2022: client 73 leaves the clinic
+Fri Mar 18 13:52:03 2022: client 77 is walking to the station-assignment queue
+Fri Mar 18 13:52:03 2022: client 89 is registering
+Fri Mar 18 13:52:03 2022: client 74 got assigned to station 9: walking there now
+Fri Mar 18 13:52:04 2022: client 83 got assigned to station 6: walking there now
+Fri Mar 18 13:52:04 2022: nurse 8 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:04 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:52:04 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:52:04 2022: nurse 5 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:04 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:52:04 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:52:04 2022: client 82 got the shot. Take that, Rona!
+Fri Mar 18 13:52:04 2022: client 79 got the shot. Take that, Rona!
+Fri Mar 18 13:52:04 2022: client 82 leaves the clinic
+Fri Mar 18 13:52:04 2022: client 79 leaves the clinic
+Fri Mar 18 13:52:04 2022: client 74 arrived at station 9
+Fri Mar 18 13:52:04 2022: client 74 is ready for the shot from nurse 9
+Fri Mar 18 13:52:04 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:52:05 2022: client 81 got assigned to station 4: walking there now
+Fri Mar 18 13:52:05 2022: nurse 3 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:05 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:52:05 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:52:05 2022: client 78 got the shot. Take that, Rona!
+Fri Mar 18 13:52:05 2022: client 78 leaves the clinic
+Fri Mar 18 13:52:05 2022: client 83 arrived at station 6
+Fri Mar 18 13:52:05 2022: client 83 is ready for the shot from nurse 6
+Fri Mar 18 13:52:05 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:52:05 2022: client 72 got assigned to station 1: walking there now
+Fri Mar 18 13:52:06 2022: client 76 is walking to the station-assignment queue
+Fri Mar 18 13:52:06 2022: client 85 is registering
+Fri Mar 18 13:52:06 2022: nurse 2 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:06 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:52:06 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:52:06 2022: client 69 got the shot. Take that, Rona!
+Fri Mar 18 13:52:06 2022: client 69 leaves the clinic
+Fri Mar 18 13:52:06 2022: client 84 got assigned to station 0: walking there now
+Fri Mar 18 13:52:07 2022: client 81 arrived at station 4
+Fri Mar 18 13:52:07 2022: client 81 is ready for the shot from nurse 4
+Fri Mar 18 13:52:07 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:52:07 2022: client 72 arrived at station 1
+Fri Mar 18 13:52:07 2022: client 72 is ready for the shot from nurse 1
+Fri Mar 18 13:52:07 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:52:08 2022: client 84 arrived at station 0
+Fri Mar 18 13:52:08 2022: client 84 is ready for the shot from nurse 0
+Fri Mar 18 13:52:08 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:52:09 2022: client 91 is walking to the station-assignment queue
+Fri Mar 18 13:52:09 2022: client 88 is registering
+Fri Mar 18 13:52:09 2022: client 86 is walking to the station-assignment queue
+Fri Mar 18 13:52:09 2022: client 92 is registering
+Fri Mar 18 13:52:09 2022: nurse 9 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:09 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:52:09 2022: client 74 got the shot. Take that, Rona!
+Fri Mar 18 13:52:09 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:52:09 2022: client 74 leaves the clinic
+Fri Mar 18 13:52:10 2022: client 85 is walking to the station-assignment queue
+Fri Mar 18 13:52:10 2022: client 98 is registering
+Fri Mar 18 13:52:10 2022: nurse 6 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:10 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:52:10 2022: client 83 got the shot. Take that, Rona!
+Fri Mar 18 13:52:10 2022: client 83 leaves the clinic
+Fri Mar 18 13:52:10 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:52:10 2022: client 89 is walking to the station-assignment queue
+Fri Mar 18 13:52:10 2022: client 102 is registering
+Fri Mar 18 13:52:11 2022: client 77 got assigned to station 7: walking there now
+Fri Mar 18 13:52:12 2022: nurse 4 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:12 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:52:12 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:52:12 2022: client 81 got the shot. Take that, Rona!
+Fri Mar 18 13:52:12 2022: client 81 leaves the clinic
+Fri Mar 18 13:52:12 2022: nurse 1 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:12 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:52:12 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:52:12 2022: client 72 got the shot. Take that, Rona!
+Fri Mar 18 13:52:12 2022: client 72 leaves the clinic
+Fri Mar 18 13:52:13 2022: client 77 arrived at station 7
+Fri Mar 18 13:52:13 2022: client 77 is ready for the shot from nurse 7
+Fri Mar 18 13:52:13 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:52:13 2022: nurse 0 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:52:13 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:52:13 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:52:13 2022: client 84 got the shot. Take that, Rona!
+Fri Mar 18 13:52:13 2022: client 84 leaves the clinic
+Fri Mar 18 13:52:16 2022: client 91 got assigned to station 8: walking there now
+Fri Mar 18 13:52:16 2022: client 76 got assigned to station 5: walking there now
+Fri Mar 18 13:52:16 2022: client 98 is walking to the station-assignment queue
+Fri Mar 18 13:52:16 2022: client 105 is registering
+Fri Mar 18 13:52:17 2022: client 91 arrived at station 8
+Fri Mar 18 13:52:17 2022: client 91 is ready for the shot from nurse 8
+Fri Mar 18 13:52:17 2022: client 76 arrived at station 5
+Fri Mar 18 13:52:17 2022: client 76 is ready for the shot from nurse 5
+Fri Mar 18 13:52:17 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:52:17 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:52:17 2022: client 89 got assigned to station 3: walking there now
+Fri Mar 18 13:52:17 2022: client 92 is walking to the station-assignment queue
+Fri Mar 18 13:52:17 2022: client 87 is registering
+Fri Mar 18 13:52:18 2022: client 88 is walking to the station-assignment queue
+Fri Mar 18 13:52:18 2022: client 90 is registering
+Fri Mar 18 13:52:18 2022: nurse 7 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:18 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:52:18 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:52:18 2022: client 77 got the shot. Take that, Rona!
+Fri Mar 18 13:52:18 2022: client 77 leaves the clinic
+Fri Mar 18 13:52:19 2022: client 85 got assigned to station 2: walking there now
+Fri Mar 18 13:52:19 2022: client 89 arrived at station 3
+Fri Mar 18 13:52:19 2022: client 89 is ready for the shot from nurse 3
+Fri Mar 18 13:52:19 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:52:19 2022: client 86 got assigned to station 9: walking there now
+Fri Mar 18 13:52:20 2022: client 85 arrived at station 2
+Fri Mar 18 13:52:20 2022: client 85 is ready for the shot from nurse 2
+Fri Mar 18 13:52:20 2022: client 98 got assigned to station 6: walking there now
+Fri Mar 18 13:52:20 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:52:20 2022: client 102 is walking to the station-assignment queue
+Fri Mar 18 13:52:20 2022: client 95 is registering
+Fri Mar 18 13:52:20 2022: client 86 arrived at station 9
+Fri Mar 18 13:52:20 2022: client 86 is ready for the shot from nurse 9
+Fri Mar 18 13:52:20 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:52:21 2022: client 90 is walking to the station-assignment queue
+Fri Mar 18 13:52:21 2022: client 99 is registering
+Fri Mar 18 13:52:22 2022: nurse 8 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:22 2022: client 91 got the shot. Take that, Rona!
+Fri Mar 18 13:52:22 2022: nurse 5 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:22 2022: client 105 is walking to the station-assignment queue
+Fri Mar 18 13:52:22 2022
+: client 91 leaves the clinic
+Fri Mar 18 13:52:22 2022: client 76 got the shot. Take that, Rona!
+Fri Mar 18 13:52:22 2022: client 76 leaves the clinic
+Fri Mar 18 13:52:22 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:52:22 2022: client 100 is registering
+Fri Mar 18 13:52:22 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:52:22 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:52:22 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:52:22 2022: client 98 arrived at station 6
+Fri Mar 18 13:52:22 2022: client 98 is ready for the shot from nurse 6
+Fri Mar 18 13:52:22 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:52:24 2022: client 99 is walking to the station-assignment queue
+Fri Mar 18 13:52:24 2022: client 103 is registering
+Fri Mar 18 13:52:24 2022: nurse 3 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:24 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:52:24 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:52:24 2022: client 89 got the shot. Take that, Rona!
+Fri Mar 18 13:52:24 2022: client 89 leaves the clinic
+Fri Mar 18 13:52:25 2022: nurse 2 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:25 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:52:25 2022: client 85 got the shot. Take that, Rona!
+Fri Mar 18 13:52:25 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:52:25 2022: client 85 leaves the clinic
+Fri Mar 18 13:52:25 2022: client 92 got assigned to station 4: walking there now
+Fri Mar 18 13:52:25 2022: nurse 9 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:25 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:52:25 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:52:25 2022: client 86 got the shot. Take that, Rona!
+Fri Mar 18 13:52:25 2022: client 86 leaves the clinic
+Fri Mar 18 13:52:26 2022: client 88 got assigned to station 1: walking there now
+Fri Mar 18 13:52:26 2022: client 105 got assigned to station 0: walking there now
+Fri Mar 18 13:52:26 2022: client 100 is walking to the station-assignment queue
+Fri Mar 18 13:52:26 2022: client 104 is registering
+Fri Mar 18 13:52:26 2022: client 92 arrived at station 4
+Fri Mar 18 13:52:26 2022: client 92 is ready for the shot from nurse 4
+Fri Mar 18 13:52:26 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:52:27 2022: client 88 arrived at station 1
+Fri Mar 18 13:52:27 2022: client 88 is ready for the shot from nurse 1
+Fri Mar 18 13:52:27 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:52:27 2022: client 103 is walking to the station-assignment queue
+Fri Mar 18 13:52:27 2022: client 107 is registering
+Fri Mar 18 13:52:27 2022: client 105 arrived at station 0
+Fri Mar 18 13:52:27 2022: client 105 is ready for the shot from nurse 0
+Fri Mar 18 13:52:27 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:52:27 2022: nurse 6 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:27 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:52:27 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:52:27 2022: client 98 got the shot. Take that, Rona!
+Fri Mar 18 13:52:27 2022: client 98 leaves the clinic
+Fri Mar 18 13:52:27 2022: client 87 is walking to the station-assignment queue
+Fri Mar 18 13:52:27 2022: client 93 is registering
+Fri Mar 18 13:52:29 2022: client 100 got assigned to station 7: walking there now
+Fri Mar 18 13:52:29 2022: client 102 got assigned to station 8: walking there now
+Fri Mar 18 13:52:30 2022: client 90 got assigned to station 5: walking there now
+Fri Mar 18 13:52:30 2022: client 104 is walking to the station-assignment queue
+Fri Mar 18 13:52:30 2022: client 94 is registering
+Fri Mar 18 13:52:30 2022: client 95 is walking to the station-assignment queue
+Fri Mar 18 13:52:30 2022: client 96 is registering
+Fri Mar 18 13:52:30 2022: client 102 arrived at station 8
+Fri Mar 18 13:52:30 2022: client 102 is ready for the shot from nurse 8
+Fri Mar 18 13:52:30 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:52:31 2022: client 100 arrived at station 7
+Fri Mar 18 13:52:31 2022: client 100 is ready for the shot from nurse 7
+Fri Mar 18 13:52:31 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:52:31 2022: nurse 4 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:31 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:52:31 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:52:31 2022: client 92 got the shot. Take that, Rona!
+Fri Mar 18 13:52:31 2022: client 92 leaves the clinic
+Fri Mar 18 13:52:32 2022: client 90 arrived at station 5
+Fri Mar 18 13:52:32 2022: client 90 is ready for the shot from nurse 5
+Fri Mar 18 13:52:32 2022: nurse 1 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:32 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:52:32 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:52:32 2022: client 88 got the shot. Take that, Rona!
+Fri Mar 18 13:52:32 2022: client 88 leaves the clinic
+Fri Mar 18 13:52:32 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:52:32 2022: client 103 got assigned to station 3: walking there now
+Fri Mar 18 13:52:32 2022: nurse 0 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:52:32 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:52:32 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:52:32 2022: client 105 got the shot. Take that, Rona!
+Fri Mar 18 13:52:32 2022: client 105 leaves the clinic
+Fri Mar 18 13:52:34 2022: client 99 got assigned to station 2: walking there now
+Fri Mar 18 13:52:34 2022: client 103 arrived at station 3
+Fri Mar 18 13:52:34 2022: client 103 is ready for the shot from nurse 3
+Fri Mar 18 13:52:34 2022: client 97 is registering
+Fri Mar 18 13:52:34 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:52:34 2022: client 94 is walking to the station-assignment queue
+Fri Mar 18 13:52:34 2022: client 104 got assigned to station 9: walking there now
+Fri Mar 18 13:52:35 2022: client 99 arrived at station 2
+Fri Mar 18 13:52:35 2022: client 99 is ready for the shot from nurse 2
+Fri Mar 18 13:52:35 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:52:35 2022: nurse 8 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:35 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:52:35 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:52:35 2022: client 102 got the shot. Take that, Rona!
+Fri Mar 18 13:52:35 2022: client 102 leaves the clinic
+Fri Mar 18 13:52:35 2022: client 87 got assigned to station 6: walking there now
+Fri Mar 18 13:52:35 2022: client 104 arrived at station 9
+Fri Mar 18 13:52:35 2022: client 104 is ready for the shot from nurse 9
+Fri Mar 18 13:52:35 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:52:36 2022: client 107 is walking to the station-assignment queue
+Fri Mar 18 13:52:36 2022: client 108 is registering
+Fri Mar 18 13:52:36 2022: nurse 7 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:36 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:52:36 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:52:36 2022: client 100 got the shot. Take that, Rona!
+Fri Mar 18 13:52:36 2022: client 100 leaves the clinic
+Fri Mar 18 13:52:36 2022: client 93 is walking to the station-assignment queue
+Fri Mar 18 13:52:36 2022: client 101 is registering
+Fri Mar 18 13:52:37 2022: nurse 5 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:37 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:52:37 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:52:37 2022: client 90 got the shot. Take that, Rona!
+Fri Mar 18 13:52:37 2022: client 90 leaves the clinic
+Fri Mar 18 13:52:37 2022: client 96 is walking to the station-assignment queue
+Fri Mar 18 13:52:37 2022: client 106 is registering
+Fri Mar 18 13:52:37 2022: client 87 arrived at station 6
+Fri Mar 18 13:52:37 2022: client 87 is ready for the shot from nurse 6
+Fri Mar 18 13:52:37 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:52:38 2022: client 97 is walking to the station-assignment queue
+Fri Mar 18 13:52:38 2022: client 114 is registering
+Fri Mar 18 13:52:39 2022: client 107 got assigned to station 4: walking there now
+Fri Mar 18 13:52:39 2022: client 95 got assigned to station 1: walking there now
+Fri Mar 18 13:52:39 2022: nurse 3 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:39 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:52:39 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:52:39 2022: client 103 got the shot. Take that, Rona!
+Fri Mar 18 13:52:39 2022: client 103 leaves the clinic
+Fri Mar 18 13:52:40 2022: nurse 2 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:40 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:52:40 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:52:40 2022: client 99 got the shot. Take that, Rona!
+Fri Mar 18 13:52:40 2022: client 99 leaves the clinic
+Fri Mar 18 13:52:40 2022: client 95 arrived at station 1
+Fri Mar 18 13:52:40 2022: client 95 is ready for the shot from nurse 1
+Fri Mar 18 13:52:40 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:52:40 2022: nurse 9 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:40 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:52:40 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:52:40 2022: client 104 got the shot. Take that, Rona!
+Fri Mar 18 13:52:40 2022: client 104 leaves the clinic
+Fri Mar 18 13:52:41 2022: client 107 arrived at station 4
+Fri Mar 18 13:52:41 2022: client 108 is walking to the station-assignment queue
+Fri Mar 18 13:52:41 2022: client 110 is registering
+Fri Mar 18 13:52:41 2022: client 107 is ready for the shot from nurse 4
+Fri Mar 18 13:52:41 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:52:42 2022: client 96 got assigned to station 0: walking there now
+Fri Mar 18 13:52:42 2022: client 93 got assigned to station 8: walking there now
+Fri Mar 18 13:52:42 2022: nurse 6 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:42 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:52:42 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:52:42 2022: client 87 got the shot. Take that, Rona!
+Fri Mar 18 13:52:42 2022: client 87 leaves the clinic
+Fri Mar 18 13:52:42 2022: client 114 is walking to the station-assignment queue
+Fri Mar 18 13:52:42 2022: client 115 is registering
+Fri Mar 18 13:52:43 2022: client 96 arrived at station 0
+Fri Mar 18 13:52:43 2022: client 96 is ready for the shot from nurse 0
+Fri Mar 18 13:52:43 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:52:44 2022: client 106 is walking to the station-assignment queue
+Fri Mar 18 13:52:44 2022: client 111 is registering
+Fri Mar 18 13:52:44 2022: client 93 arrived at station 8
+Fri Mar 18 13:52:44 2022: client 93 is ready for the shot from nurse 8
+Fri Mar 18 13:52:44 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:52:44 2022: client 94 got assigned to station 7: walking there now
+Fri Mar 18 13:52:45 2022: client 110 is walking to the station-assignment queue
+Fri Mar 18 13:52:45 2022: client 109 is registering
+Fri Mar 18 13:52:45 2022: nurse 1 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:45 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:52:45 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:52:45 2022: client 95 got the shot. Take that, Rona!
+Fri Mar 18 13:52:45 2022: client 95 leaves the clinic
+Fri Mar 18 13:52:45 2022: client 101 is walking to the station-assignment queue
+Fri Mar 18 13:52:45 2022: client 113 is registering
+Fri Mar 18 13:52:45 2022: client 94 arrived at station 7
+Fri Mar 18 13:52:45 2022: client 94 is ready for the shot from nurse 7
+Fri Mar 18 13:52:45 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:52:46 2022: nurse 4 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:46 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:52:46 2022: client 107 got the shot. Take that, Rona!
+Fri Mar 18 13:52:46 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:52:46 2022: client 107 leaves the clinic
+Fri Mar 18 13:52:46 2022: client 115 is walking to the station-assignment queue
+Fri Mar 18 13:52:46 2022: client 112 is registering
+Fri Mar 18 13:52:48 2022: client 108 got assigned to station 5: walking there now
+Fri Mar 18 13:52:48 2022: nurse 0 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:52:48 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:52:48 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:52:48 2022: client 96 got the shot. Take that, Rona!
+Fri Mar 18 13:52:48 2022: client 96 leaves the clinic
+Fri Mar 18 13:52:48 2022: client 101 got assigned to station 3: walking there now
+Fri Mar 18 13:52:48 2022: client 97 got assigned to station 2: walking there now
+Fri Mar 18 13:52:48 2022: client 114 got assigned to station 9: walking there now
+Fri Mar 18 13:52:49 2022: client 106 got assigned to station 6: walking there now
+Fri Mar 18 13:52:49 2022: client 118 is registering
+Fri Mar 18 13:52:49 2022: client 111 is walking to the station-assignment queue
+Fri Mar 18 13:52:49 2022: nurse 8 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:49 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:52:49 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:52:49 2022: client 93 got the shot. Take that, Rona!
+Fri Mar 18 13:52:49 2022: client 93 leaves the clinic
+Fri Mar 18 13:52:49 2022: client 97 arrived at station 2
+Fri Mar 18 13:52:49 2022: client 97 is ready for the shot from nurse 2
+Fri Mar 18 13:52:49 2022: client 114 arrived at station 9
+Fri Mar 18 13:52:49 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:52:49 2022: client 114 is ready for the shot from nurse 9
+Fri Mar 18 13:52:49 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:52:50 2022: client 108 arrived at station 5
+Fri Mar 18 13:52:50 2022: client 108 is ready for the shot from nurse 5
+Fri Mar 18 13:52:50 2022: client 110 got assigned to station 1: walking there now
+Fri Mar 18 13:52:50 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:52:50 2022: client 106 arrived at station 6
+Fri Mar 18 13:52:50 2022: client 106 is ready for the shot from nurse 6
+Fri Mar 18 13:52:50 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:52:50 2022: client 101 arrived at station 3
+Fri Mar 18 13:52:50 2022: client 101 is ready for the shot from nurse 3
+Fri Mar 18 13:52:50 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:52:50 2022: nurse 7 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:50 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:52:50 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:52:50 2022: client 94 got the shot. Take that, Rona!
+Fri Mar 18 13:52:50 2022: client 94 leaves the clinic
+Fri Mar 18 13:52:51 2022: client 110 arrived at station 1
+Fri Mar 18 13:52:51 2022: client 110 is ready for the shot from nurse 1
+Fri Mar 18 13:52:51 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:52:52 2022: client 113 is walking to the station-assignment queue
+Fri Mar 18 13:52:52 2022: client 121 is registering
+Fri Mar 18 13:52:52 2022: client 115 got assigned to station 4: walking there now
+Fri Mar 18 13:52:53 2022: client 109 is walking to the station-assignment queue
+Fri Mar 18 13:52:53 2022: client 116 is registering
+Fri Mar 18 13:52:53 2022: client 118 is walking to the station-assignment queue
+Fri Mar 18 13:52:53 2022: client 117 is registering
+Fri Mar 18 13:52:53 2022: client 112 is walking to the station-assignment queue
+Fri Mar 18 13:52:53 2022: client 119 is registering
+Fri Mar 18 13:52:54 2022: client 111 got assigned to station 0: walking there now
+Fri Mar 18 13:52:54 2022: client 115 arrived at station 4
+Fri Mar 18 13:52:54 2022: nurse 2 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:54 2022: nurse 9 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:54 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:52:54 2022: client 97 got the shot. Take that, Rona!
+Fri Mar 18 13:52:54 2022: client 114 got the shot. Take that, Rona!
+Fri Mar 18 13:52:54 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:52:54 2022: client 115 is ready for the shot from nurse 4
+Fri Mar 18 13:52:54 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:52:54 2022: client 114 leaves the clinic
+Fri Mar 18 13:52:54 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:52:54 2022: client 97 leaves the clinic
+Fri Mar 18 13:52:54 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:52:55 2022: nurse 5 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:55 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:52:55 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:52:55 2022: client 108 got the shot. Take that, Rona!
+Fri Mar 18 13:52:55 2022: client 108 leaves the clinic
+Fri Mar 18 13:52:55 2022: nurse 6 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:52:55 2022: nurse 6 is walking to get a vial of vaccine
+Fri Mar 18 13:52:55 2022: client 106 got the shot. Take that, Rona!
+Fri Mar 18 13:52:55 2022: client 106 leaves the clinic
+Fri Mar 18 13:52:55 2022: nurse 3 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:52:55 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:52:55 2022: client 101 got the shot. Take that, Rona!
+Fri Mar 18 13:52:55 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:52:55 2022: client 101 leaves the clinic
+Fri Mar 18 13:52:56 2022: client 116 is walking to the station-assignment queue
+Fri Mar 18 13:52:56 2022: client 129 is registering
+Fri Mar 18 13:52:56 2022: nurse 1 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:52:56 2022: nurse 1 is walking to get a vial of vaccine
+Fri Mar 18 13:52:56 2022: client 110 got the shot. Take that, Rona!
+Fri Mar 18 13:52:56 2022: client 110 leaves the clinic
+Fri Mar 18 13:52:56 2022: client 111 arrived at station 0
+Fri Mar 18 13:52:56 2022: client 111 is ready for the shot from nurse 0
+Fri Mar 18 13:52:56 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:52:56 2022: client 121 is walking to the station-assignment queue
+Fri Mar 18 13:52:56 2022: client 131 is registering
+Fri Mar 18 13:52:56 2022: client 119 is walking to the station-assignment queue
+Fri Mar 18 13:52:56 2022: client 123 is registering
+Fri Mar 18 13:52:57 2022: client 109 got assigned to station 8: walking there now
+Fri Mar 18 13:52:58 2022: client 109 arrived at station 8
+Fri Mar 18 13:52:58 2022: client 109 is ready for the shot from nurse 8
+Fri Mar 18 13:52:58 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:52:58 2022: nurse 1 got a new vial, there are 9 vials left
+Fri Mar 18 13:52:58 2022: client 112 got assigned to station 7: walking there now
+Fri Mar 18 13:52:58 2022: nurse 6 got a new vial, there are 8 vials left
+Fri Mar 18 13:52:59 2022: client 113 got assigned to station 2: walking there now
+Fri Mar 18 13:52:59 2022: client 121 got assigned to station 9: walking there now
+Fri Mar 18 13:52:59 2022: nurse 4 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:52:59 2022: nurse 4 is walking to get a vial of vaccine
+Fri Mar 18 13:52:59 2022: client 115 got the shot. Take that, Rona!
+Fri Mar 18 13:52:59 2022: client 115 leaves the clinic
+Fri Mar 18 13:53:00 2022: client 118 got assigned to station 5: walking there now
+Fri Mar 18 13:53:00 2022: client 121 arrived at station 9
+Fri Mar 18 13:53:00 2022: client 121 is ready for the shot from nurse 9
+Fri Mar 18 13:53:00 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:53:00 2022: client 112 arrived at station 7
+Fri Mar 18 13:53:00 2022: nurse 6 back at station
+Fri Mar 18 13:53:00 2022: client 112 is ready for the shot from nurse 7
+Fri Mar 18 13:53:00 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:53:00 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:53:00 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:53:01 2022: nurse 0 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:53:01 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:53:01 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:53:01 2022: client 111 got the shot. Take that, Rona!
+Fri Mar 18 13:53:01 2022: client 111 leaves the clinic
+Fri Mar 18 13:53:01 2022: client 113 arrived at station 2
+Fri Mar 18 13:53:01 2022: client 113 is ready for the shot from nurse 2
+Fri Mar 18 13:53:01 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:53:01 2022: nurse 1 back at station
+Fri Mar 18 13:53:01 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:53:01 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:53:02 2022: client 129 is walking to the station-assignment queue
+Fri Mar 18 13:53:02 2022: client 120 is registering
+Fri Mar 18 13:53:02 2022: client 117 is walking to the station-assignment queue
+Fri Mar 18 13:53:02 2022: client 122 is registering
+Fri Mar 18 13:53:02 2022: client 118 arrived at station 5
+Fri Mar 18 13:53:02 2022: client 118 is ready for the shot from nurse 5
+Fri Mar 18 13:53:02 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:53:02 2022: client 123 is walking to the station-assignment queue
+Fri Mar 18 13:53:02 2022: client 124 is registering
+Fri Mar 18 13:53:02 2022: nurse 4 got a new vial, there are 7 vials left
+Fri Mar 18 13:53:03 2022: client 119 got assigned to station 3: walking there now
+Fri Mar 18 13:53:03 2022: nurse 8 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:03 2022: nurse 8 is walking to get a vial of vaccine
+Fri Mar 18 13:53:03 2022: client 109 got the shot. Take that, Rona!
+Fri Mar 18 13:53:03 2022: client 109 leaves the clinic
+Fri Mar 18 13:53:04 2022: client 131 is walking to the station-assignment queue
+Fri Mar 18 13:53:04 2022: client 127 is registering
+Fri Mar 18 13:53:04 2022: client 119 arrived at station 3
+Fri Mar 18 13:53:04 2022: client 119 is ready for the shot from nurse 3
+Fri Mar 18 13:53:04 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:53:05 2022: client 116 got assigned to station 6: walking there now
+Fri Mar 18 13:53:05 2022: client 117 got assigned to station 0: walking there now
+Fri Mar 18 13:53:05 2022: nurse 9 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:05 2022: nurse 9 is walking to get a vial of vaccine
+Fri Mar 18 13:53:05 2022: client 121 got the shot. Take that, Rona!
+Fri Mar 18 13:53:05 2022: client 121 leaves the clinic
+Fri Mar 18 13:53:05 2022: nurse 8 got a new vial, there are 6 vials left
+Fri Mar 18 13:53:05 2022: nurse 7 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:05 2022: nurse 4 back at station
+Fri Mar 18 13:53:05 2022: client 112 got the shot. Take that, Rona!
+Fri Mar 18 13:53:05 2022: nurse 7 is walking to get a vial of vaccine
+Fri Mar 18 13:53:05 2022: client 112 leaves the clinic
+Fri Mar 18 13:53:05 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:53:05 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:53:06 2022: client 116 arrived at station 6
+Fri Mar 18 13:53:06 2022: client 116 is ready for the shot from nurse 6
+Fri Mar 18 13:53:06 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:53:06 2022: client 117 arrived at station 0
+Fri Mar 18 13:53:06 2022: client 117 is ready for the shot from nurse 0
+Fri Mar 18 13:53:06 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:53:06 2022: nurse 2 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:06 2022: nurse 2 is walking to get a vial of vaccine
+Fri Mar 18 13:53:06 2022: client 113 got the shot. Take that, Rona!
+Fri Mar 18 13:53:06 2022: client 113 leaves the clinic
+Fri Mar 18 13:53:06 2022: nurse 7 got a new vial, there are 5 vials left
+Fri Mar 18 13:53:07 2022: nurse 5 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:07 2022: nurse 5 is walking to get a vial of vaccine
+Fri Mar 18 13:53:07 2022: client 118 got the shot. Take that, Rona!
+Fri Mar 18 13:53:07 2022: client 118 leaves the clinic
+Fri Mar 18 13:53:07 2022: client 131 got assigned to station 1: walking there now
+Fri Mar 18 13:53:07 2022: nurse 9 got a new vial, there are 4 vials left
+Fri Mar 18 13:53:07 2022: nurse 8 back at station
+Fri Mar 18 13:53:07 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:53:07 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:53:08 2022: nurse 2 got a new vial, there are 3 vials left
+Fri Mar 18 13:53:08 2022: client 131 arrived at station 1
+Fri Mar 18 13:53:08 2022: client 131 is ready for the shot from nurse 1
+Fri Mar 18 13:53:08 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:53:08 2022: nurse 9 back at station
+Fri Mar 18 13:53:08 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:53:08 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:53:09 2022: client 129 got assigned to station 4: walking there now
+Fri Mar 18 13:53:09 2022: nurse 5 got a new vial, there are 2 vials left
+Fri Mar 18 13:53:09 2022: nurse 2 back at station
+Fri Mar 18 13:53:09 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:53:09 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:53:09 2022: nurse 3 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:09 2022: nurse 3 is walking to get a vial of vaccine
+Fri Mar 18 13:53:09 2022: client 119 got the shot. Take that, Rona!
+Fri Mar 18 13:53:09 2022: client 119 leaves the clinic
+Fri Mar 18 13:53:09 2022: nurse 7 back at station
+Fri Mar 18 13:53:09 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:53:09 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:53:10 2022: client 120 is walking to the station-assignment queue
+Fri Mar 18 13:53:10 2022: client 125 is registering
+Fri Mar 18 13:53:10 2022: client 130 is registering
+Fri Mar 18 13:53:10 2022: client 123 got assigned to station 8: walking there now
+Fri Mar 18 13:53:10 2022: client 124 is walking to the station-assignment queue
+Fri Mar 18 13:53:11 2022: client 129 arrived at station 4
+Fri Mar 18 13:53:11 2022: nurse 6 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:11 2022: client 129 is ready for the shot from nurse 4
+Fri Mar 18 13:53:11 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:53:11 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:53:11 2022: client 116 got the shot. Take that, Rona!
+Fri Mar 18 13:53:11 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:53:11 2022: client 122 is walking to the station-assignment queue
+Fri Mar 18 13:53:11 2022: client 116 leaves the clinic
+Fri Mar 18 13:53:11 2022: client 137 is registering
+Fri Mar 18 13:53:11 2022: nurse 0 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:53:11 2022: nurse 0 is walking to get a vial of vaccine
+Fri Mar 18 13:53:11 2022: client 117 got the shot. Take that, Rona!
+Fri Mar 18 13:53:11 2022: client 117 leaves the clinic
+Fri Mar 18 13:53:11 2022: nurse 5 back at station
+Fri Mar 18 13:53:11 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:53:11 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:53:11 2022: client 123 arrived at station 8
+Fri Mar 18 13:53:11 2022: client 123 is ready for the shot from nurse 8
+Fri Mar 18 13:53:11 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:53:12 2022: client 127 is walking to the station-assignment queue
+Fri Mar 18 13:53:12 2022: client 126 is registering
+Fri Mar 18 13:53:12 2022: nurse 3 got a new vial, there are 1 vials left
+Fri Mar 18 13:53:13 2022: nurse 1 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:13 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:53:13 2022: client 131 got the shot. Take that, Rona!
+Fri Mar 18 13:53:13 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:53:13 2022: client 131 leaves the clinic
+Fri Mar 18 13:53:14 2022: nurse 0 got a new vial, there are 0 vials left
+Fri Mar 18 13:53:14 2022: nurse 3 back at station
+Fri Mar 18 13:53:14 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:53:14 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:53:15 2022: client 124 got assigned to station 9: walking there now
+Fri Mar 18 13:53:16 2022: client 125 is walking to the station-assignment queue
+Fri Mar 18 13:53:16 2022: client 128 is registering
+Fri Mar 18 13:53:16 2022: nurse 4 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:16 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:53:16 2022: client 129 got the shot. Take that, Rona!
+Fri Mar 18 13:53:16 2022: client 129 leaves the clinic
+Fri Mar 18 13:53:16 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:53:16 2022: nurse 0 back at station
+Fri Mar 18 13:53:16 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:53:16 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:53:16 2022: client 124 arrived at station 9
+Fri Mar 18 13:53:16 2022: client 124 is ready for the shot from nurse 9
+Fri Mar 18 13:53:16 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:53:16 2022: nurse 8 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:16 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:53:16 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:53:16 2022: client 123 got the shot. Take that, Rona!
+Fri Mar 18 13:53:16 2022: client 123 leaves the clinic
+Fri Mar 18 13:53:17 2022: client 126 is walking to the station-assignment queue
+Fri Mar 18 13:53:17 2022: client 133 is registering
+Fri Mar 18 13:53:18 2022: client 137 is walking to the station-assignment queue
+Fri Mar 18 13:53:18 2022: client 138 is registering
+Fri Mar 18 13:53:19 2022: client 120 got assigned to station 2: walking there now
+Fri Mar 18 13:53:20 2022: client 122 got assigned to station 7: walking there now
+Fri Mar 18 13:53:20 2022: client 130 is walking to the station-assignment queue
+Fri Mar 18 13:53:20 2022: client 140 is registering
+Fri Mar 18 13:53:21 2022: client 128 is walking to the station-assignment queue
+Fri Mar 18 13:53:21 2022: client 120 arrived at station 2
+Fri Mar 18 13:53:21 2022: client 120 is ready for the shot from nurse 2
+Fri Mar 18 13:53:21 2022: client 142 is registering
+Fri Mar 18 13:53:21 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:53:21 2022: nurse 9 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:21 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:53:21 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:53:21 2022: client 124 got the shot. Take that, Rona!
+Fri Mar 18 13:53:21 2022: client 124 leaves the clinic
+Fri Mar 18 13:53:22 2022: client 122 arrived at station 7
+Fri Mar 18 13:53:22 2022: client 122 is ready for the shot from nurse 7
+Fri Mar 18 13:53:22 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:53:22 2022: client 127 got assigned to station 6: walking there now
+Fri Mar 18 13:53:22 2022: client 126 got assigned to station 5: walking there now
+Fri Mar 18 13:53:22 2022: client 133 is walking to the station-assignment queue
+Fri Mar 18 13:53:22 2022: client 139 is registering
+Fri Mar 18 13:53:24 2022: client 125 got assigned to station 1: walking there now
+Fri Mar 18 13:53:24 2022: client 128 got assigned to station 3: walking there now
+Fri Mar 18 13:53:24 2022: client 127 arrived at station 6
+Fri Mar 18 13:53:24 2022: client 126 arrived at station 5
+Fri Mar 18 13:53:24 2022: client 126 is ready for the shot from nurse 5
+Fri Mar 18 13:53:24 2022: client 127 is ready for the shot from nurse 6
+Fri Mar 18 13:53:24 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:53:24 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:53:25 2022: client 128 arrived at station 3
+Fri Mar 18 13:53:25 2022: client 128 is ready for the shot from nurse 3
+Fri Mar 18 13:53:25 2022: client 142 is walking to the station-assignment queue
+Fri Mar 18 13:53:25 2022: client 132 is registering
+Fri Mar 18 13:53:25 2022: client 143 is registering
+Fri Mar 18 13:53:25 2022: client 138 is walking to the station-assignment queue
+Fri Mar 18 13:53:25 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:53:26 2022: client 125 arrived at station 1
+Fri Mar 18 13:53:26 2022: client 125 is ready for the shot from nurse 1
+Fri Mar 18 13:53:26 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:53:26 2022: nurse 2 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:26 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:53:26 2022: client 120 got the shot. Take that, Rona!
+Fri Mar 18 13:53:26 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:53:26 2022: client 120 leaves the clinic
+Fri Mar 18 13:53:26 2022: client 140 is walking to the station-assignment queue
+Fri Mar 18 13:53:26 2022: client 135 is registering
+Fri Mar 18 13:53:27 2022: client 137 got assigned to station 4: walking there now
+Fri Mar 18 13:53:27 2022: nurse 7 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:27 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:53:27 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:53:27 2022: client 122 got the shot. Take that, Rona!
+Fri Mar 18 13:53:27 2022: client 122 leaves the clinic
+Fri Mar 18 13:53:27 2022: client 130 got assigned to station 0: walking there now
+Fri Mar 18 13:53:28 2022: client 137 arrived at station 4
+Fri Mar 18 13:53:28 2022: client 137 is ready for the shot from nurse 4
+Fri Mar 18 13:53:28 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:53:28 2022: client 133 got assigned to station 8: walking there now
+Fri Mar 18 13:53:29 2022: client 143 is walking to the station-assignment queue
+Fri Mar 18 13:53:29 2022: client 136 is registering
+Fri Mar 18 13:53:29 2022: nurse 5 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:29 2022: nurse 6 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:29 2022: client 126 got the shot. Take that, Rona!
+Fri Mar 18 13:53:29 2022: client 127 got the shot. Take that, Rona!
+Fri Mar 18 13:53:29 2022: client 126 leaves the clinic
+Fri Mar 18 13:53:29 2022: client 127 leaves the clinic
+Fri Mar 18 13:53:29 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:53:29 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:53:29 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:53:29 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:53:29 2022: client 130 arrived at station 0
+Fri Mar 18 13:53:29 2022: client 135 is walking to the station-assignment queue
+Fri Mar 18 13:53:29 2022: client 141 is registering
+Fri Mar 18 13:53:29 2022: client 130 is ready for the shot from nurse 0
+Fri Mar 18 13:53:29 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:53:30 2022: nurse 3 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:30 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:53:30 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:53:30 2022: client 128 got the shot. Take that, Rona!
+Fri Mar 18 13:53:30 2022: client 128 leaves the clinic
+Fri Mar 18 13:53:30 2022: client 133 arrived at station 8
+Fri Mar 18 13:53:30 2022: client 133 is ready for the shot from nurse 8
+Fri Mar 18 13:53:30 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:53:31 2022: nurse 1 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:31 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:53:31 2022: client 125 got the shot. Take that, Rona!
+Fri Mar 18 13:53:31 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:53:31 2022: client 125 leaves the clinic
+Fri Mar 18 13:53:31 2022: client 139 is walking to the station-assignment queue
+Fri Mar 18 13:53:31 2022: client 134 is registering
+Fri Mar 18 13:53:32 2022: client 142 got assigned to station 9: walking there now
+Fri Mar 18 13:53:32 2022: client 147 is registering
+Fri Mar 18 13:53:32 2022: client 132 is walking to the station-assignment queue
+Fri Mar 18 13:53:32 2022: client 138 got assigned to station 2: walking there now
+Fri Mar 18 13:53:33 2022: client 142 arrived at station 9
+Fri Mar 18 13:53:33 2022: nurse 4 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:33 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:53:33 2022: client 137 got the shot. Take that, Rona!
+Fri Mar 18 13:53:33 2022: client 142 is ready for the shot from nurse 9
+Fri Mar 18 13:53:33 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:53:33 2022: client 137 leaves the clinic
+Fri Mar 18 13:53:33 2022: client 136 is walking to the station-assignment queue
+Fri Mar 18 13:53:33 2022: client 144 is registering
+Fri Mar 18 13:53:33 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:53:34 2022: client 138 arrived at station 2
+Fri Mar 18 13:53:34 2022: client 138 is ready for the shot from nurse 2
+Fri Mar 18 13:53:34 2022: client 143 got assigned to station 7: walking there now
+Fri Mar 18 13:53:34 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:53:34 2022: nurse 0 gave client the shot. 5 shot(s) left in vial
+Fri Mar 18 13:53:34 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:53:34 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:53:34 2022: client 130 got the shot. Take that, Rona!
+Fri Mar 18 13:53:34 2022: client 130 leaves the clinic
+Fri Mar 18 13:53:35 2022: client 147 is walking to the station-assignment queue
+Fri Mar 18 13:53:35 2022: client 145 is registering
+Fri Mar 18 13:53:35 2022: nurse 8 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:35 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:53:35 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:53:35 2022: client 133 got the shot. Take that, Rona!
+Fri Mar 18 13:53:35 2022: client 133 leaves the clinic
+Fri Mar 18 13:53:35 2022: client 140 got assigned to station 5: walking there now
+Fri Mar 18 13:53:35 2022: client 135 got assigned to station 6: walking there now
+Fri Mar 18 13:53:36 2022: client 143 arrived at station 7
+Fri Mar 18 13:53:36 2022: client 143 is ready for the shot from nurse 7
+Fri Mar 18 13:53:36 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:53:36 2022: client 136 got assigned to station 3: walking there now
+Fri Mar 18 13:53:36 2022: client 140 arrived at station 5
+Fri Mar 18 13:53:36 2022: client 140 is ready for the shot from nurse 5
+Fri Mar 18 13:53:36 2022: client 141 is walking to the station-assignment queue
+Fri Mar 18 13:53:36 2022: client 149 is registering
+Fri Mar 18 13:53:36 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:53:36 2022: client 135 arrived at station 6
+Fri Mar 18 13:53:36 2022: client 135 is ready for the shot from nurse 6
+Fri Mar 18 13:53:36 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:53:37 2022: client 136 arrived at station 3
+Fri Mar 18 13:53:37 2022: client 136 is ready for the shot from nurse 3
+Fri Mar 18 13:53:37 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:53:38 2022: client 132 got assigned to station 1: walking there now
+Fri Mar 18 13:53:38 2022: nurse 9 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:38 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:53:38 2022: client 142 got the shot. Take that, Rona!
+Fri Mar 18 13:53:38 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:53:38 2022: client 142 leaves the clinic
+Fri Mar 18 13:53:39 2022: nurse 2 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:39 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:53:39 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:53:39 2022: client 138 got the shot. Take that, Rona!
+Fri Mar 18 13:53:39 2022: client 138 leaves the clinic
+Fri Mar 18 13:53:39 2022: client 134 is walking to the station-assignment queue
+Fri Mar 18 13:53:39 2022: client 148 is registering
+Fri Mar 18 13:53:39 2022: client 149 is walking to the station-assignment queue
+Fri Mar 18 13:53:39 2022: client 151 is registering
+Fri Mar 18 13:53:40 2022: client 132 arrived at station 1
+Fri Mar 18 13:53:40 2022: client 132 is ready for the shot from nurse 1
+Fri Mar 18 13:53:40 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:53:40 2022: client 144 is walking to the station-assignment queue
+Fri Mar 18 13:53:40 2022: client 153 is registering
+Fri Mar 18 13:53:40 2022: client 139 got assigned to station 4: walking there now
+Fri Mar 18 13:53:41 2022: client 147 got assigned to station 0: walking there now
+Fri Mar 18 13:53:41 2022: nurse 7 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:41 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:53:41 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:53:41 2022: client 143 got the shot. Take that, Rona!
+Fri Mar 18 13:53:41 2022: client 143 leaves the clinic
+Fri Mar 18 13:53:41 2022: nurse 5 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:41 2022: nurse 6 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:41 2022: client 140 got the shot. Take that, Rona!
+Fri Mar 18 13:53:41 2022: client 135 got the shot. Take that, Rona!
+Fri Mar 18 13:53:41 2022: client 135 leaves the clinic
+Fri Mar 18 13:53:41 2022: client 140 leaves the clinic
+Fri Mar 18 13:53:41 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:53:41 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:53:41 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:53:41 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:53:42 2022: client 147 arrived at station 0
+Fri Mar 18 13:53:42 2022: client 145 is walking to the station-assignment queue
+Fri Mar 18 13:53:42 2022: client 146 is registering
+Fri Mar 18 13:53:42 2022: client 147 is ready for the shot from nurse 0
+Fri Mar 18 13:53:42 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:53:42 2022: nurse 3 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:42 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:53:42 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:53:42 2022: client 136 got the shot. Take that, Rona!
+Fri Mar 18 13:53:42 2022: client 136 leaves the clinic
+Fri Mar 18 13:53:42 2022: client 139 arrived at station 4
+Fri Mar 18 13:53:42 2022: client 139 is ready for the shot from nurse 4
+Fri Mar 18 13:53:42 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:53:43 2022: client 144 got assigned to station 8: walking there now
+Fri Mar 18 13:53:43 2022: client 141 got assigned to station 9: walking there now
+Fri Mar 18 13:53:44 2022: client 144 arrived at station 8
+Fri Mar 18 13:53:44 2022: client 144 is ready for the shot from nurse 8
+Fri Mar 18 13:53:44 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:53:45 2022: nurse 1 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:45 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:53:45 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:53:45 2022: client 132 got the shot. Take that, Rona!
+Fri Mar 18 13:53:45 2022: client 145 got assigned to station 2: walking there now
+Fri Mar 18 13:53:45 2022: client 132 leaves the clinic
+Fri Mar 18 13:53:45 2022: client 141 arrived at station 9
+Fri Mar 18 13:53:45 2022: client 141 is ready for the shot from nurse 9
+Fri Mar 18 13:53:45 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:53:46 2022: client 153 is walking to the station-assignment queue
+Fri Mar 18 13:53:46 2022: client 152 is registering
+Fri Mar 18 13:53:46 2022: client 148 is walking to the station-assignment queue
+Fri Mar 18 13:53:46 2022: client 154 is registering
+Fri Mar 18 13:53:47 2022: nurse 0 gave client the shot. 4 shot(s) left in vial
+Fri Mar 18 13:53:47 2022: client 145 arrived at station 2
+Fri Mar 18 13:53:47 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:53:47 2022: client 145 is ready for the shot from nurse 2
+Fri Mar 18 13:53:47 2022: client 147 got the shot. Take that, Rona!
+: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:53:47 2022: client 147 leaves the clinic
+Fri Mar 18 13:53:47 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:53:47 2022: nurse 4 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:47 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:53:47 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:53:47 2022: client 139 got the shot. Take that, Rona!
+Fri Mar 18 13:53:47 2022: client 139 leaves the clinic
+Fri Mar 18 13:53:47 2022: client 149 got assigned to station 7: walking there now
+Fri Mar 18 13:53:48 2022: client 134 got assigned to station 5: walking there now
+Fri Mar 18 13:53:48 2022: client 149 arrived at station 7
+Fri Mar 18 13:53:48 2022: client 149 is ready for the shot from nurse 7
+Fri Mar 18 13:53:48 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:53:49 2022: nurse 8 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:49 2022: client 152 is walking to the station-assignment queue
+Fri Mar 18 13:53:49 2022: client 155 is registering
+Fri Mar 18 13:53:49 2022: client 144 got the shot. Take that, Rona!
+Fri Mar 18 13:53:49 2022: client 144 leaves the clinic
+Fri Mar 18 13:53:49 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:53:49 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:53:49 2022: client 151 is walking to the station-assignment queue
+Fri Mar 18 13:53:49 2022: client 156 is registering
+Fri Mar 18 13:53:50 2022: client 134 arrived at station 5
+Fri Mar 18 13:53:50 2022: client 134 is ready for the shot from nurse 5
+Fri Mar 18 13:53:50 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:53:50 2022: nurse 9 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:50 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:53:50 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:53:50 2022: client 141 got the shot. Take that, Rona!
+Fri Mar 18 13:53:50 2022: client 141 leaves the clinic
+Fri Mar 18 13:53:51 2022: client 146 is walking to the station-assignment queue
+Fri Mar 18 13:53:51 2022: client 157 is registering
+Fri Mar 18 13:53:52 2022: nurse 2 gave client the shot. 3 shot(s) left in vial
+: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:53:52 2022: client 145 got the shot. Take that, Rona!
+Fri Mar 18 13:53:52 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:53:52 2022: client 155 is walking to the station-assignment queue
+Fri Mar 18 13:53:52 2022: client 150 is registering
+Fri Mar 18 13:53:52 2022: client 145 leaves the clinic
+Fri Mar 18 13:53:52 2022: client 152 got assigned to station 6: walking there now
+Fri Mar 18 13:53:53 2022: client 152 arrived at station 6
+Fri Mar 18 13:53:53 2022: client 152 is ready for the shot from nurse 6
+Fri Mar 18 13:53:53 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:53:53 2022: nurse 7 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:53 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:53:53 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:53:53 2022: client 149 got the shot. Take that, Rona!
+Fri Mar 18 13:53:53 2022: client 149 leaves the clinic
+Fri Mar 18 13:53:54 2022: client 154 is walking to the station-assignment queue
+Fri Mar 18 13:53:54 2022: client 158 is registering
+Fri Mar 18 13:53:55 2022: client 155 got assigned to station 3: walking there now
+Fri Mar 18 13:53:55 2022: client 148 got assigned to station 1: walking there now
+Fri Mar 18 13:53:55 2022: nurse 5 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:53:55 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:53:55 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:53:55 2022: client 134 got the shot. Take that, Rona!
+Fri Mar 18 13:53:55 2022: client 134 leaves the clinic
+Fri Mar 18 13:53:56 2022: client 153 got assigned to station 0: walking there now
+Fri Mar 18 13:53:56 2022: client 159 is registering
+Fri Mar 18 13:53:56 2022: client 157 is walking to the station-assignment queue
+Fri Mar 18 13:53:56 2022: client 148 arrived at station 1
+Fri Mar 18 13:53:56 2022: client 148 is ready for the shot from nurse 1
+Fri Mar 18 13:53:56 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:53:57 2022: client 146 got assigned to station 4: walking there now
+Fri Mar 18 13:53:57 2022: client 155 arrived at station 3
+Fri Mar 18 13:53:57 2022: client 155 is ready for the shot from nurse 3
+Fri Mar 18 13:53:57 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:53:58 2022: client 153 arrived at station 0
+Fri Mar 18 13:53:58 2022: client 153 is ready for the shot from nurse 0
+Fri Mar 18 13:53:58 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:53:58 2022: nurse 6 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:53:58 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:53:58 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:53:58 2022: client 152 got the shot. Take that, Rona!
+Fri Mar 18 13:53:58 2022: client 152 leaves the clinic
+Fri Mar 18 13:53:58 2022: client 151 got assigned to station 8: walking there now
+Fri Mar 18 13:53:59 2022: client 146 arrived at station 4
+Fri Mar 18 13:53:59 2022: client 146 is ready for the shot from nurse 4
+Fri Mar 18 13:53:59 2022: client 159 is walking to the station-assignment queue
+Fri Mar 18 13:53:59 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:53:59 2022: client 160 is registering
+Fri Mar 18 13:53:59 2022: client 156 is walking to the station-assignment queue
+Fri Mar 18 13:53:59 2022: client 161 is registering
+Fri Mar 18 13:54:00 2022: client 157 got assigned to station 9: walking there now
+Fri Mar 18 13:54:00 2022: client 150 is walking to the station-assignment queue
+Fri Mar 18 13:54:00 2022: client 162 is registering
+Fri Mar 18 13:54:00 2022: client 151 arrived at station 8
+Fri Mar 18 13:54:00 2022: client 151 is ready for the shot from nurse 8
+Fri Mar 18 13:54:00 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:54:01 2022: client 157 arrived at station 9
+Fri Mar 18 13:54:01 2022: client 157 is ready for the shot from nurse 9
+Fri Mar 18 13:54:01 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:54:01 2022: client 154 got assigned to station 2: walking there now
+Fri Mar 18 13:54:01 2022: nurse 1 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:01 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:54:01 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:54:01 2022: client 148 got the shot. Take that, Rona!
+Fri Mar 18 13:54:01 2022: client 148 leaves the clinic
+Fri Mar 18 13:54:02 2022: nurse 3 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:54:02 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:54:02 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:54:02 2022: client 155 got the shot. Take that, Rona!
+Fri Mar 18 13:54:02 2022: client 155 leaves the clinic
+Fri Mar 18 13:54:02 2022: client 158 is walking to the station-assignment queue
+Fri Mar 18 13:54:02 2022: client 163 is registering
+Fri Mar 18 13:54:03 2022: nurse 0 gave client the shot. 3 shot(s) left in vial
+Fri Mar 18 13:54:03 2022: client 159 got assigned to station 7: walking there now
+Fri Mar 18 13:54:03 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:54:03 2022: client 153 got the shot. Take that, Rona!
+Fri Mar 18 13:54:03 2022: client 169 is registering
+Fri Mar 18 13:54:03 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:54:03 2022: client 160 is walking to the station-assignment queue
+Fri Mar 18 13:54:03 2022: client 153 leaves the clinic
+Fri Mar 18 13:54:03 2022: client 154 arrived at station 2
+Fri Mar 18 13:54:03 2022: client 154 is ready for the shot from nurse 2
+Fri Mar 18 13:54:03 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:54:04 2022: client 159 arrived at station 7
+Fri Mar 18 13:54:04 2022: client 162 is walking to the station-assignment queue
+Fri Mar 18 13:54:04 2022: client 159 is ready for the shot from nurse 7
+Fri Mar 18 13:54:04 2022: nurse 4 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:04 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:54:04 2022: client 146 got the shot. Take that, Rona!
+Fri Mar 18 13:54:04 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:54:04 2022: client 172 is registering
+Fri Mar 18 13:54:04 2022: client 146 leaves the clinic
+Fri Mar 18 13:54:04 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:54:05 2022: client 156 got assigned to station 5: walking there now
+Fri Mar 18 13:54:05 2022: nurse 8 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:05 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:54:05 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:54:05 2022: client 151 got the shot. Take that, Rona!
+Fri Mar 18 13:54:05 2022: client 151 leaves the clinic
+Fri Mar 18 13:54:06 2022: nurse 9 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:06 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:54:06 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:54:06 2022: client 157 got the shot. Take that, Rona!
+Fri Mar 18 13:54:06 2022: client 157 leaves the clinic
+Fri Mar 18 13:54:07 2022: client 160 got assigned to station 6: walking there now
+Fri Mar 18 13:54:07 2022: client 156 arrived at station 5
+Fri Mar 18 13:54:07 2022: client 156 is ready for the shot from nurse 5
+Fri Mar 18 13:54:07 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:54:08 2022: client 150 got assigned to station 1: walking there now
+Fri Mar 18 13:54:08 2022: client 162 got assigned to station 3: walking there now
+Fri Mar 18 13:54:08 2022: client 160 arrived at station 6
+Fri Mar 18 13:54:08 2022: client 160 is ready for the shot from nurse 6
+Fri Mar 18 13:54:08 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:54:08 2022: nurse 2 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:08 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:54:08 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:54:08 2022: client 154 got the shot. Take that, Rona!
+Fri Mar 18 13:54:08 2022: client 154 leaves the clinic
+Fri Mar 18 13:54:09 2022: nurse 7 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:09 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:54:09 2022: client 159 got the shot. Take that, Rona!
+Fri Mar 18 13:54:09 2022: client 159 leaves the clinic
+Fri Mar 18 13:54:09 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:54:09 2022: client 161 is walking to the station-assignment queue
+Fri Mar 18 13:54:09 2022: client 171 is registering
+Fri Mar 18 13:54:10 2022: client 150 arrived at station 1
+Fri Mar 18 13:54:10 2022: client 150 is ready for the shot from nurse 1
+Fri Mar 18 13:54:10 2022: client 162 arrived at station 3
+Fri Mar 18 13:54:10 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:54:10 2022: client 162 is ready for the shot from nurse 3
+Fri Mar 18 13:54:10 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:54:10 2022: client 158 got assigned to station 0: walking there now
+Fri Mar 18 13:54:11 2022: client 169 is walking to the station-assignment queue
+Fri Mar 18 13:54:11 2022: client 166 is registering
+Fri Mar 18 13:54:11 2022: client 158 arrived at station 0
+Fri Mar 18 13:54:11 2022: client 158 is ready for the shot from nurse 0
+Fri Mar 18 13:54:11 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:54:12 2022: client 163 is walking to the station-assignment queue
+Fri Mar 18 13:54:12 2022: client 164 is registering
+Fri Mar 18 13:54:12 2022: client 161 got assigned to station 4: walking there now
+Fri Mar 18 13:54:12 2022: nurse 5 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:12 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:54:12 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:54:12 2022: client 156 got the shot. Take that, Rona!
+Fri Mar 18 13:54:12 2022: client 156 leaves the clinic
+Fri Mar 18 13:54:13 2022: client 172 is walking to the station-assignment queue
+Fri Mar 18 13:54:13 2022: client 175 is registering
+Fri Mar 18 13:54:13 2022: nurse 6 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:13 2022: nurse 6 tells the waiting queue they are available
+Fri Mar 18 13:54:13 2022: nurse 6 waiting for a client to arrive
+Fri Mar 18 13:54:13 2022: client 160 got the shot. Take that, Rona!
+Fri Mar 18 13:54:13 2022: client 160 leaves the clinic
+Fri Mar 18 13:54:13 2022: client 161 arrived at station 4
+Fri Mar 18 13:54:13 2022: client 161 is ready for the shot from nurse 4
+Fri Mar 18 13:54:13 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:54:15 2022: nurse 1 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:15 2022: nurse 1 tells the waiting queue they are available
+Fri Mar 18 13:54:15 2022: nurse 1 waiting for a client to arrive
+Fri Mar 18 13:54:15 2022: nurse 3 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:15 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:54:15 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:54:15 2022: client 150 got the shot. Take that, Rona!
+Fri Mar 18 13:54:15 2022: client 162 got the shot. Take that, Rona!
+Fri Mar 18 13:54:15 2022: client 162 leaves the clinic
+Fri Mar 18 13:54:15 2022: client 150 leaves the clinic
+Fri Mar 18 13:54:16 2022: client 175 is walking to the station-assignment queue
+Fri Mar 18 13:54:16 2022: client 172 got assigned to station 8: walking there now
+Fri Mar 18 13:54:16 2022: client 168 is registering
+Fri Mar 18 13:54:16 2022: nurse 0 gave client the shot. 2 shot(s) left in vial
+Fri Mar 18 13:54:16 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:54:16 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:54:16 2022: client 158 got the shot. Take that, Rona!
+Fri Mar 18 13:54:16 2022: client 158 leaves the clinic
+Fri Mar 18 13:54:18 2022: client 169 got assigned to station 9: walking there now
+Fri Mar 18 13:54:18 2022: client 166 is walking to the station-assignment queue
+Fri Mar 18 13:54:18 2022: client 174 is registering
+Fri Mar 18 13:54:18 2022: client 172 arrived at station 8
+Fri Mar 18 13:54:18 2022: client 172 is ready for the shot from nurse 8
+Fri Mar 18 13:54:18 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:54:18 2022: nurse 4 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:18 2022: nurse 4 tells the waiting queue they are available
+Fri Mar 18 13:54:18 2022: nurse 4 waiting for a client to arrive
+Fri Mar 18 13:54:18 2022: client 161 got the shot. Take that, Rona!
+Fri Mar 18 13:54:18 2022: client 161 leaves the clinic
+Fri Mar 18 13:54:19 2022: client 171 is walking to the station-assignment queue
+Fri Mar 18 13:54:19 2022: client 176 is registering
+Fri Mar 18 13:54:20 2022: client 169 arrived at station 9
+Fri Mar 18 13:54:20 2022: client 169 is ready for the shot from nurse 9
+Fri Mar 18 13:54:20 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:54:20 2022: client 168 is walking to the station-assignment queue
+Fri Mar 18 13:54:20 2022: client 165 is registering
+Fri Mar 18 13:54:21 2022: client 174 is walking to the station-assignment queue
+Fri Mar 18 13:54:21 2022: client 167 is registering
+: client 164 is walking to the station-assignment queue
+Fri Mar 18 13:54:21 2022: client 170 is registering
+Fri Mar 18 13:54:22 2022: client 163 got assigned to station 2: walking there now
+Fri Mar 18 13:54:23 2022: nurse 8 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:23 2022: client 165 is walking to the station-assignment queue
+Fri Mar 18 13:54:23 2022: client 173 is registering
+Fri Mar 18 13:54:23 2022: nurse 8 tells the waiting queue they are available
+Fri Mar 18 13:54:23 2022: client 172 got the shot. Take that, Rona!
+: client 172 leaves the clinic
+Fri Mar 18 13:54:23 2022: nurse 8 waiting for a client to arrive
+Fri Mar 18 13:54:23 2022: client 163 arrived at station 2
+Fri Mar 18 13:54:23 2022: client 163 is ready for the shot from nurse 2
+Fri Mar 18 13:54:23 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:54:24 2022: client 168 got assigned to station 7: walking there now
+Fri Mar 18 13:54:24 2022: client 164 got assigned to station 5: walking there now
+Fri Mar 18 13:54:25 2022: client 174 got assigned to station 6: walking there now
+Fri Mar 18 13:54:25 2022: nurse 9 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:25 2022: client 167 is walking to the station-assignment queue
+Fri Mar 18 13:54:25 2022: client 179 is registering
+Fri Mar 18 13:54:25 2022: nurse 9 tells the waiting queue they are available
+Fri Mar 18 13:54:25 2022: nurse 9 waiting for a client to arrive
+Fri Mar 18 13:54:25 2022: client 169 got the shot. Take that, Rona!
+Fri Mar 18 13:54:25 2022: client 169 leaves the clinic
+Fri Mar 18 13:54:25 2022: client 164 arrived at station 5
+Fri Mar 18 13:54:25 2022: client 164 is ready for the shot from nurse 5
+Fri Mar 18 13:54:25 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:54:26 2022: client 175 got assigned to station 1: walking there now
+Fri Mar 18 13:54:26 2022: client 174 arrived at station 6
+Fri Mar 18 13:54:26 2022: client 174 is ready for the shot from nurse 6
+Fri Mar 18 13:54:26 2022: client 176 is walking to the station-assignment queue
+Fri Mar 18 13:54:26 2022: nurse 6 sees client is ready, starts vaccination
+Fri Mar 18 13:54:26 2022: client 168 arrived at station 7
+Fri Mar 18 13:54:26 2022: client 168 is ready for the shot from nurse 7
+Fri Mar 18 13:54:26 2022: client 177 is registering
+Fri Mar 18 13:54:26 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:54:27 2022: client 165 got assigned to station 3: walking there now
+Fri Mar 18 13:54:27 2022: client 171 got assigned to station 0: walking there now
+Fri Mar 18 13:54:28 2022: client 166 got assigned to station 4: walking there now
+Fri Mar 18 13:54:28 2022: client 175 arrived at station 1
+Fri Mar 18 13:54:28 2022: client 175 is ready for the shot from nurse 1
+Fri Mar 18 13:54:28 2022: nurse 1 sees client is ready, starts vaccination
+Fri Mar 18 13:54:28 2022: nurse 2 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:28 2022: nurse 2 tells the waiting queue they are available
+Fri Mar 18 13:54:28 2022: client 163 got the shot. Take that, Rona!
+Fri Mar 18 13:54:28 2022: client 163 leaves the clinic
+Fri Mar 18 13:54:28 2022: nurse 2 waiting for a client to arrive
+Fri Mar 18 13:54:28 2022: client 171 arrived at station 0
+Fri Mar 18 13:54:28 2022: client 171 is ready for the shot from nurse 0
+Fri Mar 18 13:54:28 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:54:29 2022: client 165 arrived at station 3
+Fri Mar 18 13:54:29 2022: client 165 is ready for the shot from nurse 3
+Fri Mar 18 13:54:29 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:54:30 2022: client 166 arrived at station 4
+Fri Mar 18 13:54:30 2022: client 166 is ready for the shot from nurse 4
+Fri Mar 18 13:54:30 2022: nurse 4 sees client is ready, starts vaccination
+Fri Mar 18 13:54:30 2022: client 167 got assigned to station 8: walking there now
+Fri Mar 18 13:54:30 2022: client 179 is walking to the station-assignment queue
+Fri Mar 18 13:54:30 2022: client 178 is registering
+Fri Mar 18 13:54:30 2022: client 173 is walking to the station-assignment queue
+Fri Mar 18 13:54:30 2022: client 170 is walking to the station-assignment queue
+Fri Mar 18 13:54:30 2022: nurse 5 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:30 2022: nurse 5 tells the waiting queue they are available
+Fri Mar 18 13:54:30 2022: nurse 5 waiting for a client to arrive
+Fri Mar 18 13:54:30 2022: client 164 got the shot. Take that, Rona!
+Fri Mar 18 13:54:30 2022: client 164 leaves the clinic
+Fri Mar 18 13:54:31 2022: nurse 6 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:31 2022: nurse 6 is walking to get a vial of vaccine
+Fri Mar 18 13:54:31 2022: client 174 got the shot. Take that, Rona!
+Fri Mar 18 13:54:31 2022: client 174 leaves the clinic
+Fri Mar 18 13:54:31 2022: nurse 7 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:31 2022: nurse 7 tells the waiting queue they are available
+Fri Mar 18 13:54:31 2022: client 168 got the shot. Take that, Rona!
+Fri Mar 18 13:54:31 2022: nurse 7 waiting for a client to arrive
+Fri Mar 18 13:54:31 2022: client 168 leaves the clinic
+Fri Mar 18 13:54:32 2022: client 167 arrived at station 8
+Fri Mar 18 13:54:32 2022: client 167 is ready for the shot from nurse 8
+Fri Mar 18 13:54:32 2022: nurse 8 sees client is ready, starts vaccination
+Fri Mar 18 13:54:33 2022: nurse 1 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:33 2022: nurse 1 is walking to get a vial of vaccine
+Fri Mar 18 13:54:33 2022: client 175 got the shot. Take that, Rona!
+Fri Mar 18 13:54:33 2022: client 175 leaves the clinic
+Fri Mar 18 13:54:33 2022: nurse 0 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:33 2022: nurse 0 tells the waiting queue they are available
+Fri Mar 18 13:54:33 2022: nurse 0 waiting for a client to arrive
+Fri Mar 18 13:54:33 2022: client 171 got the shot. Take that, Rona!
+Fri Mar 18 13:54:33 2022: client 171 leaves the clinic
+Fri Mar 18 13:54:34 2022: nurse 3 gave client the shot. 1 shot(s) left in vial
+Fri Mar 18 13:54:34 2022: nurse 3 tells the waiting queue they are available
+Fri Mar 18 13:54:34 2022: client 165 got the shot. Take that, Rona!
+Fri Mar 18 13:54:34 2022: client 165 leaves the clinic
+Fri Mar 18 13:54:34 2022: nurse 3 waiting for a client to arrive
+Fri Mar 18 13:54:34 2022: client 170 got assigned to station 9: walking there now
+Fri Mar 18 13:54:34 2022: nurse 6 sees there are no more vials of vaccine
+Fri Mar 18 13:54:34 2022: nurse 6 is done
+Fri Mar 18 13:54:35 2022: nurse 4 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:35 2022: nurse 4 is walking to get a vial of vaccine
+Fri Mar 18 13:54:35 2022: client 166 got the shot. Take that, Rona!
+Fri Mar 18 13:54:35 2022: client 166 leaves the clinic
+Fri Mar 18 13:54:35 2022: client 170 arrived at station 9
+Fri Mar 18 13:54:35 2022: client 170 is ready for the shot from nurse 9
+Fri Mar 18 13:54:35 2022: nurse 9 sees client is ready, starts vaccination
+Fri Mar 18 13:54:35 2022: client 176 got assigned to station 2: walking there now
+Fri Mar 18 13:54:36 2022: nurse 4 sees there are no more vials of vaccine
+Fri Mar 18 13:54:36 2022: nurse 4 is done
+Fri Mar 18 13:54:36 2022: nurse 1 sees there are no more vials of vaccine
+Fri Mar 18 13:54:36 2022: nurse 1 is done
+Fri Mar 18 13:54:36 2022: client 177 is walking to the station-assignment queue
+Fri Mar 18 13:54:37 2022: nurse 8 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:37 2022: nurse 8 is walking to get a vial of vaccine
+Fri Mar 18 13:54:37 2022: client 167 got the shot. Take that, Rona!
+Fri Mar 18 13:54:37 2022: client 167 leaves the clinic
+Fri Mar 18 13:54:37 2022: client 176 arrived at station 2
+Fri Mar 18 13:54:37 2022: client 176 is ready for the shot from nurse 2
+Fri Mar 18 13:54:37 2022: nurse 2 sees client is ready, starts vaccination
+Fri Mar 18 13:54:38 2022: client 178 is walking to the station-assignment queue
+Fri Mar 18 13:54:39 2022: client 179 got assigned to station 5: walking there now
+Fri Mar 18 13:54:39 2022: nurse 8 sees there are no more vials of vaccine
+Fri Mar 18 13:54:39 2022: nurse 8 is done
+Fri Mar 18 13:54:40 2022: client 173 got assigned to station 7: walking there now
+Fri Mar 18 13:54:40 2022: nurse 9 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:40 2022: nurse 9 is walking to get a vial of vaccine
+Fri Mar 18 13:54:40 2022: client 170 got the shot. Take that, Rona!
+Fri Mar 18 13:54:40 2022: client 170 leaves the clinic
+Fri Mar 18 13:54:41 2022: client 179 arrived at station 5
+Fri Mar 18 13:54:41 2022: client 179 is ready for the shot from nurse 5
+Fri Mar 18 13:54:41 2022: nurse 5 sees client is ready, starts vaccination
+Fri Mar 18 13:54:41 2022: nurse 9 sees there are no more vials of vaccine
+Fri Mar 18 13:54:41 2022: nurse 9 is done
+Fri Mar 18 13:54:42 2022: client 173 arrived at station 7
+Fri Mar 18 13:54:42 2022: client 173 is ready for the shot from nurse 7
+Fri Mar 18 13:54:42 2022: nurse 7 sees client is ready, starts vaccination
+Fri Mar 18 13:54:42 2022: nurse 2 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:42 2022: nurse 2 is walking to get a vial of vaccine
+Fri Mar 18 13:54:42 2022: client 176 got the shot. Take that, Rona!
+Fri Mar 18 13:54:42 2022: client 176 leaves the clinic
+Fri Mar 18 13:54:43 2022: client 177 got assigned to station 0: walking there now
+Fri Mar 18 13:54:45 2022: client 177 arrived at station 0
+Fri Mar 18 13:54:45 2022: client 177 is ready for the shot from nurse 0
+Fri Mar 18 13:54:45 2022: nurse 0 sees client is ready, starts vaccination
+Fri Mar 18 13:54:45 2022: nurse 2 sees there are no more vials of vaccine
+Fri Mar 18 13:54:45 2022: nurse 2 is done
+Fri Mar 18 13:54:46 2022: nurse 5 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:46 2022: nurse 5 is walking to get a vial of vaccine
+Fri Mar 18 13:54:46 2022: client 178 got assigned to station 3: walking there now
+Fri Mar 18 13:54:46 2022: client 179 got the shot. Take that, Rona!
+Fri Mar 18 13:54:46 2022: client 179 leaves the clinic
+Fri Mar 18 13:54:47 2022: nurse 7 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:47 2022: nurse 7 is walking to get a vial of vaccine
+Fri Mar 18 13:54:47 2022: client 173 got the shot. Take that, Rona!
+Fri Mar 18 13:54:47 2022: client 173 leaves the clinic
+Fri Mar 18 13:54:47 2022: client 178 arrived at station 3
+Fri Mar 18 13:54:47 2022: client 178 is ready for the shot from nurse 3
+Fri Mar 18 13:54:47 2022: nurse 3 sees client is ready, starts vaccination
+Fri Mar 18 13:54:49 2022: nurse 5 sees there are no more vials of vaccine
+Fri Mar 18 13:54:49 2022: nurse 5 is done
+Fri Mar 18 13:54:50 2022: nurse 7 sees there are no more vials of vaccine
+Fri Mar 18 13:54:50 2022: nurse 7 is done
+Fri Mar 18 13:54:50 2022: nurse 0 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:50 2022: nurse 0 is walking to get a vial of vaccine
+Fri Mar 18 13:54:50 2022: client 177 got the shot. Take that, Rona!
+Fri Mar 18 13:54:50 2022: client 177 leaves the clinic
+Fri Mar 18 13:54:52 2022: nurse 3 gave client the shot. 0 shot(s) left in vial
+Fri Mar 18 13:54:52 2022: nurse 3 is walking to get a vial of vaccine
+Fri Mar 18 13:54:52 2022: client 178 got the shot. Take that, Rona!
+Fri Mar 18 13:54:52 2022: client 178 leaves the clinic
+Fri Mar 18 13:54:53 2022: nurse 0 sees there are no more vials of vaccine
+Fri Mar 18 13:54:53 2022: nurse 0 is done
+Fri Mar 18 13:54:55 2022: nurse 3 sees there are no more vials of vaccine
+Fri Mar 18 13:54:55 2022: nurse 3 is done
