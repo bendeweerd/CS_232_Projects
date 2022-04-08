@@ -11,6 +11,7 @@
 #include <string>
 #include <string.h>
 #include <vector>
+#include <algorithm>
 #include "commandline.h"
 using namespace std;
 
@@ -34,13 +35,17 @@ CommandLine::CommandLine(istream &in)
     // temporary vector of strings that we build up as we parse the cmd line.
     vector<string> tempArgv;
     while (getline(iss, word, ' ')) {
+
 #if DEBUGME
         cout << "CmdLine: read word " << word << endl;
 #endif
 
-        // TODO: code here to process/check word. If it is a good word, then:
-	// the code should check if the word is an ampersand, etc.
-        tempArgv.push_back(word);
+        if(word == "&"){
+            ampersandSeen = true;
+        } else if (word.find_first_not_of(' ') != string::npos) {
+            // string has non-space characters
+            tempArgv.push_back(word);
+        }
     }
 
 #if DEBUGME

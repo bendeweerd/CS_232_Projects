@@ -9,13 +9,27 @@
 #include <unistd.h>
 #include "shell.h"
 
+// #define DEBUGME 1
+
 Shell::Shell()
 {
     prompt = Prompt();
+    path = Path();
 }
 
 void Shell::run()
 {
+
+#if DEBUGME
+    path.print();
+    path.find("cowthink");
+    path.find("code");
+    path.find("eclipse");
+    path.find("mahjonng");
+    path.find("subl");
+    path.find("discord");
+#endif
+
     while(true)
     {
         prompt.set();
@@ -26,8 +40,10 @@ void Shell::run()
         argv = commandLine.getArgVector();
         argc = commandLine.getArgCount();
 
-        string command;
-        command = argv[0];
+        // if there aren't any arguments, loop again
+        if(!argc) continue;
+
+        string command = argv[0];
 
         if(command == "exit") {
             exit(0);
@@ -37,6 +53,14 @@ void Shell::run()
             pwd();
         } else {
             // TODO: search path for commands that aren't built-in
+            int pathIndex;
+            if(pathIndex = path.find(command) >= 0){
+                // the program exists in the path 
+                string pathName = path.getDirectory(pathIndex);
+                cout << "Program " << command << " found in directory " << pathName << endl;
+            } else {
+                cout << "Program " << command << " not found." << endl;
+            }
         }
     }
 }

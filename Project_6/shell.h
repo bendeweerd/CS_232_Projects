@@ -12,6 +12,7 @@
 #include <string>
 #include "prompt.h"
 #include "commandline.h"
+#include "path.h"
 using namespace std;
 
 class Shell
@@ -25,6 +26,7 @@ public:
 
 private:
     Prompt prompt;
+    Path path;
     char **argv;
     int argc;
 };
