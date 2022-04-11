@@ -11,7 +11,7 @@
 #include <sys/types.h>  // directories
 #include <dirent.h>     // directories
 
-// #define DEBUGME 1
+#define DEBUGME 1
 
 Path::Path()
 {
@@ -24,34 +24,33 @@ Path::Path()
     while((pos = env.find(delimiter)) != string::npos){
         currentPath = env.substr(0, pos);
         path.push_back(currentPath);
-        env.erase(0, pos + delimiter.length());
+        env.erase(0, pos + 1);
     }
 }
 
 int Path::find(const string& program) const 
 {
-    int result = -1;
     for(int i = 0; i < path.size(); i++){
         DIR *dir;
-        struct dirent *ent;
+        dirent *ent;
         dir = opendir(path[i].c_str());
         if(dir){
             while((ent = readdir(dir)) != NULL){
                 if(ent->d_name == program){
-                    result = i;
 #if DEBUGME
-                    cout << "program " << ent->d_name << " found in " << path[i] << endl;
+                    cout << "Path: program " << ent->d_name << " found in " << path[i] << endl;
 #endif
-                    return result;
+                    closedir(dir);
+                    return i;
                 }
             }
-            closedir(dir);
         }
+        closedir(dir);
     }
 #if DEBUGME
-    cout << "program " << program << " not found" << endl;
+    cout << "Path: program " << program << " not found" << endl;
 #endif
-    return result;
+    return -1;
 }
 
 string Path::getDirectory(int i) const

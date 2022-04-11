@@ -20,8 +20,9 @@ class Shell
 public:
     Shell();
     void run();
-    void cd(string dir);
+    void cd(const string dir);
     void pwd();
+    string color(string in, int color);
     ~Shell();
 
 private:
@@ -29,6 +30,7 @@ private:
     Path path;
     char **argv;
     int argc;
+    bool noAmpersand;
 };
 
 #endif /* defined(__CS232_Command_Shell__shell__) */

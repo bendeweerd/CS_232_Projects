@@ -15,7 +15,7 @@
 #include "commandline.h"
 using namespace std;
 
-#define DEBUGME 1
+// #define DEBUGME 1
 
 /**
  * Read in the command line from the user and parse it into argc and argv.
