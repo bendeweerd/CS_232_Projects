@@ -20,6 +20,7 @@ public:
     string get() const { return cwd + " $ "; }
     string getCwd() const { return cwd; }
     void set();
+
 private:
     string cwd;
 };

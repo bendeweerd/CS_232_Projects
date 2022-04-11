@@ -1,22 +1,44 @@
+//  shell.cpp
+//  CS232 Command Shell
 //
-// shell.cpp
-// CS232 Command Shell
+//  Created by Ben DeWeerd on 4.10.2022
 //
-// Created by Ben DeWeerd on 3.28.2022
-//
+//  The Shell class creates an interactive terminal shell to help the user
+//  run commands and programs. Handles builtin commands (cd, pwd, exit)
+//  and searches the system path for other programs.
 
 #include <string>
 #include <unistd.h>
-#include <sys/types.h> // waitpid()
-#include <sys/wait.h>  // waitpid()
+#include <sys/types.h>
+#include <sys/wait.h>
 #include "shell.h"
 
-#define DEBUGME 1
+// #define DEBUGME 1
 
 Shell::Shell()
 {
     prompt = Prompt();
     path = Path();
+}
+
+string Shell::colorize(string in, Color color)
+{
+    // add color to outputs for better readability
+    // see https://www.tutorialspoint.com/how-to-output-colored-text-to-a-linux-terminal
+    switch (color)
+    {
+    case red:
+        return "\033[1;31m" + in + "\033[0m";
+        break;
+    case green:
+        return "\033[1;32m" + in + "\033[0m";
+        break;
+    case blue:
+        return "\033[1;34m" + in + "\033[0m";
+        break;
+    default:
+        return in;
+    }
 }
 
 void Shell::run()
@@ -26,10 +48,11 @@ void Shell::run()
     path.print();
 #endif
 
+    // forever loop: continue to prompt user until exit
     while (true)
     {
         prompt.set();
-        cout << color(prompt.get(), 32);
+        cout << colorize(prompt.get(), green);
 
         CommandLine commandLine = CommandLine(cin);
 
@@ -42,6 +65,7 @@ void Shell::run()
 
         string command = argv[0];
 
+        // check for builtin commands
         if (command == "exit")
         {
             exit(0);
@@ -56,23 +80,25 @@ void Shell::run()
         }
         else
         {
-            // TODO: search path for commands that aren't built-in
-            // https://stackoverflow.com/questions/36754510/understanding-fork-exec-and-wait-in-c-linux
+            // external command
             int pathIndex = path.find(argv[0]);
 
-            // pid = -1 -> fork() failure
-            // pid = 0 -> child process
-            // pid > 0 -> parent process
             if (pathIndex >= 0)
             {
                 // determine if we need to run in background or not
                 noAmpersand = commandLine.noAmpersand();
+
                 // fork a new process
+                // see https://stackoverflow.com/questions/36754510/understanding-fork-exec-and-wait-in-c-linux
+                // pid = -1 -> fork() failure
+                // pid = 0 -> child process
+                // pid > 0 -> parent process
                 pid_t pid = fork();
+
                 if (pid < 0)
                 {
-                    // fork() failure, no child process created
-                    cout << color("Shell: fork() error", 31) << endl;
+                    // fork() failure - no child process created
+                    cout << colorize("Shell: fork() error", red) << endl;
                     sched_yield();
                     continue;
                 }
@@ -80,10 +106,12 @@ void Shell::run()
                 {
                     // child process - execute new program
                     string commandPath = path.getDirectory(pathIndex) + "/" + argv[0];
-                    // TODO: handle ampersands (running in background)
-                    cout << color("Shell: command path: ", 34) << commandPath << endl;
+#if DEBUGME
+                    cout << colorize("Shell: command path: ", blue) << commandPath << endl;
+#endif
                     execve(commandPath.c_str(), argv, NULL);
-                    perror("execve"); // execve only returns on an error
+                    // execve only returns on failure
+                    cout << colorize("Shell: execve() error", red) << endl;
                     exit(EXIT_FAILURE);
                 }
                 else
@@ -100,13 +128,14 @@ void Shell::run()
                         continue;
                     }
                 }
-                // the program exists in the path
-                string pathName = path.getDirectory(pathIndex);
-                cout << color("Shell: Program " + command + " found in directory " + pathName, 34) << endl;
+
+#if DEBUGME
+                cout << colorize("Shell: Program " + command + " found in directory " + path.getDirectory(pathIndex), blue) << endl;
+#endif
             }
             else
             {
-                cout << color("Shell: Command " + command + " not found.", 31) << endl;
+                cout << colorize("command " + command + " not found.", red) << endl;
             }
         }
     }
@@ -122,7 +151,8 @@ void Shell::cd(const string dir)
     }
     catch (...)
     {
-        cout << color("Invalid destination path.", 31) << endl;
+        // unable to move to specified path
+        cout << colorize("invalid path.", red) << endl;
     }
 }
 
@@ -132,30 +162,8 @@ void Shell::pwd()
     cout << cwd << endl;
 }
 
-string Shell::color(string in, int color){
-    /*
-    Color codes:
-        31 - red
-        32 - green
-        34 - blue
-    */
-
-    switch(color){
-        case 31:    // red 
-            return "\033[1;31m" + in + "\033[0m";
-            break;
-        case 32:    // green
-            return "\033[1;32m" + in + "\033[0m";
-            break;
-        case 34:
-            return "\033[1;34m" + in + "\033[0m";
-            break;
-        default:
-            return in;
-    }
-}
-
 Shell::~Shell()
 {
-    // destructor
+    delete &path;
+    delete &prompt;
 }

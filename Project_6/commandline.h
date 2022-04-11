@@ -18,16 +18,14 @@ class CommandLine
 {
 public:
     CommandLine(istream &in);
-    char *getCommand() const { return argv[0]; }   
+    char *getCommand() const { return argv[0]; }
     int getArgCount() const { return argc; }
     char **getArgVector() const { return argv; }
     char *getArgVector(int i) const { return argv[i]; }
-    bool noAmpersand() const { return ! ampersandSeen; }
-    
+    bool noAmpersand() const { return !ampersandSeen; }
     ~CommandLine();
 private:
     void copyToArgv(vector<string> &tempArgv);
-
     int argc;
     char **argv;
     bool ampersandSeen;

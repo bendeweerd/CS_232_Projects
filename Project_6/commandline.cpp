@@ -5,6 +5,7 @@
 //  Created by Victor Norman on 1/20/15.
 //  Copyright (c) 2015 Victor Norman. All rights reserved.
 //
+
 #include <stdlib.h>
 #include <iostream>
 #include <sstream>
@@ -34,16 +35,21 @@ CommandLine::CommandLine(istream &in)
     string word;
     // temporary vector of strings that we build up as we parse the cmd line.
     vector<string> tempArgv;
-    while (getline(iss, word, ' ')) {
+    while (getline(iss, word, ' '))
+    {
 
 #if DEBUGME
         cout << "CmdLine: read word " << word << endl;
 #endif
 
-        if(word == "&"){
+        // check input for ampersands
+        if (word == "&")
+        {
             ampersandSeen = true;
-        } else if (word.find_first_not_of(' ') != string::npos) {
-            // string has non-space characters
+        }
+        else if (word.find_first_not_of(' ') != string::npos)
+        {
+            // string has non-space characters, keep it
             tempArgv.push_back(word);
         }
     }
@@ -64,7 +70,8 @@ void CommandLine::copyToArgv(vector<string> &tempArgv)
     // Malloc space for argv array of char pointers.  Make an extra one for the
     // NULL pointer terminator.
     argv = (char **)malloc(sizeof(char *) * (argc + 1));
-    for (int i = 0; i < tempArgv.size(); i++) {
+    for (int i = 0; i < tempArgv.size(); i++)
+    {
         argv[i] = (char *)malloc(tempArgv[i].size() + 1);
         strcpy(argv[i], tempArgv[i].c_str());
     }
@@ -73,8 +80,9 @@ void CommandLine::copyToArgv(vector<string> &tempArgv)
 
 CommandLine::~CommandLine()
 {
-    // free up the space for the argv.
-    for (int i = 0; i < argc; i++) {
+    // argv is the only dynamically created element
+    for (int i = 0; i < argc; i++)
+    {
         free(argv[i]);
     }
     free(argv);

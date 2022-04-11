@@ -1,27 +1,28 @@
-cat > hello.sh
-	Redirects what you type in the prompt into hello.sh
-ctrl + d
-	End of file
-wc {file} 
-	show the wordcount of a file
-mv {old filename} {new filename}
-	renames a file or directory
-chmod {mode#} {file}
-	changes file mode (755 for shell script)
-| - piping
-	ex. env | grep PATH sends output of env to the grep command
-bin/greet.sh
-	you can run a script from another directory
-ctrl+z
-	suspends a process, but doesn't kill it
-bg %{process number}
-	puts a process in the background, can keep using shell
-{command} &
-	runs process in the background immediately
-cp -r {directory} {destination}
-	copies a directory and its contents
-rm -rf {directory}
-	removes a directory and its contents
+Shell Commands:
+	cat > hello.sh
+		Redirects what you type in the prompt into hello.sh
+	ctrl + d
+		End of file
+	wc {file} 
+		show the wordcount of a file
+	mv {old filename} {new filename}
+		renames a file or directory
+	chmod {mode#} {file}
+		changes file mode (755 for shell script)
+	| - piping
+		ex. env | grep PATH sends output of env to the grep command
+	bin/greet.sh
+		you can run a script from another directory
+	ctrl+z
+		suspends a process, but doesn't kill it
+	bg %{process number}
+		puts a process in the background, can keep using shell
+	{command} &
+		runs process in the background immediately
+	cp -r {directory} {destination}
+		copies a directory and its contents
+	rm -rf {directory}
+		removes a directory and its contents
 
 Shell should:
 	- be able to run scripts from other directories

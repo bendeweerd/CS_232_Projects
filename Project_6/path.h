@@ -1,9 +1,9 @@
-//
 //  path.h
 //  CS232 Command Shell
 //
-//  Created by Ben DeWeerd on 4/08/2022.
+//  Created by Ben DeWeerd on 4.10.2022
 //
+//  Header file for the Path class.
 
 #ifndef __CS232_Command_Shell__path__
 #define __CS232_Command_Shell__path__
@@ -17,7 +17,7 @@ class Path
 {
 public:
     Path();
-    int find(const string& program) const;
+    int find(const string &program) const;
     string getDirectory(int i) const;
     void print();
     ~Path();
