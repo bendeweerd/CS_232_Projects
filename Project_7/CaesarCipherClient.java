@@ -1,6 +1,3 @@
-// compile: javac CaesarCipherClient.java
-// run:     java CaesarCipherClient
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
@@ -17,7 +14,14 @@ class CaesarCipherClient{
         }
         String server = args[0];
 
-        System.out.println("Connecting to host: " + server);
+        System.out.println("\n***********************************************************************");
+        System.out.println("This program creates a client to communicate with a CaesarCipherServer.");
+        System.out.println("\nBegin by entering the number of places to shift each letter. Then,");
+        System.out.println("enter messages to encode.");
+        System.out.println("\nType 'quit' to exit.");
+        System.out.println("***********************************************************************\n");
+
+        System.out.println("Connecting to host: " + server + "\n");
         try{
             // connect to server
             Socket socket = new Socket(server, 9876);
@@ -27,8 +31,23 @@ class CaesarCipherClient{
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter shift amount: ");
-            int shift = Integer.parseInt(scanner.nextLine());
+            int shift;
+
+            while(true)
+            {
+                try{
+                    System.out.print("Enter shift amount: ");
+                    shift = Integer.parseInt(scanner.nextLine());
+                    if(shift > 25 || shift < 1){
+                        throw new Exception("bad range");
+                    }
+                    break;
+                }
+                catch(Exception e)
+                {
+                    System.out.println("Shift must be an integer, 1-25 inclusive. Try again.");
+                }
+            }
 
             // send input
             out.println(shift);
@@ -38,7 +57,7 @@ class CaesarCipherClient{
             System.out.println("Confirmed shift: " + line);
 
             while(true){
-                System.out.print("Message: ");
+                System.out.print("\nMessage: ");
                 String input = scanner.nextLine();
                 if(input.equals("quit")){
                     break;

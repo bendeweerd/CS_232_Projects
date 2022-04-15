@@ -6,11 +6,28 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch CaesarCipherClient",
+            "name": "(Remote) Debug CaesarCipherClient",
             "request": "launch",
             "args": ["brooks.cs.calvin.edu", "9876"],
             "mainClass": "CaesarCipherClient",
             "projectName": "Project_7_ab6584b1"
+        },
+        {
+            "type": "java",
+            "name": "(Local) Debug CaesarCipherClient",
+            "request": "launch",
+            "args": ["localhost", "9876"],
+            "mainClass": "CaesarCipherClient",
+            "projectName": "Project_7_ab6584b1"
+        },
+        {
+            "type": "java",
+            "name": "(Local) Debug CaesarCipherServer",
+            "request": "launch",
+            "args": ["9876"],
+            "mainClass": "CaesarCipherServer",
+            "projectName": "Project_7_ab6584b1"
         }
+
     ]
 }
