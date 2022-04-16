@@ -4,6 +4,8 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.util.Scanner;
 
+//TODO: exit with message when connection to server is lost
+
 class CaesarCipherClient{
     public static void main(String args[])
     {
@@ -21,10 +23,11 @@ class CaesarCipherClient{
         System.out.println("\nType 'quit' to exit.");
         System.out.println("***********************************************************************\n");
 
-        System.out.println("Connecting to host: " + server + "\n");
+        System.out.println("Connecting to host: " + server);
         try{
             // connect to server
             Socket socket = new Socket(server, 9876);
+            System.out.println("Client IP: " + socket.getLocalSocketAddress().toString() + "\n");
 
             // create input and output streams to read from and write to the server
             PrintStream out = new PrintStream((socket.getOutputStream()));
@@ -72,6 +75,7 @@ class CaesarCipherClient{
             out.close();
             socket.close();
             scanner.close();
+            System.out.println("Connection closed.");
         }
         catch(Exception e)
         {
